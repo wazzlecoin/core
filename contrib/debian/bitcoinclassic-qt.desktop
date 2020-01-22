@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=BitcoinClassic Core
+Comment=BitcoinClassic P2P Cryptocurrency
+Comment[fr]=BitcoinClassic, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitcoinClassic, eşten eşe kriptografik sanal para birimi
+Exec=bitcoinclassic-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoinclassic128
+MimeType=x-scheme-handler/bitcoinclassic;
+Categories=Office;Finance;
+StartupWMClass=BitcoinClassic-qt

@@ -1,0 +1,3 @@
+usr/local/bin/bitcoinclassicd usr/bin
+usr/local/bin/bitcoinclassic-cli usr/bin
+debian/examples/bitcoinclassic.conf etc/bitcoinclassic

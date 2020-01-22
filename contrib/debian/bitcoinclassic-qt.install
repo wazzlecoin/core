@@ -1,0 +1,6 @@
+usr/local/bin/bitcoinclassic-qt usr/bin
+share/pixmaps/bitcoinclassic32.xpm usr/share/pixmaps
+share/pixmaps/bitcoinclassic16.xpm usr/share/pixmaps
+share/pixmaps/bitcoinclassic128.png usr/share/pixmaps
+debian/bitcoinclassic-qt.desktop usr/share/applications
+debian/bitcoinclassic-qt.protocol usr/share/kde4/services/
