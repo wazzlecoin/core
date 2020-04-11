@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_TEST_TEST_BitcoinClassic_H
-#define BitcoinClassic_TEST_TEST_BitcoinClassic_H
+#ifndef ImprovedBitcoin_TEST_TEST_ImprovedBitcoin_H
+#define ImprovedBitcoin_TEST_TEST_ImprovedBitcoin_H
 
 #include "txdb.h"
 

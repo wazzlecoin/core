@@ -62,11 +62,11 @@
         <translation>Ricevanta adresojn</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ĉi tiuj estas viaj BitcoinClassic adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
+        <source>These are your ImprovedBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ĉi tiuj estas viaj ImprovedBitcoin adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your ImprovedBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ĉi tiuj estas vian adreson por ricevi pagojn. Ĝi rekomendas uzi novajn ricenvantan adreson por ĉiu nova transakcio.</translation>
     </message>
     <message>
@@ -176,8 +176,8 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>BitcoinClassic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinClassic fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn BXCs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn BXCs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,11 +254,11 @@
         <translation>Adreso:</translation>
     </message>
     <message>
-        <source>Enter a BitcoinClassic Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Eniri unu BitcoinClassic adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
+        <source>Enter a ImprovedBitcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Eniri unu ImprovedBitcoin adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to encrypt</source>
+        <source>The ImprovedBitcoin address to encrypt</source>
         <translation>Adreson por ĉifri</translation>
     </message>
     <message>
@@ -290,8 +290,8 @@
         <translation>Kopiu la aktualan subskribo al la sistemo-poŝo</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BitcoinClassic address</source>
-        <translation>Ĉifri la privata ŝlosilo por ĉi tiu BitcoinClassic adreso</translation>
+        <source>Encrypt the private key for this ImprovedBitcoin address</source>
+        <translation>Ĉifri la privata ŝlosilo por ĉi tiu ImprovedBitcoin adreso</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -641,12 +641,12 @@
         <translation>Iloj langeto</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic kerno</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin kerno</translation>
     </message>
     <message>
-        <source>Send coins to a BitcoinClassic address</source>
-        <translation>Sendu mono al BitcoinClassic addreso</translation>
+        <source>Send coins to a ImprovedBitcoin address</source>
+        <translation>Sendu mono al ImprovedBitcoin addreso</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
@@ -665,24 +665,24 @@
         <translation>Foliumi mastro-nodo</translation>
     </message>
     <message>
-        <source>&amp;About BitcoinClassic Core</source>
-        <translation>&amp;Pri BitcoinClassic Kerno</translation>
+        <source>&amp;About ImprovedBitcoin Core</source>
+        <translation>&amp;Pri ImprovedBitcoin Kerno</translation>
     </message>
     <message>
-        <source>Show information about BitcoinClassic Core</source>
-        <translation>Montri informon pri BitcoinClassic Kerno</translation>
+        <source>Show information about ImprovedBitcoin Core</source>
+        <translation>Montri informon pri ImprovedBitcoin Kerno</translation>
     </message>
     <message>
-        <source>Modify configuration options for BitcoinClassic</source>
-        <translation>Modifi agordajn opciojn por BitcoinClassic</translation>
+        <source>Modify configuration options for ImprovedBitcoin</source>
+        <translation>Modifi agordajn opciojn por ImprovedBitcoin</translation>
     </message>
     <message>
-        <source>Sign messages with your BitcoinClassic addresses to prove you own them</source>
-        <translation>Subskribu mesaĝo per via BitcoinClassic adreso por pruvi vi posedas ĝin</translation>
+        <source>Sign messages with your ImprovedBitcoin addresses to prove you own them</source>
+        <translation>Subskribu mesaĝo per via ImprovedBitcoin adreso por pruvi vi posedas ĝin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BitcoinClassic addresses</source>
-        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita BitcoinClassic adreso</translation>
+        <source>Verify messages to ensure they were signed with specified ImprovedBitcoin addresses</source>
+        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita ImprovedBitcoin adreso</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Malfermi mastro-nodo agord-dosieron</translation>
     </message>
     <message>
-        <source>Open a BitcoinClassic: URI or payment request</source>
-        <translation>Malfermi unu BitcoinClassic: URI aŭ pago peto</translation>
+        <source>Open a ImprovedBitcoin: URI or payment request</source>
+        <translation>Malfermi unu ImprovedBitcoin: URI aŭ pago peto</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Bloko esplorilo fenestro</translation>
     </message>
     <message>
-        <source>Show the BitcoinClassic Core help message to get a list with possible BitcoinClassic command-line options</source>
-        <translation>Montri la BitcoinClassic Kore help-mesaĝo por havi liston de havebla BitcoinClassic komandlinion opciojn</translation>
+        <source>Show the ImprovedBitcoin Core help message to get a list with possible ImprovedBitcoin command-line options</source>
+        <translation>Montri la ImprovedBitcoin Kore help-mesaĝo por havi liston de havebla ImprovedBitcoin komandlinion opciojn</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core client</source>
-        <translation>BitcoinClassic Kerno kliento</translation>
+        <source>ImprovedBitcoin Core client</source>
+        <translation>ImprovedBitcoin Kerno kliento</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1153,8 +1153,8 @@ Muktisendi: %1</translation>
         <translation>Redaktu sendantan adreson</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BitcoinClassic address.</source>
-        <translation>La enirita "%1" adreso ne estas validan BitcoinClassic adreson.</translation>
+        <source>The entered address "%1" is not a valid ImprovedBitcoin address.</source>
+        <translation>La enirita "%1" adreso ne estas validan ImprovedBitcoin adreson.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1210,16 +1210,16 @@ Muktisendi: %1</translation>
         <translation>versio</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic kerno</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin kerno</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bajto)</translation>
     </message>
     <message>
-        <source>About BitcoinClassic Core</source>
-        <translation>Pri BitcoinClassic Kerno</translation>
+        <source>About ImprovedBitcoin Core</source>
+        <translation>Pri ImprovedBitcoin Kerno</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1261,16 +1261,16 @@ Muktisendi: %1</translation>
         <translation>Bonvenon</translation>
     </message>
     <message>
-        <source>Welcome to BitcoinClassic Core.</source>
-        <translation>Bonvenon al la BitcoinClassic Kerno.</translation>
+        <source>Welcome to ImprovedBitcoin Core.</source>
+        <translation>Bonvenon al la ImprovedBitcoin Kerno.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BitcoinClassic Core will store its data.</source>
-        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie BitcoinClassic kernk storigis sian datumojn. </translation>
+        <source>As this is the first time the program is launched, you can choose where ImprovedBitcoin Core will store its data.</source>
+        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie ImprovedBitcoin kernk storigis sian datumojn. </translation>
     </message>
     <message>
-        <source>BitcoinClassic Core will download and store a copy of the BitcoinClassic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BitcoinClassic kerno elŝutos kaj konservi kopion de la BitcoinClassic blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
+        <source>ImprovedBitcoin Core will download and store a copy of the ImprovedBitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ImprovedBitcoin kerno elŝutos kaj konservi kopion de la ImprovedBitcoin blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1281,8 +1281,8 @@ Muktisendi: %1</translation>
         <translation>Uzi kutimon datumojn dosierujo:</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic kerno</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin kerno</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1604,8 +1604,8 @@ Muktisendi: %1</translation>
         <translation>&amp;Monujo</translation>
     </message>
     <message>
-        <source>Automatically open the BitcoinClassic client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi BitcoinClassic klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
+        <source>Automatically open the ImprovedBitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi ImprovedBitcoin klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1616,8 +1616,8 @@ Muktisendi: %1</translation>
         <translation>Sperta</translation>
     </message>
     <message>
-        <source>&amp;Start BitcoinClassic on system login</source>
-        <translation>&amp;Komencu BitcoinClassic en sistem-ensaluto</translation>
+        <source>&amp;Start ImprovedBitcoin on system login</source>
+        <translation>&amp;Komencu ImprovedBitcoin en sistem-ensaluto</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -1628,8 +1628,8 @@ Muktisendi: %1</translation>
         <translation>&amp;Reto</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinClassic.</source>
-        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci BitcoinClassic.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ImprovedBitcoin.</source>
+        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci ImprovedBitcoin.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1638,8 +1638,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
 https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the BitcoinClassic network through a SOCKS5 proxy.</source>
-        <translation>Konekti al la BitcoinClassic reto per SOCKS5 prokurilo.</translation>
+        <source>Connect to the ImprovedBitcoin network through a SOCKS5 proxy.</source>
+        <translation>Konekti al la ImprovedBitcoin reto per SOCKS5 prokurilo.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1713,8 +1713,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Nematura:</translation>
     </message>
     <message>
-        <source>Your current BitcoinClassic balance, unconfirmed and immature transactions included</source>
-        <translation>Via aktuala BitcoinClassic totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
+        <source>Your current ImprovedBitcoin balance, unconfirmed and immature transactions included</source>
+        <translation>Via aktuala ImprovedBitcoin totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
         <source>zBXC Balance</source>
@@ -1727,8 +1727,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mintita</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinClassic network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la BitcoinClassic reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ImprovedBitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la ImprovedBitcoin reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1780,8 +1780,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinClassic network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la BitcoinClassic reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ImprovedBitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la ImprovedBitcoin reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>0</source>
@@ -1824,8 +1824,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>BitcoinClassic adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
+        <source>The ImprovedBitcoin address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>ImprovedBitcoin adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1894,8 +1894,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>&lt;b&gt;malebligita&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Invalid BitcoinClassic Address</source>
-        <translation>Nevalida BitcoinClassic adreso</translation>
+        <source>Invalid ImprovedBitcoin Address</source>
+        <translation>Nevalida ImprovedBitcoin adreso</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -1928,8 +1928,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>NEKONATA</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic kerno</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin kerno</translation>
     </message>
     </context>
 <context>
@@ -1994,8 +1994,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Rekonstrui indekson</translation>
     </message>
     <message>
-        <source>Welcome to the BitcoinClassic RPC console.</source>
-        <translation>Bonvenon al la BitcoinClassic RPC konzolo.</translation>
+        <source>Welcome to the ImprovedBitcoin RPC console.</source>
+        <translation>Bonvenon al la ImprovedBitcoin RPC konzolo.</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -2242,8 +2242,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Kopi ŝanĝo</translation>
     </message>
     <message>
-        <source>Warning: Invalid BitcoinClassic address</source>
-        <translation>Averto: nevalida BitcoinClassic adreson</translation>
+        <source>Warning: Invalid ImprovedBitcoin address</source>
+        <translation>Averto: nevalida ImprovedBitcoin adreson</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2269,7 +2269,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to send the payment to</source>
+        <source>The ImprovedBitcoin address to send the payment to</source>
         <translation>BXCC adreso por sendi la pago al</translation>
     </message>
     <message>
@@ -2304,8 +2304,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>BitcoinClassic Core is shutting down...</source>
-        <translation>BitcoinClassic kerno fermanta...</translation>
+        <source>ImprovedBitcoin Core is shutting down...</source>
+        <translation>ImprovedBitcoin kerno fermanta...</translation>
     </message>
     </context>
 <context>
@@ -2358,8 +2358,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic kerno</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin kerno</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2370,8 +2370,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>La Dash kerno programistoj</translation>
     </message>
     <message>
-        <source>The BitcoinClassic Core developers</source>
-        <translation>La BitcoinClassic kerno programistoj</translation>
+        <source>The ImprovedBitcoin Core developers</source>
+        <translation>La ImprovedBitcoin kerno programistoj</translation>
     </message>
     </context>
 <context>

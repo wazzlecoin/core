@@ -11,7 +11,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between improvedbitcoin-cli and improvedbitcoind)
- * of a given instance of the BitcoinClassic system.
+ * of a given instance of the ImprovedBitcoin system.
  */
 class CBaseChainParams
 {

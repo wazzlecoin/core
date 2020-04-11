@@ -115,7 +115,7 @@ public:
         pchMessageStart[3] = 0x89;
         vAlertPubKey = ParseHex("049bd1e5fc87483b6ec00346ed278f083421f43f2ae6ef69b2bb651d741a0fdbc6fa6d107a359c5e124f106b999f2ce6a70388be77c5d72689821b9c43e4813635");
         nDefaultPort = 14354;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // BitcoinClassic starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // ImprovedBitcoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 8100; // 75%
@@ -349,8 +349,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // BitcoinClassic: 1 day
-        nTargetSpacing = 1 * 60;        // BitcoinClassic: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // ImprovedBitcoin: 1 day
+        nTargetSpacing = 1 * 60;        // ImprovedBitcoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nLastPOWBlock = 250;
         nMaturity = 20;

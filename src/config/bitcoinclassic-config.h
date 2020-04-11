@@ -337,10 +337,10 @@
 #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "BitcoinClassic Core"
+#define PACKAGE_NAME "ImprovedBitcoin Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
+#define PACKAGE_STRING "ImprovedBitcoin Core 1.0.0"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "improvedbitcoin"

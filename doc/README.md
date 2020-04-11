@@ -1,13 +1,13 @@
-BitcoinClassic Core
+ImprovedBitcoin Core
 =============
 
 Setup
 ---------------------
-[BitcoinClassic Core](http://improvedbitcoin.org/wallet) is the original BitcoinClassic client and it builds the backbone of the network. However, it downloads and stores the entire history of BitcoinClassic transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[ImprovedBitcoin Core](http://improvedbitcoin.org/wallet) is the original ImprovedBitcoin client and it builds the backbone of the network. However, it downloads and stores the entire history of ImprovedBitcoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run BitcoinClassic Core on your native platform.
+The following are some helpful notes on how to run ImprovedBitcoin Core on your native platform.
 
 ### Unix
 
@@ -22,18 +22,18 @@ Unpack the files into a directory, and then run improvedbitcoin-qt.exe.
 
 ### macOS
 
-Drag BitcoinClassic-Qt to your applications folder, and then run BitcoinClassic-Qt.
+Drag ImprovedBitcoin-Qt to your applications folder, and then run ImprovedBitcoin-Qt.
 
 ### Need Help?
 
-* See the documentation at the [BitcoinClassic Wiki](https://github.com/BitcoinClassic-Project/BitcoinClassic/wiki)
+* See the documentation at the [ImprovedBitcoin Wiki](https://github.com/ImprovedBitcoin-Project/ImprovedBitcoin/wiki)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [BitcoinClassic Forum](http://forum.improvedbitcoin.org/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [ImprovedBitcoin Forum](http://forum.improvedbitcoin.org/).
 * Join our Discord server [Discord Server](https://discord.improvedbitcoin.org)
 
 Building
 ---------------------
-The following are developer notes on how to build BitcoinClassic Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build ImprovedBitcoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -43,7 +43,7 @@ The following are developer notes on how to build BitcoinClassic Core on your na
 
 Development
 ---------------------
-The BitcoinClassic repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The ImprovedBitcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -56,8 +56,8 @@ The BitcoinClassic repo's [root README](/README.md) contains relevant informatio
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [BitcoinClassic](http://forum.improvedbitcoin.org/) forum.
-* Join the [BitcoinClassic Discord](https://discord.improvedbitcoin.org).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [ImprovedBitcoin](http://forum.improvedbitcoin.org/) forum.
+* Join the [ImprovedBitcoin Discord](https://discord.improvedbitcoin.org).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

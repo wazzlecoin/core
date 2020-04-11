@@ -13,7 +13,7 @@
  * for both improvedbitcoind and improvedbitcoin-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("BitcoinClassic Core");
+const std::string CLIENT_NAME("ImprovedBitcoin Core");
 
 /**
  * Client version number

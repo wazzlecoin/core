@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše BitcoinClassic adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your ImprovedBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše ImprovedBitcoin adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše BitcoinClassic adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your ImprovedBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše ImprovedBitcoin adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>BitcoinClassic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinClassic sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše BXC pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše BXC pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -569,12 +569,12 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a BitcoinClassic address</source>
-        <translation>Odoslať mince na adresu BitcoinClassic</translation>
+        <source>Send coins to a ImprovedBitcoin address</source>
+        <translation>Odoslať mince na adresu ImprovedBitcoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
@@ -589,24 +589,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About BitcoinClassic Core</source>
-        <translation>O BitcoinClassic Core</translation>
+        <source>&amp;About ImprovedBitcoin Core</source>
+        <translation>O ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Show information about BitcoinClassic Core</source>
-        <translation>Zobraziť informácie o BitcoinClassic Core</translation>
+        <source>Show information about ImprovedBitcoin Core</source>
+        <translation>Zobraziť informácie o ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for BitcoinClassic</source>
-        <translation>Zmeňte možnosti konfigurácie pre BitcoinClassic</translation>
+        <source>Modify configuration options for ImprovedBitcoin</source>
+        <translation>Zmeňte možnosti konfigurácie pre ImprovedBitcoin</translation>
     </message>
     <message>
-        <source>Sign messages with your BitcoinClassic addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy BitcoinClassic, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your ImprovedBitcoin addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy ImprovedBitcoin, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BitcoinClassic addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými BitcoinClassic adresami</translation>
+        <source>Verify messages to ensure they were signed with specified ImprovedBitcoin addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými ImprovedBitcoin adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -637,8 +637,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a BitcoinClassic: URI or payment request</source>
-        <translation>Otvorte BitcoinClassic: URI alebo žiadosť o platbu</translation>
+        <source>Open a ImprovedBitcoin: URI or payment request</source>
+        <translation>Otvorte ImprovedBitcoin: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -649,12 +649,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the BitcoinClassic Core help message to get a list with possible BitcoinClassic command-line options</source>
-        <translation>Zobraziť pomocnú správu programu BitcoinClassic Core a získajte zoznam možností príkazového riadka BitcoinClassic</translation>
+        <source>Show the ImprovedBitcoin Core help message to get a list with possible ImprovedBitcoin command-line options</source>
+        <translation>Zobraziť pomocnú správu programu ImprovedBitcoin Core a získajte zoznam možností príkazového riadka ImprovedBitcoin</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core client</source>
-        <translation>BitcoinClassic Core klient</translation>
+        <source>ImprovedBitcoin Core client</source>
+        <translation>ImprovedBitcoin Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -870,15 +870,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -982,8 +982,8 @@ MultiSend: %1</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     </context>
 <context>
@@ -1117,8 +1117,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The BitcoinClassic address to sign the message with</source>
-        <translation>Adresa BitcoinClassic, ktorou chcete správu podpísať</translation>
+        <source>The ImprovedBitcoin address to sign the message with</source>
+        <translation>Adresa ImprovedBitcoin, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1141,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BitcoinClassic address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto BitcoinClassic adresy</translation>
+        <source>Sign the message to prove you own this ImprovedBitcoin address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto ImprovedBitcoin adresy</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address the message was signed with</source>
-        <translation>BitcoinClassic adresa, ktorou bola správa podpísaná</translation>
+        <source>The ImprovedBitcoin address the message was signed with</source>
+        <translation>ImprovedBitcoin adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BitcoinClassic address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou BitcoinClassic adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ImprovedBitcoin address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou ImprovedBitcoin adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1188,8 +1188,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     </context>
 <context>

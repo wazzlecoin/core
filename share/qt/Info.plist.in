@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>BitcoinClassic-Qt</string>
+  <string>ImprovedBitcoin-Qt</string>
   
   <key>CFBundleName</key>
-  <string>BitcoinClassic-Qt</string>
+  <string>ImprovedBitcoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.improvedbitcoin.BitcoinClassic-Qt</string>
+  <string>io.improvedbitcoin.ImprovedBitcoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.improvedbitcoin.BitcoinClassicPayment</string>
+      <string>io.improvedbitcoin.ImprovedBitcoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>improvedbitcoin</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.improvedbitcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>BitcoinClassic payment request</string>
+      <string>ImprovedBitcoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

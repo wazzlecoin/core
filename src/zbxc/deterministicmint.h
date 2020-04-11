@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_DETERMINISTICMINT_H
-#define BitcoinClassic_DETERMINISTICMINT_H
+#ifndef ImprovedBitcoin_DETERMINISTICMINT_H
+#define ImprovedBitcoin_DETERMINISTICMINT_H
 
 #include <libzerocoin/Denominations.h>
 #include <uint256.h>
@@ -64,4 +64,4 @@ public:
     };
 };
 
-#endif //BitcoinClassic_DETERMINISTICMINT_H
+#endif //ImprovedBitcoin_DETERMINISTICMINT_H

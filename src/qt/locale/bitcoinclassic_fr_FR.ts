@@ -62,12 +62,12 @@
         <translation>Adresses de réception</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Voici vos adresses BitcoinClassic pour envoyer des paiements.  Assurez-vous de toujours vérifier le montant et l'adresse de réception avant d'envoyer les jetons</translation>
+        <source>These are your ImprovedBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Voici vos adresses ImprovedBitcoin pour envoyer des paiements.  Assurez-vous de toujours vérifier le montant et l'adresse de réception avant d'envoyer les jetons</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Voici vos adresses BitcoinClassic pour les réceptions de vos paiments. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
+        <source>These are your ImprovedBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Voici vos adresses ImprovedBitcoin pour les réceptions de vos paiments. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>BitcoinClassic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinClassic va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos BXCs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos BXCs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>Enter a BitcoinClassic Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse BitcoinClassic que vous voulez chiffrer en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur chiffrer pour calculer le chiffrage de la clé privée.</translation>
+        <source>Enter a ImprovedBitcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse ImprovedBitcoin que vous voulez chiffrer en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur chiffrer pour calculer le chiffrage de la clé privée.</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to encrypt</source>
-        <translation>L'adresse BitcoinClassic à chiffrer</translation>
+        <source>The ImprovedBitcoin address to encrypt</source>
+        <translation>L'adresse ImprovedBitcoin à chiffrer</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BitcoinClassic address</source>
-        <translation>Chiffrer la clef privée pour cette adresse BitcoinClassic</translation>
+        <source>Encrypt the private key for this ImprovedBitcoin address</source>
+        <translation>Chiffrer la clef privée pour cette adresse ImprovedBitcoin</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -653,16 +653,16 @@
         <translation>Onglets de la barre d'outils</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a BitcoinClassic address</source>
-        <translation>Envoyer des pièces à une adresse BitcoinClassic</translation>
+        <source>Send coins to a ImprovedBitcoin address</source>
+        <translation>Envoyer des pièces à une adresse ImprovedBitcoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
-        <translation>Requêtes de paiements (Génère des QR codes et des URIs BitcoinClassic)</translation>
+        <translation>Requêtes de paiements (Génère des QR codes et des URIs ImprovedBitcoin)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -677,24 +677,24 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>&amp;About BitcoinClassic Core</source>
-        <translation>A &amp;propos de BitcoinClassic Core</translation>
+        <source>&amp;About ImprovedBitcoin Core</source>
+        <translation>A &amp;propos de ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Show information about BitcoinClassic Core</source>
-        <translation>Afficher les information concernant BitcoinClassic Core</translation>
+        <source>Show information about ImprovedBitcoin Core</source>
+        <translation>Afficher les information concernant ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for BitcoinClassic</source>
-        <translation>Modifier les options de configuration pour BitcoinClassic</translation>
+        <source>Modify configuration options for ImprovedBitcoin</source>
+        <translation>Modifier les options de configuration pour ImprovedBitcoin</translation>
     </message>
     <message>
-        <source>Sign messages with your BitcoinClassic addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse BitcoinClassic pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your ImprovedBitcoin addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse ImprovedBitcoin pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BitcoinClassic addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse BitcoinClassic spécifiée</translation>
+        <source>Verify messages to ensure they were signed with specified ImprovedBitcoin addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse ImprovedBitcoin spécifiée</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -725,8 +725,8 @@
         <translation>Ouvrir le fichier de configuration de Masternode</translation>
     </message>
     <message>
-        <source>Open a BitcoinClassic: URI or payment request</source>
-        <translation>Ouvrir un BitcoinClassic: URI ou requête de paiement</translation>
+        <source>Open a ImprovedBitcoin: URI or payment request</source>
+        <translation>Ouvrir un ImprovedBitcoin: URI ou requête de paiement</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -737,12 +737,12 @@
         <translation>Fenêtre de Explorateur de Bloc</translation>
     </message>
     <message>
-        <source>Show the BitcoinClassic Core help message to get a list with possible BitcoinClassic command-line options</source>
-        <translation>Afficher les message d'aide de BitcoinClassic Core pour avoir les options pour ligne de commande</translation>
+        <source>Show the ImprovedBitcoin Core help message to get a list with possible ImprovedBitcoin command-line options</source>
+        <translation>Afficher les message d'aide de ImprovedBitcoin Core pour avoir les options pour ligne de commande</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core client</source>
-        <translation>BitcoinClassic Core client</translation>
+        <source>ImprovedBitcoin Core client</source>
+        <translation>ImprovedBitcoin Core client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ Adresse : %4
         <translation>Le portefeuille est &lt;b&gt;crypté&lt;/b&gt; et actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. BitcoinClassic can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale s'est produite. BitcoinClassic Core ne peut plus poursuivre en toute sécurité et va quitter.</translation>
+        <source>A fatal error occurred. ImprovedBitcoin can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale s'est produite. ImprovedBitcoin Core ne peut plus poursuivre en toute sécurité et va quitter.</translation>
     </message>
 </context>
 <context>
@@ -1177,8 +1177,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BitcoinClassic address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse BitcoinClassic valide</translation>
+        <source>The entered address "%1" is not a valid ImprovedBitcoin address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse ImprovedBitcoin valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1266,16 +1266,16 @@ Adresse : %4
         <translation>version</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About BitcoinClassic Core</source>
-        <translation>A propos de BitcoinClassic Core</translation>
+        <source>About ImprovedBitcoin Core</source>
+        <translation>A propos de ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1321,16 +1321,16 @@ Adresse : %4
         <translation>Bienvenu</translation>
     </message>
     <message>
-        <source>Welcome to BitcoinClassic Core.</source>
-        <translation>Bienvenue à BitcoinClassic Core</translation>
+        <source>Welcome to ImprovedBitcoin Core.</source>
+        <translation>Bienvenue à ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BitcoinClassic Core will store its data.</source>
-        <translation>Comme c'est la première fois que le programme est lancé, vous pouvez choisir où BitcoinClassic Core va stocker ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where ImprovedBitcoin Core will store its data.</source>
+        <translation>Comme c'est la première fois que le programme est lancé, vous pouvez choisir où ImprovedBitcoin Core va stocker ses données.</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core will download and store a copy of the BitcoinClassic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BitcoinClassic Core téléchargera et stockera une copie de la chaîne de blocs BitcoinClassic. Au moins %1 Go de données sera stocké dans ce répertoire, et il va augmenter au fil du temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
+        <source>ImprovedBitcoin Core will download and store a copy of the ImprovedBitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ImprovedBitcoin Core téléchargera et stockera une copie de la chaîne de blocs ImprovedBitcoin. Au moins %1 Go de données sera stocké dans ce répertoire, et il va augmenter au fil du temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1341,8 +1341,8 @@ Adresse : %4
         <translation>Utiliser un répertoire spécifique de données </translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1483,12 +1483,12 @@ Adresse : %4
         <translation>Saisir l'adresse à laquelle envoyer</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BitcoinClassic addresses after it matures.
-To Add: enter percentage to give and BitcoinClassic address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ImprovedBitcoin addresses after it matures.
+To Add: enter percentage to give and ImprovedBitcoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>L'Envoi-multiple vous perment d'envoyer automatiquement jusqu'à 100% de vos récompenses Stake ou Masternode à une liste d'adresses BitcoinClassic  après leur maturité.
-Pour ajouter: entrez le pourcentage à donner et l'adresse BitcoinClassic à ajouter au vecteur d'Envoi-multiple.
+        <translation>L'Envoi-multiple vous perment d'envoyer automatiquement jusqu'à 100% de vos récompenses Stake ou Masternode à une liste d'adresses ImprovedBitcoin  après leur maturité.
+Pour ajouter: entrez le pourcentage à donner et l'adresse ImprovedBitcoin à ajouter au vecteur d'Envoi-multiple.
 Pour supprimer: Entrez l'adresse à effacer et appuyez sur Supprimer.
 L'Envoi-multiple ne sera activé que si vous avez cliqué sur Activer</translation>
     </message>
@@ -1880,8 +1880,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>SI vous désactivez la dépense de la monnaire non confirmée, la monnaie rendue sur une transaction &lt;br/&gt;ne peut pas être utilisée tant que celle-ci n'a pas reçue au moins une confirmation &lt;br/&gt;Ceci implique également la manière dont votre solde est calculé.</translation>
     </message>
     <message>
-        <source>Automatically open the BitcoinClassic client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client BitcoinClassic sur le routeur. Ceci fonctionne uniquement si votre routeur prend en charge UPnP et que celui-ci est activé.</translation>
+        <source>Automatically open the ImprovedBitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client ImprovedBitcoin sur le routeur. Ceci fonctionne uniquement si votre routeur prend en charge UPnP et que celui-ci est activé.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1900,12 +1900,12 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start BitcoinClassic after logging in to the system.</source>
-        <translation>Démarrez BitcoinClassic automatiquement après vous être connecté au système.</translation>
+        <source>Automatically start ImprovedBitcoin after logging in to the system.</source>
+        <translation>Démarrez ImprovedBitcoin automatiquement après vous être connecté au système.</translation>
     </message>
     <message>
-        <source>&amp;Start BitcoinClassic on system login</source>
-        <translation>Démarrer BitcoinClassic au démarrage système</translation>
+        <source>&amp;Start ImprovedBitcoin on system login</source>
+        <translation>Démarrer ImprovedBitcoin au démarrage système</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1932,8 +1932,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Réseau</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinClassic.</source>
-        <translation>La langue de l'interface utilisateur peut être définie ici. Ce paramètre prendra effet après le redémarrage de BitcoinClassic.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ImprovedBitcoin.</source>
+        <translation>La langue de l'interface utilisateur peut être définie ici. Ce paramètre prendra effet après le redémarrage de ImprovedBitcoin.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1982,8 +1982,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Seuil de partage du Stake</translation>
     </message>
     <message>
-        <source>Connect to the BitcoinClassic network through a SOCKS5 proxy.</source>
-        <translation>Se connetcer au réseau BitcoinClassic via un proxy SOCKS5.</translation>
+        <source>Connect to the ImprovedBitcoin network through a SOCKS5 proxy.</source>
+        <translation>Se connetcer au réseau ImprovedBitcoin via un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2165,8 +2165,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Solde courant bloqué dans des adresses témoin</translation>
     </message>
     <message>
-        <source>Your current BitcoinClassic balance, unconfirmed and immature transactions included</source>
-        <translation>Votre solde BitcoinClassic actuel, incluant les transactions non confirmées et immatures</translation>
+        <source>Your current ImprovedBitcoin balance, unconfirmed and immature transactions included</source>
+        <translation>Votre solde ImprovedBitcoin actuel, incluant les transactions non confirmées et immatures</translation>
     </message>
     <message>
         <source>zBXC Balance</source>
@@ -2185,8 +2185,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Immature: confirmé, mais moins de 1 monnaie de la même dénomination après sa frappe</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinClassic network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées pourraient être périmées. Votre portefeuille se synchronise automatiquement avec le réseau BitcoinClassic après l'établissement d'une connexion, mais ce processus n'est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ImprovedBitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées pourraient être périmées. Votre portefeuille se synchronise automatiquement avec le réseau ImprovedBitcoin après l'établissement d'une connexion, mais ce processus n'est pas encore terminé.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2302,8 +2302,8 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>Impossible de démarrer improvedbitcoin: gestionnaire click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid BitcoinClassic address or malformed URI parameters.</source>
-        <translation>L'URI ne peut pas être analysée! Cela peut être dû à une adresse BitcoinClassic invalide ou à des paramètres URI incorrectes.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid ImprovedBitcoin address or malformed URI parameters.</source>
+        <translation>L'URI ne peut pas être analysée! Cela peut être dû à une adresse ImprovedBitcoin invalide ou à des paramètres URI incorrectes.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2388,8 +2388,8 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>Actions Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinClassic network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées pourraient être périmées. Votre portefeuille se synchronise automatiquement avec le réseau BitcoinClassic après l'établissement d'une connexion, mais ce processus n'est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ImprovedBitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées pourraient être périmées. Votre portefeuille se synchronise automatiquement avec le réseau ImprovedBitcoin après l'établissement d'une connexion, mais ce processus n'est pas encore terminé.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2472,8 +2472,8 @@ Les zBXC sont matures lorsqu'ils ont plus de 20 confirmations ET plus de 2 monna
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>L'adresse BitcoinClassic à laquelle envoyer le paiement. Le système créé un paiement à vous même lorsque ce champs est vide.</translation>
+        <source>The ImprovedBitcoin address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>L'adresse ImprovedBitcoin à laquelle envoyer le paiement. Le système créé un paiement à vous même lorsque ce champs est vide.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2864,8 +2864,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Aucune adresse 'Payer à' de fournie, création d'un paiement local</translation>
     </message>
     <message>
-        <source>Invalid BitcoinClassic Address</source>
-        <translation>Adresse BitcoinClassic incorrecte</translation>
+        <source>Invalid ImprovedBitcoin Address</source>
+        <translation>Adresse ImprovedBitcoin incorrecte</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -3016,8 +3016,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a BitcoinClassic address (e.g. %1)</source>
-        <translation>Entrez une adresse BitcoinClassic (par ex. %1)</translation>
+        <source>Enter a ImprovedBitcoin address (e.g. %1)</source>
+        <translation>Entrez une adresse ImprovedBitcoin (par ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3064,8 +3064,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -3084,8 +3084,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Erreur de lecture du fichier de configuration Masternode: %1</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core didn't yet exit safely...</source>
-        <translation>BitcoinClassic Core n'a pas encore quitté en toute sécurité ...</translation>
+        <source>ImprovedBitcoin Core didn't yet exit safely...</source>
+        <translation>ImprovedBitcoin Core n'a pas encore quitté en toute sécurité ...</translation>
     </message>
 </context>
 <context>
@@ -3182,7 +3182,7 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Chaîne de bloc</translation>
     </message>
     <message>
-        <source>Open the BitcoinClassic debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the ImprovedBitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ouvrir le fichier journal de déboguage depuis le répertoire de données courant. Cela peut prendre quelques minutes pour les fichier journaux volumineux.</translation>
     </message>
     <message>
@@ -3398,8 +3398,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Sortie:</translation>
     </message>
     <message>
-        <source>Welcome to the BitcoinClassic RPC console.</source>
-        <translation>Bienvenue sur la console BitcoinClassic RPC.</translation>
+        <source>Welcome to the ImprovedBitcoin RPC console.</source>
+        <translation>Bienvenue sur la console ImprovedBitcoin RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3541,16 +3541,16 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Montant:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BitcoinClassic network.</source>
-        <translation>Un message optionnel à ajouter à la demande de paiement, lequel sera affiché lorsque la demande sera ouverte. Note: Le message ne sera pas renvoyé avec le paiement sur le réseaux BitcoinClassic.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ImprovedBitcoin network.</source>
+        <translation>Un message optionnel à ajouter à la demande de paiement, lequel sera affiché lorsque la demande sera ouverte. Note: Le message ne sera pas renvoyé avec le paiement sur le réseaux ImprovedBitcoin.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>RECEVOIR</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BitcoinClassic network.</source>
-        <translation>Un message optionnel à ajouter à la demande de paiement, lequel sera affiché lorsque la demande sera ouverte. &lt;br /&gt; Note: Le message ne sera pas renvoyé avec le paiement sur le réseaux BitcoinClassic.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ImprovedBitcoin network.</source>
+        <translation>Un message optionnel à ajouter à la demande de paiement, lequel sera affiché lorsque la demande sera ouverte. &lt;br /&gt; Note: Le message ne sera pas renvoyé avec le paiement sur le réseaux ImprovedBitcoin.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3854,8 +3854,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Si le tarif personnalisé est fixé à 1000 uBXC et que la transaction ne représente que 250 octets, "par kilo-octet", alors le système ne paiera que 250 uBXC en frais,tandis que le choix "total au moins" paiera 1000 uBXC. Pour les transactions supérieures à un kilo-octet, les deux choix paieront les frais par kilo-octets.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BitcoinClassic transactions than the network can process.</source>
-        <translation>Payer les frais minimum est convenable tant qu'il y a moins de volume de transactions que d'espace dans les blocs. &lt;br /&gt; Mais sachez que cela peut aboutir à une transaction qui ne se confirmera jamais lorsqu'il y aura plus de transactions BitcoinClassic que le réseau ne peut en traiter.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ImprovedBitcoin transactions than the network can process.</source>
+        <translation>Payer les frais minimum est convenable tant qu'il y a moins de volume de transactions que d'espace dans les blocs. &lt;br /&gt; Mais sachez que cela peut aboutir à une transaction qui ne se confirmera jamais lorsqu'il y aura plus de transactions ImprovedBitcoin que le réseau ne peut en traiter.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3950,8 +3950,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>L'outil de séparation de bloc ne fonctionne pas avec les adresses multiples. Réessayez.</translation>
     </message>
     <message>
-        <source>Warning: Invalid BitcoinClassic address</source>
-        <translation>Attention: adresse BitcoinClassic invalide</translation>
+        <source>Warning: Invalid ImprovedBitcoin address</source>
+        <translation>Attention: adresse ImprovedBitcoin invalide</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4053,8 +4053,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to send the payment to</source>
-        <translation>L'adresse BitcoinClassic à laquelle envoyer le paiement</translation>
+        <source>The ImprovedBitcoin address to send the payment to</source>
+        <translation>L'adresse ImprovedBitcoin à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4093,8 +4093,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Message :</translation>
     </message>
     <message>
-        <source>A message that was attached to the BitcoinClassic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BitcoinClassic network.</source>
-        <translation>Un message qui était attaché au BitcoinClassic: URI qui sera stockée avec la transaction pour votre référence ultérieure. Remarque: Ce message ne sera pas envoyé sur le réseau BitcoinClassic.</translation>
+        <source>A message that was attached to the ImprovedBitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ImprovedBitcoin network.</source>
+        <translation>Un message qui était attaché au ImprovedBitcoin: URI qui sera stockée avec la transaction pour votre référence ultérieure. Remarque: Ce message ne sera pas envoyé sur le réseau ImprovedBitcoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4120,8 +4120,8 @@ S'il vous plaît soyez patient ...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>BitcoinClassic Core is shutting down...</source>
-        <translation>BitcoinClassic Core est en cours de fermeture...</translation>
+        <source>ImprovedBitcoin Core is shutting down...</source>
+        <translation>ImprovedBitcoin Core est en cours de fermeture...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4143,8 +4143,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Vous pouvez signer des messages avec vos adresses pour prouver que vous les possédez. Veillez à ne rien signer d'imprécis, car des attaques de type phishing pourraient vous inciter à divulger votre identité. Ne signez que des déclarations détaillées que vous avez approuvé.</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to sign the message with</source>
-        <translation>L'adresse BitcoinClassic avec laquelle signer le message</translation>
+        <source>The ImprovedBitcoin address to sign the message with</source>
+        <translation>L'adresse ImprovedBitcoin avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4175,16 +4175,16 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BitcoinClassic address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse BitcoinClassic</translation>
+        <source>Sign the message to prove you own this ImprovedBitcoin address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse ImprovedBitcoin</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address the message was signed with</source>
-        <translation>L'adresse BitcoinClassic avec laquelle le message a été signé</translation>
+        <source>The ImprovedBitcoin address the message was signed with</source>
+        <translation>L'adresse ImprovedBitcoin avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BitcoinClassic address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse BitcoinClassic renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified ImprovedBitcoin address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse ImprovedBitcoin renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4270,8 +4270,8 @@ S'il vous plaît soyez patient ...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4286,8 +4286,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Les développeurs Dash Core</translation>
     </message>
     <message>
-        <source>The BitcoinClassic Core developers</source>
-        <translation>Les développeurs BitcoinClassic Core</translation>
+        <source>The ImprovedBitcoin Core developers</source>
+        <translation>Les développeurs ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4939,8 +4939,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Le point de contrôle de l'accumulateur qui a été calculé ne correspond pas à ce qui est enregistré par l'index de bloc</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. BitcoinClassic Core is probably already running.</source>
-        <translation>Impossible de vérouiller le répertoire de données %s. BitcoinClassic Core est probablement déjà en cours d'exécution.</translation>
+        <source>Cannot obtain a lock on data directory %s. ImprovedBitcoin Core is probably already running.</source>
+        <translation>Impossible de vérouiller le répertoire de données %s. ImprovedBitcoin Core est probablement déjà en cours d'exécution.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5135,8 +5135,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>La longueur totale de la chaîne dans la version réseau (%i) dépasse la longueur maximale (%i). Réduisez le nombre ou la taille des commentaires de l'Agent Utilisateur</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. BitcoinClassic Core is probably already running.</source>
-        <translation>Impossible de se lier à %s depuis cet ordinateur. BitcoinClassic Core est probablement déjà en cours d'exécution.</translation>
+        <source>Unable to bind to %s on this computer. ImprovedBitcoin Core is probably already running.</source>
+        <translation>Impossible de se lier à %s depuis cet ordinateur. ImprovedBitcoin Core est probablement déjà en cours d'exécution.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -5163,8 +5163,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Attention: -paytxfee est réglé très haut! Ce sont les frais de transaction que vous paierez si vous envoyez une transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BitcoinClassic Core will not work properly.</source>
-        <translation>Avertissement: Veuillez vérifier que la date et l'heure de votre ordinateur sont correctes! Si votre horloge est incorrecte, BitcoinClassic Core ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ImprovedBitcoin Core will not work properly.</source>
+        <translation>Avertissement: Veuillez vérifier que la date et l'heure de votre ordinateur sont correctes! Si votre horloge est incorrecte, ImprovedBitcoin Core ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5172,7 +5172,7 @@ S'il vous plaît soyez patient ...</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Attention: Il semble que nous soyons en désaccord avec nos pairs sur le réseau! Cela signifie que vous pourriez avoir besoin de mettre à jour votre BitcoinClassic Core, ou que les autres noeuds aient besoin de se mettre à jour de leur côté.</translation>
+        <translation>Attention: Il semble que nous soyons en désaccord avec nos pairs sur le réseau! Cela signifie que vous pourriez avoir besoin de mettre à jour votre ImprovedBitcoin Core, ou que les autres noeuds aient besoin de se mettre à jour de leur côté.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -5387,8 +5387,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Erreur de chargement du fichier wallet.dat: Portefeuille corrompu</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinClassic Core</source>
-        <translation>Erreur de chargement du fichier wallet.dat: Le portefeuille nécessite une version plus récente du BitcoinClassic core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ImprovedBitcoin Core</source>
+        <translation>Erreur de chargement du fichier wallet.dat: Le portefeuille nécessite une version plus récente du ImprovedBitcoin core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5483,8 +5483,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. BitcoinClassic Core is shutting down.</source>
-        <translation>Échec de la vérification de l'initialisation. BitcoinClassic Core va fermer.</translation>
+        <source>Initialization sanity check failed. ImprovedBitcoin Core is shutting down.</source>
+        <translation>Échec de la vérification de l'initialisation. ImprovedBitcoin Core va fermer.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5604,8 +5604,8 @@ S'il vous plaît soyez patient ...</translation>
 </translation>
     </message>
     <message>
-        <source>Disable all BitcoinClassic specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Désactiver toutes les fonctionnalités spécifiques à BitcoinClassic (Masternodes, Zerocoin, SwiftX, Budgétisation) (0-1, défaut: %u)</translation>
+        <source>Disable all ImprovedBitcoin specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Désactiver toutes les fonctionnalités spécifiques à ImprovedBitcoin (Masternodes, Zerocoin, SwiftX, Budgétisation) (0-1, défaut: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -6184,8 +6184,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Vérification du portefeuille...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart BitcoinClassic Core to complete</source>
-        <translation>Le portefeuille doit être réécrit: redémarrez BitcoinClassic Core pour terminer</translation>
+        <source>Wallet needed to be rewritten: restart ImprovedBitcoin Core to complete</source>
+        <translation>Le portefeuille doit être réécrit: redémarrez ImprovedBitcoin Core pour terminer</translation>
     </message>
     <message>
         <source>Wallet options:</source>

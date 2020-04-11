@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi BitcoinClassic per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your ImprovedBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi ImprovedBitcoin per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi BitcoinClassic per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your ImprovedBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi ImprovedBitcoin per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>BitcoinClassic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinClassic verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi BXC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi BXC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>Enter a BitcoinClassic Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserire un indirizzo BitcoinClassic da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
+        <source>Enter a ImprovedBitcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserire un indirizzo ImprovedBitcoin da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to encrypt</source>
-        <translation>Indirizzo BitcoinClassic da crittografare</translation>
+        <source>The ImprovedBitcoin address to encrypt</source>
+        <translation>Indirizzo ImprovedBitcoin da crittografare</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BitcoinClassic address</source>
-        <translation>Crittografa la chiave privata per questo indirizzo BitcoinClassic</translation>
+        <source>Encrypt the private key for this ImprovedBitcoin address</source>
+        <translation>Crittografa la chiave privata per questo indirizzo ImprovedBitcoin</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -641,12 +641,12 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a BitcoinClassic address</source>
-        <translation>Invia valuta all'indirizzo BitcoinClassic</translation>
+        <source>Send coins to a ImprovedBitcoin address</source>
+        <translation>Invia valuta all'indirizzo ImprovedBitcoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
@@ -665,24 +665,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About BitcoinClassic Core</source>
-        <translation>&amp;Informazioni BitcoinClassic Core</translation>
+        <source>&amp;About ImprovedBitcoin Core</source>
+        <translation>&amp;Informazioni ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Show information about BitcoinClassic Core</source>
-        <translation>Visualizza informazioni su BitcoinClassic Core</translation>
+        <source>Show information about ImprovedBitcoin Core</source>
+        <translation>Visualizza informazioni su ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for BitcoinClassic</source>
-        <translation>Modifica le opzioni di configurazione per BitcoinClassic</translation>
+        <source>Modify configuration options for ImprovedBitcoin</source>
+        <translation>Modifica le opzioni di configurazione per ImprovedBitcoin</translation>
     </message>
     <message>
-        <source>Sign messages with your BitcoinClassic addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi BitcoinClassic per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your ImprovedBitcoin addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi ImprovedBitcoin per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BitcoinClassic addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi BitcoinClassic specifici</translation>
+        <source>Verify messages to ensure they were signed with specified ImprovedBitcoin addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi ImprovedBitcoin specifici</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Apri file di configurazione del Masternodo</translation>
     </message>
     <message>
-        <source>Open a BitcoinClassic: URI or payment request</source>
-        <translation>Apri un BitcoinClassic: URI o richiesta di pagamento</translation>
+        <source>Open a ImprovedBitcoin: URI or payment request</source>
+        <translation>Apri un ImprovedBitcoin: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the BitcoinClassic Core help message to get a list with possible BitcoinClassic command-line options</source>
-        <translation>Mostra il messaggio di aiuto BitcoinClassic Core per ottenere un elenco con le possibili opzioni di riga di comando BitcoinClassic</translation>
+        <source>Show the ImprovedBitcoin Core help message to get a list with possible ImprovedBitcoin command-line options</source>
+        <translation>Mostra il messaggio di aiuto ImprovedBitcoin Core per ottenere un elenco con le possibili opzioni di riga di comando ImprovedBitcoin</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core client</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core client</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1149,8 +1149,8 @@ MultiSend: %1</translation>
         <translation>Modifica indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BitcoinClassic address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo BitcoinClassic valido.</translation>
+        <source>The entered address "%1" is not a valid ImprovedBitcoin address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo ImprovedBitcoin valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1206,16 +1206,16 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About BitcoinClassic Core</source>
-        <translation>Informazioni su BitcoinClassic Core</translation>
+        <source>About ImprovedBitcoin Core</source>
+        <translation>Informazioni su ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1261,16 +1261,16 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to BitcoinClassic Core.</source>
+        <source>Welcome to ImprovedBitcoin Core.</source>
         <translation>Benvenuto in BXCIX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BitcoinClassic Core will store its data.</source>
-        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove BitcoinClassic Core salverà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where ImprovedBitcoin Core will store its data.</source>
+        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove ImprovedBitcoin Core salverà i propri dati.</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core will download and store a copy of the BitcoinClassic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BitcoinClassic Core scaricherà e salverà una copia della blockchain BitcoinClassic. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
+        <source>ImprovedBitcoin Core will download and store a copy of the ImprovedBitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ImprovedBitcoin Core scaricherà e salverà una copia della blockchain ImprovedBitcoin. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1281,8 +1281,8 @@ MultiSend: %1</translation>
         <translation>Utilizza una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1423,12 +1423,12 @@ MultiSend: %1</translation>
         <translation>Inserire indirizzo destinatario</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BitcoinClassic addresses after it matures.
-To Add: enter percentage to give and BitcoinClassic address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ImprovedBitcoin addresses after it matures.
+To Add: enter percentage to give and ImprovedBitcoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi BitcoinClassic fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
-Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo BitcoinClassic da aggiungere al vettore MultiSend.
+        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi ImprovedBitcoin fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
+Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo ImprovedBitcoin da aggiungere al vettore MultiSend.
 Per Eliminare: Inserisci l'indirizzo da eliminare e premi elimina.
 MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
     </message>
@@ -1729,8 +1729,8 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Saldo corrente bloccato in indirizzi sola-lettura.</translation>
     </message>
     <message>
-        <source>Your current BitcoinClassic balance, unconfirmed and immature transactions included</source>
-        <translation>Il tuo saldo BitcoinClassic corrente, incluse le transazioni non confermate e non mature</translation>
+        <source>Your current ImprovedBitcoin balance, unconfirmed and immature transactions included</source>
+        <translation>Il tuo saldo ImprovedBitcoin corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
         <source>zBXC Balance</source>
@@ -2148,8 +2148,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Ammontare</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     </context>
 <context>
@@ -2411,8 +2411,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The BitcoinClassic address to sign the message with</source>
-        <translation>L'indirizzo BitcoinClassic per firmare il messaggio con</translation>
+        <source>The ImprovedBitcoin address to sign the message with</source>
+        <translation>L'indirizzo ImprovedBitcoin per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2435,16 +2435,16 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BitcoinClassic address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo BitcoinClassic</translation>
+        <source>Sign the message to prove you own this ImprovedBitcoin address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ImprovedBitcoin</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address the message was signed with</source>
-        <translation>L'indirizzo BitcoinClassic con cui è stato firmato il messaggio</translation>
+        <source>The ImprovedBitcoin address the message was signed with</source>
+        <translation>L'indirizzo ImprovedBitcoin con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BitcoinClassic address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo BitcoinClassic specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified ImprovedBitcoin address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ImprovedBitcoin specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2482,8 +2482,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     </context>
 <context>

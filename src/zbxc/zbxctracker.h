@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_ZBXCTRACKER_H
-#define BitcoinClassic_ZBXCTRACKER_H
+#ifndef ImprovedBitcoin_ZBXCTRACKER_H
+#define ImprovedBitcoin_ZBXCTRACKER_H
 
 #include "zerocoin.h"
 #include "witness.h"
@@ -55,4 +55,4 @@ public:
     void Clear();
 };
 
-#endif //BitcoinClassic_ZBXCTRACKER_H
+#endif //ImprovedBitcoin_ZBXCTRACKER_H

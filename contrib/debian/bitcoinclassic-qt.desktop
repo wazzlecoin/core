@@ -1,13 +1,13 @@
 [Desktop Entry]
 Version=1.0
-Name=BitcoinClassic Core
-Comment=BitcoinClassic P2P Cryptocurrency
-Comment[fr]=BitcoinClassic, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=BitcoinClassic, eşten eşe kriptografik sanal para birimi
+Name=ImprovedBitcoin Core
+Comment=ImprovedBitcoin P2P Cryptocurrency
+Comment[fr]=ImprovedBitcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ImprovedBitcoin, eşten eşe kriptografik sanal para birimi
 Exec=improvedbitcoin-qt %u
 Terminal=false
 Type=Application
 Icon=improvedbitcoin128
 MimeType=x-scheme-handler/improvedbitcoin;
 Categories=Office;Finance;
-StartupWMClass=BitcoinClassic-qt
+StartupWMClass=ImprovedBitcoin-qt

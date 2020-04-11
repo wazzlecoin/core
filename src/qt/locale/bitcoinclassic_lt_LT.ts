@@ -62,12 +62,12 @@
         <translation>Gavimo adresai</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tai jūsų BitcoinClassic adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
+        <source>These are your ImprovedBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tai jūsų ImprovedBitcoin adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tai jūsų BitcoinClassic adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
+        <source>These are your ImprovedBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tai jūsų ImprovedBitcoin adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>BitcoinClassic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar BitcoinClassic išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų BXC nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar ImprovedBitcoin išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų BXC nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Adresas:</translation>
     </message>
     <message>
-        <source>Enter a BitcoinClassic Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Įveskite BitcoinClassic adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
+        <source>Enter a ImprovedBitcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Įveskite ImprovedBitcoin adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to encrypt</source>
-        <translation>BitcoinClassic adresas, kurį norite užšifruoti</translation>
+        <source>The ImprovedBitcoin address to encrypt</source>
+        <translation>ImprovedBitcoin adresas, kurį norite užšifruoti</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BitcoinClassic address</source>
-        <translation>Užšifruoti šio BitcoinClassic adreso privatų raktą</translation>
+        <source>Encrypt the private key for this ImprovedBitcoin address</source>
+        <translation>Užšifruoti šio ImprovedBitcoin adreso privatų raktą</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -641,12 +641,12 @@
         <translation>Skirtukų įrankių juosta</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a BitcoinClassic address</source>
-        <translation>Siųsti monetas į BitcoinClassic adresą</translation>
+        <source>Send coins to a ImprovedBitcoin address</source>
+        <translation>Siųsti monetas į ImprovedBitcoin adresą</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
@@ -665,24 +665,24 @@
         <translation>Naršyti masternod'us</translation>
     </message>
     <message>
-        <source>&amp;About BitcoinClassic Core</source>
-        <translation>&amp;Apie BitcoinClassic Core</translation>
+        <source>&amp;About ImprovedBitcoin Core</source>
+        <translation>&amp;Apie ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Show information about BitcoinClassic Core</source>
-        <translation>Rodyti informaciją apie BitcoinClassic Core</translation>
+        <source>Show information about ImprovedBitcoin Core</source>
+        <translation>Rodyti informaciją apie ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for BitcoinClassic</source>
-        <translation>Keisti BitcoinClassic konfigūravimo parinktis</translation>
+        <source>Modify configuration options for ImprovedBitcoin</source>
+        <translation>Keisti ImprovedBitcoin konfigūravimo parinktis</translation>
     </message>
     <message>
-        <source>Sign messages with your BitcoinClassic addresses to prove you own them</source>
-        <translation>Pasirašykite pranešimus naudodami savo BitcoinClassic adresus, kad įrodytumėte, kad juos turite</translation>
+        <source>Sign messages with your ImprovedBitcoin addresses to prove you own them</source>
+        <translation>Pasirašykite pranešimus naudodami savo ImprovedBitcoin adresus, kad įrodytumėte, kad juos turite</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BitcoinClassic addresses</source>
-        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais BitcoinClassic adresais</translation>
+        <source>Verify messages to ensure they were signed with specified ImprovedBitcoin addresses</source>
+        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais ImprovedBitcoin adresais</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Atidaryti Masternod'o konfigūracijos failą</translation>
     </message>
     <message>
-        <source>Open a BitcoinClassic: URI or payment request</source>
-        <translation>Atidaryti BitcoinClassic: URI arba mokėjimo prašymą</translation>
+        <source>Open a ImprovedBitcoin: URI or payment request</source>
+        <translation>Atidaryti ImprovedBitcoin: URI arba mokėjimo prašymą</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Blokų naršyklės langas</translation>
     </message>
     <message>
-        <source>Show the BitcoinClassic Core help message to get a list with possible BitcoinClassic command-line options</source>
-        <translation>Rodyti BitcoinClassic Core žinyną, kad gautumėte sąrašą su galimomis BitcoinClassic komandinės eilutės parinktimis</translation>
+        <source>Show the ImprovedBitcoin Core help message to get a list with possible ImprovedBitcoin command-line options</source>
+        <translation>Rodyti ImprovedBitcoin Core žinyną, kad gautumėte sąrašą su galimomis ImprovedBitcoin komandinės eilutės parinktimis</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core client</source>
-        <translation>BitcoinClassic Core piniginė</translation>
+        <source>ImprovedBitcoin Core client</source>
+        <translation>ImprovedBitcoin Core piniginė</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
         <translation>Keisti siuntimo adresą</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BitcoinClassic address.</source>
-        <translation>Įvestas adresas "%1" nėra galiojantis BitcoinClassic adresas.</translation>
+        <source>The entered address "%1" is not a valid ImprovedBitcoin address.</source>
+        <translation>Įvestas adresas "%1" nėra galiojantis ImprovedBitcoin adresas.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1210,16 +1210,16 @@ MultiSend: %1</translation>
         <translation>versija</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bitai)</translation>
     </message>
     <message>
-        <source>About BitcoinClassic Core</source>
-        <translation>Apie BitcoinClassic Core</translation>
+        <source>About ImprovedBitcoin Core</source>
+        <translation>Apie ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1265,16 +1265,16 @@ MultiSend: %1</translation>
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to BitcoinClassic Core.</source>
-        <translation>Sveiki atvykę į BitcoinClassic Core</translation>
+        <source>Welcome to ImprovedBitcoin Core.</source>
+        <translation>Sveiki atvykę į ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BitcoinClassic Core will store its data.</source>
-        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur BitcoinClassic Core saugos savo duomenis.</translation>
+        <source>As this is the first time the program is launched, you can choose where ImprovedBitcoin Core will store its data.</source>
+        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur ImprovedBitcoin Core saugos savo duomenis.</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core will download and store a copy of the BitcoinClassic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BitcoinClassic Core atsisiųs ir saugos BitcoinClassic blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
+        <source>ImprovedBitcoin Core will download and store a copy of the ImprovedBitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ImprovedBitcoin Core atsisiųs ir saugos ImprovedBitcoin blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1285,8 +1285,8 @@ MultiSend: %1</translation>
         <translation>Naudoti pasirinktą duomenų katalogą:</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1427,12 +1427,12 @@ MultiSend: %1</translation>
         <translation>Įveskite adresą kuriam norite siųsti</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BitcoinClassic addresses after it matures.
-To Add: enter percentage to give and BitcoinClassic address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ImprovedBitcoin addresses after it matures.
+To Add: enter percentage to give and ImprovedBitcoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus BitcoinClassic adresus.
-Norėdami pridėti: įveskite pateiktą procentą ir BitcoinClassic adresą, kurį norite pridėti prie MultiSend sąrašo.
+        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus ImprovedBitcoin adresus.
+Norėdami pridėti: įveskite pateiktą procentą ir ImprovedBitcoin adresą, kurį norite pridėti prie MultiSend sąrašo.
 Norėdami ištrinti: įveskite adresą, kurį norite ištrinti, ir paspauskite ištrinti
 MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
     </message>
@@ -1730,12 +1730,12 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Ekspertas</translation>
     </message>
     <message>
-        <source>Automatically start BitcoinClassic after logging in to the system.</source>
-        <translation>Automatiškai paleisti BitcoinClassic prisijungus prie sistemos.</translation>
+        <source>Automatically start ImprovedBitcoin after logging in to the system.</source>
+        <translation>Automatiškai paleisti ImprovedBitcoin prisijungus prie sistemos.</translation>
     </message>
     <message>
-        <source>&amp;Start BitcoinClassic on system login</source>
-        <translation>&amp;Paleisti BitcoinClassic sistemai įsijungiant</translation>
+        <source>&amp;Start ImprovedBitcoin on system login</source>
+        <translation>&amp;Paleisti ImprovedBitcoin sistemai įsijungiant</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1762,8 +1762,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinClassic.</source>
-        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "BitcoinClassic".</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ImprovedBitcoin.</source>
+        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "ImprovedBitcoin".</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1796,8 +1796,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Pageidautinas zBXC Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
-        <source>Connect to the BitcoinClassic network through a SOCKS5 proxy.</source>
-        <translation>Jungtis prie BitcoinClassic tinklo naudojant SOCKS5 tarpinį serverį.</translation>
+        <source>Connect to the ImprovedBitcoin network through a SOCKS5 proxy.</source>
+        <translation>Jungtis prie ImprovedBitcoin tinklo naudojant SOCKS5 tarpinį serverį.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1939,8 +1939,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Dabartinis bendras užrakintas balansas tik žiūrėjimo adresuose</translation>
     </message>
     <message>
-        <source>Your current BitcoinClassic balance, unconfirmed and immature transactions included</source>
-        <translation>Jūsų dabartinis BitcoinClassic balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
+        <source>Your current ImprovedBitcoin balance, unconfirmed and immature transactions included</source>
+        <translation>Jūsų dabartinis ImprovedBitcoin balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
         <source>zBXC Balance</source>
@@ -1959,8 +1959,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo po to, kai buvo konvertuotas.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinClassic network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su BitcoinClassic tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ImprovedBitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su ImprovedBitcoin tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2096,8 +2096,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Veiksmai:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinClassic network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su BitcoinClassic tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ImprovedBitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su ImprovedBitcoin tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2446,8 +2446,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Nomin. &lt;b&gt;5000&lt;/b&gt;:</translation>
     </message>
     <message>
-        <source>Invalid BitcoinClassic Address</source>
-        <translation>Netinkamas BitcoinClassic Adresas</translation>
+        <source>Invalid ImprovedBitcoin Address</source>
+        <translation>Netinkamas ImprovedBitcoin Adresas</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2488,8 +2488,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a BitcoinClassic address (e.g. %1)</source>
-        <translation>Įveskite BitcoinClassic adresą (pvz. %1)</translation>
+        <source>Enter a ImprovedBitcoin address (e.g. %1)</source>
+        <translation>Įveskite ImprovedBitcoin adresą (pvz. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2524,8 +2524,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>N/A</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     </context>
 <context>
@@ -2670,8 +2670,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Iš:</translation>
     </message>
     <message>
-        <source>Welcome to the BitcoinClassic RPC console.</source>
-        <translation>Sveiki atvykę į BitcoinClassic RPC konsolę.</translation>
+        <source>Welcome to the ImprovedBitcoin RPC console.</source>
+        <translation>Sveiki atvykę į ImprovedBitcoin RPC konsolę.</translation>
     </message>
     <message>
         <source>never</source>
@@ -3007,8 +3007,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The BitcoinClassic address to sign the message with</source>
-        <translation>BitcoinClassic adresas, kuriuo pasirašyti žinute</translation>
+        <source>The ImprovedBitcoin address to sign the message with</source>
+        <translation>ImprovedBitcoin adresas, kuriuo pasirašyti žinute</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3031,16 +3031,16 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BitcoinClassic address</source>
-        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio BitcoinClassic adreso savininkas</translation>
+        <source>Sign the message to prove you own this ImprovedBitcoin address</source>
+        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio ImprovedBitcoin adreso savininkas</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address the message was signed with</source>
-        <translation>BitcoinClassic adresas, kurio buvo pasirašyta žinutė</translation>
+        <source>The ImprovedBitcoin address the message was signed with</source>
+        <translation>ImprovedBitcoin adresas, kurio buvo pasirašyta žinutė</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BitcoinClassic address</source>
-        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu BitcoinClassic adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified ImprovedBitcoin address</source>
+        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu ImprovedBitcoin adresu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -3078,8 +3078,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     </context>
 <context>
@@ -3335,8 +3335,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Klaida kraunant wallet.dat: Piniginė yra sugadinta</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinClassic Core</source>
-        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės BitcoinClassic Core versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ImprovedBitcoin Core</source>
+        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės ImprovedBitcoin Core versijos</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3511,8 +3511,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Piniginė %s yra ne duomenų kataloge %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart BitcoinClassic Core to complete</source>
-        <translation>Piniginę reikia perrašyti: paleiskite BitcoinClassic Core iš naujo</translation>
+        <source>Wallet needed to be rewritten: restart ImprovedBitcoin Core to complete</source>
+        <translation>Piniginę reikia perrašyti: paleiskite ImprovedBitcoin Core iš naujo</translation>
     </message>
     <message>
         <source>Wallet options:</source>

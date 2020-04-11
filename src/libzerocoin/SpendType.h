@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_SPENDTYPE_H
-#define BitcoinClassic_SPENDTYPE_H
+#ifndef ImprovedBitcoin_SPENDTYPE_H
+#define ImprovedBitcoin_SPENDTYPE_H
 
 #include <cstdint>
 
@@ -16,4 +16,4 @@ namespace libzerocoin {
     };
 }
 
-#endif //BitcoinClassic_SPENDTYPE_H
+#endif //ImprovedBitcoin_SPENDTYPE_H

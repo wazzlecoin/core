@@ -30,7 +30,7 @@
 #include <boost/thread/exceptions.hpp>
 #include <boost/thread/condition_variable.hpp> // for boost::thread_interrupted
 
-//BitcoinClassic only features
+//ImprovedBitcoin only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;

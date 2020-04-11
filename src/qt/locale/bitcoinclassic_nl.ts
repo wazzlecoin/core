@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw BitcoinClassic adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
+        <source>These are your ImprovedBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw ImprovedBitcoin adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw BitcoinClassic adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your ImprovedBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw ImprovedBitcoin adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>BitcoinClassic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinClassic zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw BXC's kunnen stelen.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw BXC's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>Enter a BitcoinClassic Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een BitcoinClassic adres in dat u wilt coderen met BIP 38. Voer een wachtwoordzin in in het middelste vak. Druk op versleutelen om de versleutelde privé sleutel te berekenen.</translation>
+        <source>Enter a ImprovedBitcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een ImprovedBitcoin adres in dat u wilt coderen met BIP 38. Voer een wachtwoordzin in in het middelste vak. Druk op versleutelen om de versleutelde privé sleutel te berekenen.</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to encrypt</source>
-        <translation>Het BitcoinClassic adres om te versleutelen</translation>
+        <source>The ImprovedBitcoin address to encrypt</source>
+        <translation>Het ImprovedBitcoin adres om te versleutelen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BitcoinClassic address</source>
-        <translation>Versleutel de privé sleutel voor dit BitcoinClassic adres</translation>
+        <source>Encrypt the private key for this ImprovedBitcoin address</source>
+        <translation>Versleutel de privé sleutel voor dit ImprovedBitcoin adres</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -653,16 +653,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a BitcoinClassic address</source>
-        <translation>Verstuur munten naar een BitcoinClassic adres</translation>
+        <source>Send coins to a ImprovedBitcoin address</source>
+        <translation>Verstuur munten naar een ImprovedBitcoin adres</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en BitcoinClassic: URI's)</translation>
+        <translation>Vraag betaling aan (genereert QR codes en ImprovedBitcoin: URI's)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -677,24 +677,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About BitcoinClassic Core</source>
-        <translation>&amp;Over BitcoinClassic Core</translation>
+        <source>&amp;About ImprovedBitcoin Core</source>
+        <translation>&amp;Over ImprovedBitcoin Core</translation>
     </message>
     <message>
-        <source>Show information about BitcoinClassic Core</source>
-        <translation>Toon informatie over BitcoinClassic Kern</translation>
+        <source>Show information about ImprovedBitcoin Core</source>
+        <translation>Toon informatie over ImprovedBitcoin Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for BitcoinClassic</source>
-        <translation>Wijzig BitcoinClassic configuratie opties</translation>
+        <source>Modify configuration options for ImprovedBitcoin</source>
+        <translation>Wijzig ImprovedBitcoin configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your BitcoinClassic addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw BitcoinClassic adressen om te bewijzen dat deze adressen in uw bezit zijn</translation>
+        <source>Sign messages with your ImprovedBitcoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw ImprovedBitcoin adressen om te bewijzen dat deze adressen in uw bezit zijn</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BitcoinClassic addresses</source>
-        <translation>Controleer berichten om te verzekeren dat deze ondertekend zijn met de gespecificeerde BitcoinClassic adressen</translation>
+        <source>Verify messages to ensure they were signed with specified ImprovedBitcoin addresses</source>
+        <translation>Controleer berichten om te verzekeren dat deze ondertekend zijn met de gespecificeerde ImprovedBitcoin adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -725,8 +725,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a BitcoinClassic: URI or payment request</source>
-        <translation>Open een BitcoinClassic: URI of betaalverzoek</translation>
+        <source>Open a ImprovedBitcoin: URI or payment request</source>
+        <translation>Open een ImprovedBitcoin: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -737,12 +737,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Show the BitcoinClassic Core help message to get a list with possible BitcoinClassic command-line options</source>
-        <translation>Toon het BitcoinClassic Core help bericht om een ​​lijst te krijgen met mogelijke BitcoinClassic command line opties</translation>
+        <source>Show the ImprovedBitcoin Core help message to get a list with possible ImprovedBitcoin command-line options</source>
+        <translation>Toon het ImprovedBitcoin Core help bericht om een ​​lijst te krijgen met mogelijke ImprovedBitcoin command line opties</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core client</source>
-        <translation>BitcoinClassic Core client</translation>
+        <source>ImprovedBitcoin Core client</source>
+        <translation>ImprovedBitcoin Core client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1173,8 +1173,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzend adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BitcoinClassic address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig BitcoinClassic adres.</translation>
+        <source>The entered address "%1" is not a valid ImprovedBitcoin address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig ImprovedBitcoin adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1258,16 +1258,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About BitcoinClassic Core</source>
-        <translation>Over BitcoinClassic Core</translation>
+        <source>About ImprovedBitcoin Core</source>
+        <translation>Over ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1313,16 +1313,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to BitcoinClassic Core.</source>
-        <translation>Welkom bij BitcoinClassic Core.</translation>
+        <source>Welcome to ImprovedBitcoin Core.</source>
+        <translation>Welkom bij ImprovedBitcoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BitcoinClassic Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar BitcoinClassic Core zijn data opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where ImprovedBitcoin Core will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar ImprovedBitcoin Core zijn data opslaat.</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core will download and store a copy of the BitcoinClassic block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BitcoinClassic Core zal een kopie van de BitcoinClassic blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <source>ImprovedBitcoin Core will download and store a copy of the ImprovedBitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ImprovedBitcoin Core zal een kopie van de ImprovedBitcoin blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1333,8 +1333,8 @@ MultiSend: %1</translation>
         <translation>Gebruik een aangepaste data directory:</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1475,12 +1475,12 @@ MultiSend: %1</translation>
         <translation>Vul het adres in om naar te verzenden</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BitcoinClassic addresses after it matures.
-To Add: enter percentage to give and BitcoinClassic address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ImprovedBitcoin addresses after it matures.
+To Add: enter percentage to give and ImprovedBitcoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere BitcoinClassic adressen nadat het volwassen is. 
-Toevoegen: voer het te geven percentage in en BitcoinClassic adres om toe te voegen aan de MultiSend vector.
+        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere ImprovedBitcoin adressen nadat het volwassen is. 
+Toevoegen: voer het te geven percentage in en ImprovedBitcoin adres om toe te voegen aan de MultiSend vector.
 Verwijderen: Voer adres in om te verwijderen en druk op delete.
 MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</translation>
     </message>
@@ -1868,8 +1868,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
     </message>
     <message>
-        <source>Automatically open the BitcoinClassic client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de BitcoinClassic client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <source>Automatically open the ImprovedBitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de ImprovedBitcoin client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1888,12 +1888,12 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start BitcoinClassic after logging in to the system.</source>
-        <translation>BitcoinClassic automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start ImprovedBitcoin after logging in to the system.</source>
+        <translation>ImprovedBitcoin automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start BitcoinClassic on system login</source>
-        <translation>&amp;BitcoinClassic starten bij systeemlogin</translation>
+        <source>&amp;Start ImprovedBitcoin on system login</source>
+        <translation>&amp;ImprovedBitcoin starten bij systeemlogin</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1920,8 +1920,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinClassic.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van BitcoinClassic.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ImprovedBitcoin.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van ImprovedBitcoin.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1966,8 +1966,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Inzet splitdrempel:</translation>
     </message>
     <message>
-        <source>Connect to the BitcoinClassic network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het BitcoinClassic netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the ImprovedBitcoin network through a SOCKS5 proxy.</source>
+        <translation>Maak verbinding met het ImprovedBitcoin netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2149,8 +2149,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Huidige vergrendelde balans in alleen-lezen-adressen</translation>
     </message>
     <message>
-        <source>Your current BitcoinClassic balance, unconfirmed and immature transactions included</source>
-        <translation>Uw huidige BitcoinClassic-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
+        <source>Your current ImprovedBitcoin balance, unconfirmed and immature transactions included</source>
+        <translation>Uw huidige ImprovedBitcoin-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
     </message>
     <message>
         <source>zBXC Balance</source>
@@ -2169,8 +2169,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinClassic network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het BitcoinClassic netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ImprovedBitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het ImprovedBitcoin netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2286,8 +2286,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Kan improvedbitcoin niet starten: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid BitcoinClassic address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig BitcoinClassic adres of misvormde URL parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid ImprovedBitcoin address or malformed URI parameters.</source>
+        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig ImprovedBitcoin adres of misvormde URL parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2372,8 +2372,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Zerocoin Acties:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinClassic network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het BitcoinClassic netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ImprovedBitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het ImprovedBitcoin netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2456,8 +2456,8 @@ zPiv zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 m
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Het BitcoinClassic adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
+        <source>The ImprovedBitcoin address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Het ImprovedBitcoin adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2847,8 +2847,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Geen 'Betaal aan' adres verstrekt, lokale betaling wordt gemaakt</translation>
     </message>
     <message>
-        <source>Invalid BitcoinClassic Address</source>
-        <translation>Ongeldig BitcoinClassic addres</translation>
+        <source>Invalid ImprovedBitcoin Address</source>
+        <translation>Ongeldig ImprovedBitcoin addres</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2973,8 +2973,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a BitcoinClassic address (e.g. %1)</source>
-        <translation>Voer een BitcoinClassic adres in (b.v. %1)</translation>
+        <source>Enter a ImprovedBitcoin address (e.g. %1)</source>
+        <translation>Voer een ImprovedBitcoin adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3021,8 +3021,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     </context>
 <context>
@@ -3119,8 +3119,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the BitcoinClassic debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het BitcoinClassic debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <source>Open the ImprovedBitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het ImprovedBitcoin debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3335,8 +3335,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the BitcoinClassic RPC console.</source>
-        <translation>Welkom bij de BitcoinClassic RPC console.</translation>
+        <source>Welcome to the ImprovedBitcoin RPC console.</source>
+        <translation>Welkom bij de ImprovedBitcoin RPC console.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3470,16 +3470,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>&amp;Hoeveelheid:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BitcoinClassic network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het BitcoinClassic netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ImprovedBitcoin network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het ImprovedBitcoin netwerk.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ontvangen</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BitcoinClassic network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het BitcoinClassic netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ImprovedBitcoin network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het ImprovedBitcoin netwerk.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3779,8 +3779,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Als de aangepaste vergoeding is ingesteld op 1000 uBXCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uBXC's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uBXC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BitcoinClassic transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar BitcoinClassic transacties dan het netwerk kan verwerken.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ImprovedBitcoin transactions than the network can process.</source>
+        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar ImprovedBitcoin transacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3875,8 +3875,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Het split block tool werkt niet met meerdere adressen. Probeer het nog eens.</translation>
     </message>
     <message>
-        <source>Warning: Invalid BitcoinClassic address</source>
-        <translation>Waarschuwing: Ongeldig BitcoinClassic adres</translation>
+        <source>Warning: Invalid ImprovedBitcoin address</source>
+        <translation>Waarschuwing: Ongeldig ImprovedBitcoin adres</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3974,8 +3974,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to send the payment to</source>
-        <translation>Het BitcoinClassic adres om de betaling naar te verzenden</translation>
+        <source>The ImprovedBitcoin address to send the payment to</source>
+        <translation>Het ImprovedBitcoin adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4014,8 +4014,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the BitcoinClassic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BitcoinClassic network.</source>
-        <translation>Een bericht dat is gehecht aan de BitcoinClassic: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het BitcoinClassic netwerk.</translation>
+        <source>A message that was attached to the ImprovedBitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ImprovedBitcoin network.</source>
+        <translation>Een bericht dat is gehecht aan de ImprovedBitcoin: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het ImprovedBitcoin netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4041,8 +4041,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>BitcoinClassic Core is shutting down...</source>
-        <translation>BitcoinClassic Core is aan het afsluiten...</translation>
+        <source>ImprovedBitcoin Core is shutting down...</source>
+        <translation>ImprovedBitcoin Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4064,8 +4064,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to sign the message with</source>
-        <translation>Het BitcoinClassic adres om het bericht met te ondertekenen</translation>
+        <source>The ImprovedBitcoin address to sign the message with</source>
+        <translation>Het ImprovedBitcoin adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4096,16 +4096,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BitcoinClassic address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het BitcoinClassic adres bezit</translation>
+        <source>Sign the message to prove you own this ImprovedBitcoin address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het ImprovedBitcoin adres bezit</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address the message was signed with</source>
-        <translation>Het BitcoinClassic adres waarmee het bericht was ondertekend</translation>
+        <source>The ImprovedBitcoin address the message was signed with</source>
+        <translation>Het ImprovedBitcoin adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BitcoinClassic address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde BitcoinClassic adres</translation>
+        <source>Verify the message to ensure it was signed with the specified ImprovedBitcoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ImprovedBitcoin adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4191,8 +4191,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4207,8 +4207,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>De Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>The BitcoinClassic Core developers</source>
-        <translation>De BitcoinClassic Kernontwikkelaars</translation>
+        <source>The ImprovedBitcoin Core developers</source>
+        <translation>De ImprovedBitcoin Kernontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4860,8 +4860,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. BitcoinClassic Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. BitcoinClassic Core loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. ImprovedBitcoin Core is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. ImprovedBitcoin Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5032,8 +5032,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. BitcoinClassic Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. BitcoinClassic Core loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. ImprovedBitcoin Core is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. ImprovedBitcoin Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -5060,8 +5060,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong BitcoinClassic Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt BitcoinClassic Core niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ImprovedBitcoin Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt ImprovedBitcoin Core niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5276,8 +5276,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinClassic Core</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van BitcoinClassic Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ImprovedBitcoin Core</source>
+        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van ImprovedBitcoin Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5372,8 +5372,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. BitcoinClassic Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. BitcoinClassic Core wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. ImprovedBitcoin Core is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. ImprovedBitcoin Core wordt afgesloten.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5476,8 +5476,8 @@ Wees alsjeblieft geduldig...</translation>
 </translation>
     </message>
     <message>
-        <source>Disable all BitcoinClassic specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Schakel alle specifieke BitcoinClassic functionaliteit uit (Masternodes, Zerocoin, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
+        <source>Disable all ImprovedBitcoin specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Schakel alle specifieke ImprovedBitcoin functionaliteit uit (Masternodes, Zerocoin, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -6052,8 +6052,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Portemonnee %s verblijft buiten de data directory %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart BitcoinClassic Core to complete</source>
-        <translation>Wallet moest worden herschreven: start BitcoinClassic Core opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart ImprovedBitcoin Core to complete</source>
+        <translation>Wallet moest worden herschreven: start ImprovedBitcoin Core opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>

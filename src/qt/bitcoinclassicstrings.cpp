@@ -32,7 +32,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Calculated accumulator checkpoint is not what is recorded by block index"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
-"Cannot obtain a lock on data directory %s. BitcoinClassic Core is probably already "
+"Cannot obtain a lock on data directory %s. ImprovedBitcoin Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -50,7 +50,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Delete all zerocoin spends and mints that have been recorded to the "
 "blockchain database and reindex them (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
-"Disable all BitcoinClassic specific functionality (Masternodes, Zerocoin, SwiftX, "
+"Disable all ImprovedBitcoin specific functionality (Masternodes, Zerocoin, SwiftX, "
 "Budgeting) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Distributed under the MIT software license, see the accompanying file "
@@ -207,7 +207,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Total length of network version string (%i) exceeds maximum length (%i). "
 "Reduce the number or size of uacomments."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
-"Unable to bind to %s on this computer. BitcoinClassic Core is probably already running."),
+"Unable to bind to %s on this computer. ImprovedBitcoin Core is probably already running."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
@@ -227,7 +227,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong BitcoinClassic Core will not work properly."),
+"your clock is wrong ImprovedBitcoin Core will not work properly."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -311,7 +311,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", "Error initializing wallet database en
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Error loading wallet.dat: Wallet requires newer version of BitcoinClassic Core"),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Error loading wallet.dat: Wallet requires newer version of ImprovedBitcoin Core"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Error recovering public key."),
@@ -343,7 +343,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", "Imports blocks from external blk000??
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Include IP addresses in debug output (default: %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Information"),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Initialization sanity check failed. BitcoinClassic Core is shutting down."),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Initialization sanity check failed. ImprovedBitcoin Core is shutting down."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Insufficient funds"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Insufficient funds."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Invalid -onion address or hostname: '%s'"),
@@ -486,7 +486,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", "Value is below the smallest available
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Wallet needed to be rewritten: restart BitcoinClassic Core to complete"),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Wallet needed to be rewritten: restart ImprovedBitcoin Core to complete"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Warning"),

@@ -84,9 +84,9 @@ OpenRC).
 ### macOS
 
 Binary:              `/usr/local/bin/improvedbitcoind`
-Configuration file:  `~/Library/Application Support/BitcoinClassic/improvedbitcoin.conf`
-Data directory:      `~/Library/Application Support/BitcoinClassic`
-Lock file:           `~/Library/Application Support/BitcoinClassic/.lock`
+Configuration file:  `~/Library/Application Support/ImprovedBitcoin/improvedbitcoin.conf`
+Data directory:      `~/Library/Application Support/ImprovedBitcoin`
+Lock file:           `~/Library/Application Support/ImprovedBitcoin/.lock`
 
 Installing Service Configuration
 -----------------------------------
@@ -124,7 +124,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy improvedbitcoind.init to /etc/init.d/improvedbitcoind. Test by running `service improvedbitcoind start`.
 
 Using this script, you can adjust the path and flags to the improvedbitcoind program by
-setting the BitcoinClassicD and FLAGS environment variables in the file
+setting the ImprovedBitcoinD and FLAGS environment variables in the file
 /etc/sysconfig/improvedbitcoind. You can also use the DAEMONOPTS environment variable here.
 
 ### macOS

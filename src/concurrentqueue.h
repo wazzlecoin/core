@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_CONCURRENTQUEUE_H
-#define BitcoinClassic_CONCURRENTQUEUE_H
+#ifndef ImprovedBitcoin_CONCURRENTQUEUE_H
+#define ImprovedBitcoin_CONCURRENTQUEUE_H
 
 
 #include <mutex>
@@ -48,4 +48,4 @@ public:
     }
 };
 
-#endif //BitcoinClassic_CONCURRENTQUEUE_H
+#endif //ImprovedBitcoin_CONCURRENTQUEUE_H

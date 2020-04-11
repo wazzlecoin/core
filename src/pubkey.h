@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_PUBKEY_H
-#define BitcoinClassic_PUBKEY_H
+#ifndef ImprovedBitcoin_PUBKEY_H
+#define ImprovedBitcoin_PUBKEY_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -263,4 +263,4 @@ public:
     ~ECCVerifyHandle();
 };
 
-#endif // BitcoinClassic_PUBKEY_H
+#endif // ImprovedBitcoin_PUBKEY_H

@@ -8,7 +8,7 @@
 # /etc/improvedbitcoin/improvedbitcoin.conf
 
 [Unit]
-Description=BitcoinClassic daemon
+Description=ImprovedBitcoin daemon
 After=network.target
 
 [Service]

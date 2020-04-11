@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_ACCUMULATORS_H
-#define BitcoinClassic_ACCUMULATORS_H
+#ifndef ImprovedBitcoin_ACCUMULATORS_H
+#define ImprovedBitcoin_ACCUMULATORS_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Coin.h"
@@ -90,5 +90,5 @@ public:
     searchMintHeightException(const string &message) : message(message) {}
 };
 
-#endif //BitcoinClassic_ACCUMULATORS_H
+#endif //ImprovedBitcoin_ACCUMULATORS_H
 

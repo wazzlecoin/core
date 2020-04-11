@@ -13,9 +13,9 @@ from time import sleep
 from test_framework.authproxy import JSONRPCException
 from test_framework.util import assert_equal, assert_greater_than
 
-from fake_stake.base_test import BitcoinClassic_FakeStakeTest
+from fake_stake.base_test import ImprovedBitcoin_FakeStakeTest
 
-class zBXCValidCoinSpendTest(BitcoinClassic_FakeStakeTest):
+class zBXCValidCoinSpendTest(ImprovedBitcoin_FakeStakeTest):
 
     def run_test(self):
         self.description = "Covers the 'valid publicCoinSpend spend' scenario."

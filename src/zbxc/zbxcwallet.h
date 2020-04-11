@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_ZBXCWALLET_H
-#define BitcoinClassic_ZBXCWALLET_H
+#ifndef ImprovedBitcoin_ZBXCWALLET_H
+#define ImprovedBitcoin_ZBXCWALLET_H
 
 #include <map>
 #include "libzerocoin/Coin.h"
@@ -46,4 +46,4 @@ private:
     uint512 GetZerocoinSeed(uint32_t n);
 };
 
-#endif //BitcoinClassic_ZBXCWALLET_H
+#endif //ImprovedBitcoin_ZBXCWALLET_H

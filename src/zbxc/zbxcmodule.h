@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
-#ifndef BitcoinClassic_ZBXCMODULE_H
-#define BitcoinClassic_ZBXCMODULE_H
+#ifndef ImprovedBitcoin_ZBXCMODULE_H
+#define ImprovedBitcoin_ZBXCMODULE_H
 
 #include "libzerocoin/bignum.h"
 #include "libzerocoin/Denominations.h"
@@ -89,4 +89,4 @@ namespace ZBXCModule {
 };
 
 
-#endif //BitcoinClassic_ZBXCMODULE_H
+#endif //ImprovedBitcoin_ZBXCMODULE_H

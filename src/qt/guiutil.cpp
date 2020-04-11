@@ -102,7 +102,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
     widget->setFont(bitcoinAddressFont());
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a BitcoinClassic address (e.g. %1)").arg("X7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
+    widget->setPlaceholderText(QObject::tr("Enter a ImprovedBitcoin address (e.g. %1)").arg("X7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
 }
@@ -118,7 +118,7 @@ void setupAmountWidget(QLineEdit* widget, QWidget* parent)
 
 bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
 {
-    // return if URI is not valid or is no BitcoinClassic: URI
+    // return if URI is not valid or is no ImprovedBitcoin: URI
     if (!uri.isValid() || uri.scheme() != QString(URI_SCHEME))
         return false;
 
@@ -570,12 +570,12 @@ bool DHMSTableWidgetItem::operator<(QTableWidgetItem const& item) const
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "BitcoinClassic.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "ImprovedBitcoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for BitcoinClassic.lnk
+    // check for ImprovedBitcoin.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -688,7 +688,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a improvedbitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=BitcoinClassic\n";
+        optionFile << "Name=ImprovedBitcoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun BitcoinClassic osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your ImprovedBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun ImprovedBitcoin osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your BitcoinClassic addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun BitcoinClassic osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your ImprovedBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun ImprovedBitcoin osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>BitcoinClassic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinClassic sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella BXCien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella BXCien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -565,12 +565,12 @@
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Ydin</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a BitcoinClassic address</source>
-        <translation>Lähetä kolikkoja BitcoinClassic osoitteeseen</translation>
+        <source>Send coins to a ImprovedBitcoin address</source>
+        <translation>Lähetä kolikkoja ImprovedBitcoin osoitteeseen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
@@ -585,24 +585,24 @@
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About BitcoinClassic Core</source>
-        <translation>BitcoinClassic Core &amp;ytimestä</translation>
+        <source>&amp;About ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about BitcoinClassic Core</source>
-        <translation>Näytä tietoja BitcoinClassic Ytimestä</translation>
+        <source>Show information about ImprovedBitcoin Core</source>
+        <translation>Näytä tietoja ImprovedBitcoin Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for BitcoinClassic</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja BitcoinClassic:lle</translation>
+        <source>Modify configuration options for ImprovedBitcoin</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja ImprovedBitcoin:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your BitcoinClassic addresses to prove you own them</source>
+        <source>Sign messages with your ImprovedBitcoin addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BitcoinClassic addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä BitcoinClassic osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified ImprovedBitcoin addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä ImprovedBitcoin osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -633,8 +633,8 @@
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a BitcoinClassic: URI or payment request</source>
-        <translation>Avaa BitcoinClassic: URI tai pyydä maksua</translation>
+        <source>Open a ImprovedBitcoin: URI or payment request</source>
+        <translation>Avaa ImprovedBitcoin: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -645,12 +645,12 @@
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the BitcoinClassic Core help message to get a list with possible BitcoinClassic command-line options</source>
-        <translation>Näytä BitcoinClassic Ydin apuviesti saadaksesi lista mahdollisista BitcoinClassic komentolinja komennoista.</translation>
+        <source>Show the ImprovedBitcoin Core help message to get a list with possible ImprovedBitcoin command-line options</source>
+        <translation>Näytä ImprovedBitcoin Ydin apuviesti saadaksesi lista mahdollisista ImprovedBitcoin komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core client</source>
-        <translation>BitcoinClassic Ydin asiakasohjelma</translation>
+        <source>ImprovedBitcoin Core client</source>
+        <translation>ImprovedBitcoin Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -919,8 +919,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Ydin</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -938,12 +938,12 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to BitcoinClassic Core.</source>
-        <translation>Tervetuloa BitcoinClassic Ytimeen.</translation>
+        <source>Welcome to ImprovedBitcoin Core.</source>
+        <translation>Tervetuloa ImprovedBitcoin Ytimeen.</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Ydin</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1129,12 +1129,12 @@
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start BitcoinClassic after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä BitcoinClassic kun kirjaudut sisään.</translation>
+        <source>Automatically start ImprovedBitcoin after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä ImprovedBitcoin kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start BitcoinClassic on system login</source>
-        <translation>&amp;Aloita BitcoinClassic järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start ImprovedBitcoin on system login</source>
+        <translation>&amp;Aloita ImprovedBitcoin järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1153,12 +1153,12 @@
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinClassic.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting ImprovedBitcoin.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the BitcoinClassic network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä BitcoinClassic verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the ImprovedBitcoin network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä ImprovedBitcoin verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1391,8 +1391,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Ydin</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Ydin</translation>
     </message>
     </context>
 <context>
@@ -1449,8 +1449,8 @@
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the BitcoinClassic debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa BitcoinClassic debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the ImprovedBitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa ImprovedBitcoin debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1561,8 +1561,8 @@
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the BitcoinClassic RPC console.</source>
-        <translation>Tervetuloa BitcoinClassic RPC konsoliin.</translation>
+        <source>Welcome to the ImprovedBitcoin RPC console.</source>
+        <translation>Tervetuloa ImprovedBitcoin RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1604,12 +1604,12 @@
         <translation>M&amp;äärä:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BitcoinClassic network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana BitcoinClassic verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ImprovedBitcoin network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana ImprovedBitcoin verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the BitcoinClassic network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana BitcoinClassic  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ImprovedBitcoin network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana ImprovedBitcoin  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1885,8 +1885,8 @@
         <translation>Kopioi taksa</translation>
     </message>
     <message>
-        <source>Warning: Invalid BitcoinClassic address</source>
-        <translation>Varoitus: Virheellinen BitcoinClassic osoite</translation>
+        <source>Warning: Invalid ImprovedBitcoin address</source>
+        <translation>Varoitus: Virheellinen ImprovedBitcoin osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1936,8 +1936,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to send the payment to</source>
-        <translation>BitcoinClassic osoite johon maksu lähetetään</translation>
+        <source>The ImprovedBitcoin address to send the payment to</source>
+        <translation>ImprovedBitcoin osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1979,8 +1979,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>BitcoinClassic Core is shutting down...</source>
-        <translation>BitcoinClassic core sammuu...</translation>
+        <source>ImprovedBitcoin Core is shutting down...</source>
+        <translation>ImprovedBitcoin core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1998,8 +1998,8 @@
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address to sign the message with</source>
-        <translation>BitcoinClassic osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The ImprovedBitcoin address to sign the message with</source>
+        <translation>ImprovedBitcoin osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2030,16 +2030,16 @@
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BitcoinClassic address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän BitcoinClassic osoitteen</translation>
+        <source>Sign the message to prove you own this ImprovedBitcoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän ImprovedBitcoin osoitteen</translation>
     </message>
     <message>
-        <source>The BitcoinClassic address the message was signed with</source>
-        <translation>BitcoinClassic osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The ImprovedBitcoin address the message was signed with</source>
+        <translation>ImprovedBitcoin osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BitcoinClassic address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla BitcoinClassic osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified ImprovedBitcoin address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla ImprovedBitcoin osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2121,8 +2121,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BitcoinClassic Core</source>
-        <translation>BitcoinClassic Ydin</translation>
+        <source>ImprovedBitcoin Core</source>
+        <translation>ImprovedBitcoin Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2137,8 +2137,8 @@
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The BitcoinClassic Core developers</source>
-        <translation>BitcoinClassic core kehittäjät</translation>
+        <source>The ImprovedBitcoin Core developers</source>
+        <translation>ImprovedBitcoin core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2486,8 +2486,8 @@
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinClassic Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version BitcoinClassic Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ImprovedBitcoin Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version ImprovedBitcoin Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

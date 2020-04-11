@@ -2,10 +2,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_INVALID_H
-#define BitcoinClassic_INVALID_H
+#ifndef ImprovedBitcoin_INVALID_H
+#define ImprovedBitcoin_INVALID_H
 
-#endif //BitcoinClassic_INVALID_H
+#endif //ImprovedBitcoin_INVALID_H
 
 #include <libzerocoin/bignum.h>
 #include <univalue/include/univalue.h>

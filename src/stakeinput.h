@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_STAKEINPUT_H
-#define BitcoinClassic_STAKEINPUT_H
+#ifndef ImprovedBitcoin_STAKEINPUT_H
+#define ImprovedBitcoin_STAKEINPUT_H
 
 #include "chain.h"
 #include "streams.h"
@@ -94,4 +94,4 @@ public:
 };
 
 
-#endif //BitcoinClassic_STAKEINPUT_H
+#endif //ImprovedBitcoin_STAKEINPUT_H

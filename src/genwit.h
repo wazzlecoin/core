@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_GENWIT_H
-#define BitcoinClassic_GENWIT_H
+#ifndef ImprovedBitcoin_GENWIT_H
+#define ImprovedBitcoin_GENWIT_H
 
 
 #include <iostream>
@@ -58,4 +58,4 @@ private:
 };
 
 
-#endif //BitcoinClassic_GENWIT_H
+#endif //ImprovedBitcoin_GENWIT_H

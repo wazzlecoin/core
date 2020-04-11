@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_ZEROCOIN_H
-#define BitcoinClassic_ZEROCOIN_H
+#ifndef ImprovedBitcoin_ZEROCOIN_H
+#define ImprovedBitcoin_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -263,4 +263,4 @@ int GetWrapppedSerialInflation(libzerocoin::CoinDenomination denom);
 
 int64_t GetWrapppedSerialInflationAmount();
 
-#endif //BitcoinClassic_ZEROCOIN_H
+#endif //ImprovedBitcoin_ZEROCOIN_H

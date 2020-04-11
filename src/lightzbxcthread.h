@@ -3,8 +3,8 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
 
-#ifndef BitcoinClassic_LIGHTZBXCTHREAD_H
-#define BitcoinClassic_LIGHTZBXCTHREAD_H
+#ifndef ImprovedBitcoin_LIGHTZBXCTHREAD_H
+#define ImprovedBitcoin_LIGHTZBXCTHREAD_H
 
 #include <atomic>
 #include "genwit.h"
@@ -67,4 +67,4 @@ private:
 
 };
 
-#endif //BitcoinClassic_LIGHTZBXCTHREAD_H
+#endif //ImprovedBitcoin_LIGHTZBXCTHREAD_H

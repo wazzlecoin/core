@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_ACCUMULATORCHECKPOINTS_JSON_H
-#define BitcoinClassic_ACCUMULATORCHECKPOINTS_JSON_H
+#ifndef ImprovedBitcoin_ACCUMULATORCHECKPOINTS_JSON_H
+#define ImprovedBitcoin_ACCUMULATORCHECKPOINTS_JSON_H
 
 #include <string>
 std::string GetMainCheckpoints() {
@@ -57,4 +57,4 @@ std::string GetRegTestCheckpoints() {
     return strRegTestCheckpoints;
 }
 
-#endif //BitcoinClassic_ACCUMULATORCHECKPOINTS_JSON_H
+#endif //ImprovedBitcoin_ACCUMULATORCHECKPOINTS_JSON_H

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BitcoinClassic_INVALID_OUTPOINTS_JSON_H
-#define BitcoinClassic_INVALID_OUTPOINTS_JSON_H
+#ifndef ImprovedBitcoin_INVALID_OUTPOINTS_JSON_H
+#define ImprovedBitcoin_INVALID_OUTPOINTS_JSON_H
 #include <string>
 
 std::string LoadInvalidOutPoints()
@@ -6793,4 +6793,4 @@ std::string LoadInvalidOutPoints()
     return str;
 }
 
-#endif //BitcoinClassic_INVALID_OUTPOINTS_JSON_H
+#endif //ImprovedBitcoin_INVALID_OUTPOINTS_JSON_H

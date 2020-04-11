@@ -85,7 +85,7 @@ src/qt/test/moc*.cpp
 *.qm
 Makefile
 improvedbitcoin-qt
-BitcoinClassic-Qt.app
+ImprovedBitcoin-Qt.app
 background.tiff*
 
 # Unit-tests

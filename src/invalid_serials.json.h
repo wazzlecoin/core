@@ -4,8 +4,8 @@
 
 
 
-#ifndef BitcoinClassic_INVALID_SERIALS_JSON_H
-#define BitcoinClassic_INVALID_SERIALS_JSON_H
+#ifndef ImprovedBitcoin_INVALID_SERIALS_JSON_H
+#define ImprovedBitcoin_INVALID_SERIALS_JSON_H
 
 #include <string>
 
@@ -1189,4 +1189,4 @@ std::string LoadInvalidSerials()
     return str;
 }
 
-#endif //BitcoinClassic_INVALID_SERIALS_JSON_H
+#endif //ImprovedBitcoin_INVALID_SERIALS_JSON_H

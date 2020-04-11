@@ -38,10 +38,10 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-Build BitcoinClassic Core
+Build ImprovedBitcoin Core
 ------------------------
 
-1. Clone the BitcoinClassic Core source code:
+1. Clone the ImprovedBitcoin Core source code:
 
         git clone https://github.com/improvedbitcoin-project/improvedbitcoin
         cd improvedbitcoin
@@ -51,7 +51,7 @@ Build BitcoinClassic Core
         export LDFLAGS+=-L/usr/local/opt/openssl/lib
         export CPPFLAGS+=-I/usr/local/opt/openssl/include
 
-3.  Build BitcoinClassic Core:
+3.  Build ImprovedBitcoin Core:
 
         ./autogen.sh
         ./configure
@@ -69,7 +69,7 @@ Disable-wallet mode
 --------------------
 **Note:** This functionality is not yet completely implemented, and compilation using the below option will currently fail.
 
-When the intention is to run only a P2P node without a wallet, BitcoinClassic Core may be compiled in
+When the intention is to run only a P2P node without a wallet, ImprovedBitcoin Core may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -79,21 +79,21 @@ In this case there is no dependency on Berkeley DB 4.8.
 Running
 -------
 
-BitcoinClassic Core is now available at `./src/improvedbitcoind`
+ImprovedBitcoin Core is now available at `./src/improvedbitcoind`
 
 Before running, you may create an empty configuration file:
 
-    mkdir -p "/Users/${USER}/Library/Application Support/BitcoinClassic"
+    mkdir -p "/Users/${USER}/Library/Application Support/ImprovedBitcoin"
 
-    touch "/Users/${USER}/Library/Application Support/BitcoinClassic/improvedbitcoin.conf"
+    touch "/Users/${USER}/Library/Application Support/ImprovedBitcoin/improvedbitcoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/BitcoinClassic/improvedbitcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/ImprovedBitcoin/improvedbitcoin.conf"
 
 The first time you run improvedbitcoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/BitcoinClassic/debug.log
+    tail -f $HOME/Library/Application\ Support/ImprovedBitcoin/debug.log
 
 Other commands:
 -------

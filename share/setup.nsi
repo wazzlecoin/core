@@ -1,4 +1,4 @@
-Name "BitcoinClassic Core (-bit)"
+Name "ImprovedBitcoin Core (-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,23 +6,23 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 1.0.0
-!define COMPANY "BitcoinClassic Core project"
+!define COMPANY "ImprovedBitcoin Core project"
 !define URL https://www.improvedbitcoin.org
 
 # MUI Symbol Definitions
-!define MUI_ICON "/tmp/BitcoinClassic/share/pixmaps/improvedbitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/tmp/BitcoinClassic/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/tmp/ImprovedBitcoin/share/pixmaps/improvedbitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/tmp/ImprovedBitcoin/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/tmp/BitcoinClassic/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/tmp/ImprovedBitcoin/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER "BitcoinClassic Core"
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "ImprovedBitcoin Core"
 !define MUI_FINISHPAGE_RUN $INSTDIR\improvedbitcoin-qt
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/tmp/BitcoinClassic/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/tmp/ImprovedBitcoin/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,18 +48,18 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /tmp/BitcoinClassic/improvedbitcoin-${VERSION}-win-setup.exe
+OutFile /tmp/ImprovedBitcoin/improvedbitcoin-${VERSION}-win-setup.exe
 !if "" == "64"
-InstallDir $PROGRAMFILES64\BitcoinClassic
+InstallDir $PROGRAMFILES64\ImprovedBitcoin
 !else
-InstallDir $PROGRAMFILES\BitcoinClassic
+InstallDir $PROGRAMFILES\ImprovedBitcoin
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.0
-VIAddVersionKey ProductName "BitcoinClassic Core"
+VIAddVersionKey ProductName "ImprovedBitcoin Core"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /tmp/BitcoinClassic/release/improvedbitcoin-qt
-    File /oname=COPYING.txt /tmp/BitcoinClassic/COPYING
-    File /oname=readme.txt /tmp/BitcoinClassic/doc/README_windows.txt
+    File /tmp/ImprovedBitcoin/release/improvedbitcoin-qt
+    File /oname=COPYING.txt /tmp/ImprovedBitcoin/COPYING
+    File /oname=readme.txt /tmp/ImprovedBitcoin/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /tmp/BitcoinClassic/release/improvedbitcoind
-    File /tmp/BitcoinClassic/release/improvedbitcoin-cli
+    File /tmp/ImprovedBitcoin/release/improvedbitcoind
+    File /tmp/ImprovedBitcoin/release/improvedbitcoin-cli
     SetOutPath $INSTDIR\doc
-    File /r /tmp/BitcoinClassic/doc\*.*
+    File /r /tmp/ImprovedBitcoin/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 SectionEnd
@@ -92,7 +92,7 @@ Section -post SEC0001
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\improvedbitcoin-qt
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\BitcoinClassic Core (testnet, -bit).lnk" "$INSTDIR\improvedbitcoin-qt" "-testnet" "$INSTDIR\improvedbitcoin-qt" 1
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\ImprovedBitcoin Core (testnet, -bit).lnk" "$INSTDIR\improvedbitcoin-qt" "-testnet" "$INSTDIR\improvedbitcoin-qt" 1
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -104,7 +104,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "improvedbitcoin" "URL Protocol" ""
-    WriteRegStr HKCR "improvedbitcoin" "" "URL:BitcoinClassic"
+    WriteRegStr HKCR "improvedbitcoin" "" "URL:ImprovedBitcoin"
     WriteRegStr HKCR "improvedbitcoin\DefaultIcon" "" $INSTDIR\improvedbitcoin-qt
     WriteRegStr HKCR "improvedbitcoin\shell\open\command" "" '"$INSTDIR\improvedbitcoin-qt" "%1"'
 SectionEnd
@@ -136,8 +136,8 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\BitcoinClassic Core (testnet, -bit).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\BitcoinClassic.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\ImprovedBitcoin Core (testnet, -bit).lnk"
+    Delete /REBOOTOK "$SMSTARTUP\ImprovedBitcoin.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
