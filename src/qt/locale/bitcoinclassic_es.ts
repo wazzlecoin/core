@@ -1110,8 +1110,8 @@ MultiEnvío: %1</translation>
         <translation>Esta etiqueta se vuelve roja, si algún destinatario recibe una cantidad menor que %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubxc per input.</source>
-        <translation>Puede variar +/- %1 ubxc por entrada.</translation>
+        <source>Can vary +/- %1 uibtc per input.</source>
+        <translation>Puede variar +/- %1 uibtc por entrada.</translation>
     </message>
     <message>
         <source>(no label)</source>

@@ -7,16 +7,16 @@
 #include "chainparams.h"
 #include "main.h"
 #include "txdb.h"
-#include "zbxc/deterministicmint.h"
+#include "zibtc/deterministicmint.h"
 #include "key.h"
-#include "zbxc/accumulatorcheckpoints.h"
+#include "zibtc/accumulatorcheckpoints.h"
 #include "libzerocoin/bignum.h"
 #include <boost/test/unit_test.hpp>
 #include <iostream>
-#include <zbxc/accumulators.h>
+#include <zibtc/accumulators.h>
 #include "wallet/wallet.h"
-#include "zbxc/zbxcwallet.h"
-#include "zbxcchain.h"
+#include "zibtc/zibtcwallet.h"
+#include "zibtcchain.h"
 #include "test_improvedbitcoin.h"
 
 using namespace libzerocoin;

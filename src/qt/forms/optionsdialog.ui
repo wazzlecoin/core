@@ -131,8 +131,8 @@
         </spacer>
        </item>
        <item>
-        <widget class="QWidget" name="verticalZbxcOptionsWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalZbxcOptionsLayout">
+        <widget class="QWidget" name="verticalZibtcOptionsWidget" native="true">
+         <layout class="QVBoxLayout" name="verticalZibtcOptionsLayout">
           <property name="margin">
            <number>0</number>
           </property>
@@ -561,8 +561,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         </layout>
        </item>
        <item>
-        <widget class="QWidget" name="verticalZbxcDisplayWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalZbxcDisplayLayout">
+        <widget class="QWidget" name="verticalZibtcDisplayWidget" native="true">
+         <layout class="QVBoxLayout" name="verticalZibtcDisplayLayout">
           <property name="margin">
            <number>0</number>
           </property>

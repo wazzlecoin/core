@@ -1,4 +1,4 @@
-package=libxcb
+package=liibtcb
 $(package)_version=1.10
 $(package)_download_path=https://xcb.freedesktop.org/dist
 $(package)_file_name=$(package)-$($(package)_version).tar.bz2
@@ -16,7 +16,7 @@ endef
 
 # Don't install xcb headers to the default path in order to work around a qt
 # build issue: https://bugreports.qt.io/browse/QTBUG-34748
-# When using qt's internal libxcb, it may end up finding the real headers in
+# When using qt's internal liibtcb, it may end up finding the real headers in
 # depends staging. Use a non-default path to avoid that.
 
 define $(package)_config_cmds

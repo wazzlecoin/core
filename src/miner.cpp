@@ -23,11 +23,11 @@
 #endif
 #include "validationinterface.h"
 #include "masternode-payments.h"
-#include "zbxc/accumulators.h"
+#include "zibtc/accumulators.h"
 #include "blocksignature.h"
 #include "spork.h"
 #include "invalid.h"
-#include "zbxcchain.h"
+#include "zibtcchain.h"
 
 
 #include <boost/thread.hpp>
@@ -227,8 +227,8 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
                 //zerocoinspend has special vin
                 if (hasZerocoinSpends) {
                     //Give a high priority to zerocoinspends to get into the next block
-                    //Priority = (age^6+100000)*amount - gives higher priority to zbxcs that have been in mempool long
-                    //and higher priority to zbxcs that are large in value
+                    //Priority = (age^6+100000)*amount - gives higher priority to zibtcs that have been in mempool long
+                    //and higher priority to zibtcs that are large in value
                     int64_t nTimeSeen = GetAdjustedTime();
                     double nConfs = 100000;
 
@@ -615,8 +615,8 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock)) {
         if (pblock->IsZerocoinStake()) {
-            pwalletMain->zbxcTracker->RemovePending(pblock->vtx[1].GetHash());
-            pwalletMain->zbxcTracker->ListMints(true, true, true); //update the state
+            pwalletMain->zibtcTracker->RemovePending(pblock->vtx[1].GetHash());
+            pwalletMain->zibtcTracker->ListMints(true, true, true); //update the state
         }
         return error("ImprovedBitcoinMiner : ProcessNewBlock, block not accepted");
     }

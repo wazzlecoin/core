@@ -2,15 +2,15 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <zbxc/deterministicmint.h>
-#include "zbxctracker.h"
+#include <zibtc/deterministicmint.h>
+#include "zibtctracker.h"
 #include "util.h"
 #include "sync.h"
 #include "main.h"
 #include "txdb.h"
 #include "wallet/walletdb.h"
-#include "zbxc/accumulators.h"
-#include "zbxc/zbxcwallet.h"
+#include "zibtc/accumulators.h"
+#include "zibtc/zibtcwallet.h"
 #include "witness.h"
 
 using namespace std;
@@ -158,7 +158,7 @@ CAmount CzBXCTracker::GetBalance(bool fConfirmedOnly, bool fUnconfirmedOnly) con
     }
 
     {
-        //LOCK(cs_bxctracker);
+        //LOCK(cs_ibtctracker);
         // Get Unused coins
         for (auto& it : mapSerialHashes) {
             CMintMeta meta = it.second;
@@ -478,7 +478,7 @@ std::set<CMintMeta> CzBXCTracker::ListMints(bool fUnusedOnly, bool fMatureOnly, 
             Add(dMint, false, false, zBXCWallet);
         }
         delete zBXCWallet;
-        LogPrint("zero", "%s: added %d dzbxc from DB\n", __func__, listDeterministicDB.size());
+        LogPrint("zero", "%s: added %d dzibtc from DB\n", __func__, listDeterministicDB.size());
     }
 
     std::vector<CMintMeta> vOverWrite;

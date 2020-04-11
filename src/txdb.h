@@ -9,7 +9,7 @@
 
 #include "leveldbwrapper.h"
 #include "main.h"
-#include "zbxc/zerocoin.h"
+#include "zibtc/zerocoin.h"
 
 #include <map>
 #include <string>

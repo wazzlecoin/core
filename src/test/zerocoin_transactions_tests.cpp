@@ -11,7 +11,7 @@
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
 #include "txdb.h"
-#include "zbxc/zbxcmodule.h"
+#include "zibtc/zibtcmodule.h"
 #include "test/test_improvedbitcoin.h"
 #include <boost/test/unit_test.hpp>
 #include <iostream>
@@ -31,7 +31,7 @@ BOOST_AUTO_TEST_CASE(zerocoin_spend_test)
 
     bool fFirstRun;
     cWallet.LoadWallet(fFirstRun);
-    cWallet.zbxcTracker = unique_ptr<CzBXCTracker>(new CzBXCTracker(cWallet.strWalletFile));
+    cWallet.zibtcTracker = unique_ptr<CzBXCTracker>(new CzBXCTracker(cWallet.strWalletFile));
     CMutableTransaction tx;
     CWalletTx* wtx = new CWalletTx(&cWallet, tx);
     bool fMintChange=true;

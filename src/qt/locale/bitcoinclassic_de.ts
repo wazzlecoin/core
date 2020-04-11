@@ -1109,8 +1109,8 @@ Adresse: %4</translation>
         <translation>Diese Bezeichnung wird rot, wenn ein Empfänger einen Betrag erhält, der kleiner ist als %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubxc per input.</source>
-        <translation>Kann um +/- %1 ubxc pro Eingang variieren.</translation>
+        <source>Can vary +/- %1 uibtc per input.</source>
+        <translation>Kann um +/- %1 uibtc pro Eingang variieren.</translation>
     </message>
     <message>
         <source>(no label)</source>

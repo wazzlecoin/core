@@ -17,15 +17,15 @@
 #include "main.h"
 #include "primitives/block.h"
 #include "primitives/transaction.h"
-#include "zbxc/zerocoin.h"
+#include "zibtc/zerocoin.h"
 #include "guiinterface.h"
 #include "util.h"
 #include "validationinterface.h"
 #include "wallet/wallet_ismine.h"
 #include "wallet/walletdb.h"
-#include "zbxc/zbxcmodule.h"
-#include "zbxc/zbxcwallet.h"
-#include "zbxc/zbxctracker.h"
+#include "zibtc/zibtcmodule.h"
+#include "zibtc/zibtcwallet.h"
+#include "zibtc/zibtctracker.h"
 
 #include <algorithm>
 #include <map>
@@ -46,7 +46,7 @@ extern bool bSpendZeroConfChange;
 extern bool bdisableSystemnotifications;
 extern bool fSendFreeTransactions;
 extern bool fPayAtLeastCustomFee;
-extern bool fGlobalUnlockSpendCache; // Bool used for letting the precomputing thread know that zbxcspends need to use the cs_spendcache
+extern bool fGlobalUnlockSpendCache; // Bool used for letting the precomputing thread know that zibtcspends need to use the cs_spendcache
 
 //! -paytxfee default
 static const CAmount DEFAULT_TRANSACTION_FEE = 0;
@@ -226,7 +226,7 @@ public:
     bool DatabaseMint(CDeterministicMint& dMint);
     bool SetMintUnspent(const CBigNum& bnSerial);
     bool UpdateMint(const CBigNum& bnValue, const int& nHeight, const uint256& txid, const libzerocoin::CoinDenomination& denom);
-    string GetUniqueWalletBackupName(bool fzbxcAuto) const;
+    string GetUniqueWalletBackupName(bool fzibtcAuto) const;
     void InitAutoConvertAddresses();
 
 
@@ -251,7 +251,7 @@ public:
     bool fWalletUnlockAnonymizeOnly;
     std::string strWalletFile;
     bool fBackupMints;
-    std::unique_ptr<CzBXCTracker> zbxcTracker;
+    std::unique_ptr<CzBXCTracker> zibtcTracker;
 
     std::set<int64_t> setKeyPool;
     std::map<CKeyID, CKeyMetadata> mapKeyMetadata;
@@ -339,7 +339,7 @@ public:
     void setZWallet(CzBXCWallet* zwallet)
     {
         zwalletMain = zwallet;
-        zbxcTracker = std::unique_ptr<CzBXCTracker>(new CzBXCTracker(strWalletFile));
+        zibtcTracker = std::unique_ptr<CzBXCTracker>(new CzBXCTracker(strWalletFile));
     }
 
     CzBXCWallet* getZWallet() { return zwalletMain; }

@@ -7,8 +7,8 @@
 
 #include "main.h"
 
-#include "zbxc/accumulators.h"
-#include "zbxc/accumulatormap.h"
+#include "zibtc/accumulators.h"
+#include "zibtc/accumulatormap.h"
 #include "addrman.h"
 #include "alert.h"
 #include "blocksignature.h"
@@ -33,9 +33,9 @@
 #include "util.h"
 #include "utilmoneystr.h"
 #include "validationinterface.h"
-#include "zbxcchain.h"
+#include "zibtcchain.h"
 
-#include "zbxc/zerocoin.h"
+#include "zibtc/zerocoin.h"
 #include "libzerocoin/Denominations.h"
 #include "invalid.h"
 #include <sstream>
@@ -87,7 +87,7 @@ int64_t nMaxTipAge = DEFAULT_MAX_TIP_AGE;
 unsigned int nStakeMinAge = 60 * 60;
 int64_t nReserveBalance = 0;
 
-/** Fees smaller than this (in ubxc) are considered zero fee (for relaying and mining)
+/** Fees smaller than this (in uibtc) are considered zero fee (for relaying and mining)
  * We are ~100 times smaller then bitcoin now (2015-06-23), set minRelayTxFee only 10 times higher
  * so it's still 10 times lower comparing to bitcoin.
  */
@@ -1424,13 +1424,13 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransa
                 bool isPrivZerocoinSpend = txIn.IsZerocoinSpend();
                 if (!isPrivZerocoinSpend && !isPublicSpend) {
                     return state.Invalid(error("%s: AcceptToMemoryPool failed for tx %s, every input must be a zcspend or zcpublicspend", __func__,
-                                        tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zbxc");
+                                        tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zibtc");
                 }
 
                 // Check enforcement
                 if (!CheckPublicCoinSpendEnforced(chainActive.Height(), isPublicSpend)){
                     return state.Invalid(error("%s: AcceptToMemoryPool failed for tx %s", __func__,
-                                               tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zbxc");
+                                               tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zibtc");
                 }
 
                 if (isPublicSpend) {
@@ -1441,12 +1441,12 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransa
                     }
                     if (!ContextualCheckZerocoinSpend(tx, &publicSpend, chainActive.Tip(), 0))
                         return state.Invalid(error("%s: ContextualCheckZerocoinSpend failed for tx %s", __func__,
-                                                   tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zbxc");
+                                                   tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zibtc");
                 } else {
                     CoinSpend spend = TxInToZerocoinSpend(txIn);
                     if (!ContextualCheckZerocoinSpend(tx, &spend, chainActive.Tip(), 0))
                         return state.Invalid(error("%s: ContextualCheckZerocoinSpend failed for tx %s", __func__,
-                                                   tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zbxc");
+                                                   tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zibtc");
                 }
 
             }
@@ -4515,17 +4515,17 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
         CTransaction &stakeTxIn = block.vtx[1];
 
         // Inputs
-        std::vector<CTxIn> bxcInputs;
+        std::vector<CTxIn> ibtcInputs;
         std::vector<CTxIn> zBXCInputs;
 
         for (const CTxIn& stakeIn : stakeTxIn.vin) {
             if(stakeIn.IsZerocoinSpend()){
                 zBXCInputs.push_back(stakeIn);
             }else{
-                bxcInputs.push_back(stakeIn);
+                ibtcInputs.push_back(stakeIn);
             }
         }
-        const bool hasBXCInputs = !bxcInputs.empty();
+        const bool hasBXCInputs = !ibtcInputs.empty();
         const bool hasZBXCInputs = !zBXCInputs.empty();
 
         // ZC started after PoS.
@@ -4566,8 +4566,8 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
                 if(tx.IsCoinStake()) continue;
                 if(hasBXCInputs)
                     // Check if coinstake input is double spent inside the same block
-                    for (const CTxIn& bxcIn : bxcInputs){
-                        if(bxcIn.prevout == in.prevout){
+                    for (const CTxIn& ibtcIn : ibtcInputs){
+                        if(ibtcIn.prevout == in.prevout){
                             // double spent coinstake input inside block
                             return error("%s: double spent coinstake input inside block", __func__);
                         }
@@ -4604,7 +4604,7 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
                 for (const CTransaction &t : bl.vtx) {
                     for (const CTxIn &in: t.vin) {
                         // Loop through every input of the staking tx
-                        for (const CTxIn &stakeIn : bxcInputs) {
+                        for (const CTxIn &stakeIn : ibtcInputs) {
                             // if it's already spent
 
                             // First regular staking check
@@ -4657,7 +4657,7 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
 
                     if (!ContextualCheckZerocoinSpendNoSerialCheck(stakeTxIn, &spend, pindex, 0))
                         return state.DoS(100,error("%s: forked chain ContextualCheckZerocoinSpend failed for tx %s", __func__,
-                                                   stakeTxIn.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zbxc");
+                                                   stakeTxIn.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zibtc");
 
                     // Now only the ZKP left..
                     // As the spend maturity is 200, the acc value must be accumulated, otherwise it's not ready to be spent
@@ -4703,7 +4703,7 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
                         CoinSpend spend = TxInToZerocoinSpend(zPivInput);
                         if (!ContextualCheckZerocoinSpend(stakeTxIn, &spend, pindex, 0))
                             return state.DoS(100,error("%s: main chain ContextualCheckZerocoinSpend failed for tx %s", __func__,
-                                    stakeTxIn.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zbxc");
+                                    stakeTxIn.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zibtc");
                 }
 
         }
@@ -6534,7 +6534,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
                 CBigNum bnAccValue = 0;
                 //std::cout << "asking for checkpoint value in height: " << height << ", den: " << den << std::endl;
                 if (!GetAccumulatorValue(height, den, bnAccValue)) {
-                    LogPrint("zbxc", "peer misbehaving for request an invalid acc checkpoint \n", __func__);
+                    LogPrint("zibtc", "peer misbehaving for request an invalid acc checkpoint \n", __func__);
                     Misbehaving(pfrom->GetId(), 50);
                 } else {
                     //std::cout << "Sending acc value, with checksum: " << GetChecksum(bnAccValue) << " for "
@@ -6559,7 +6559,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
                 gen.setPfrom(pfrom);
                 if (gen.isValid(chainActive.Height())) {
                     if (!lightWorker.addWitWork(gen)) {
-                        LogPrint("zbxc", "%s : add genwit request failed \n", __func__);
+                        LogPrint("zibtc", "%s : add genwit request failed \n", __func__);
                         CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
                         // Invalid request only returns the message without a result.
                         ss << gen.getRequestNum();

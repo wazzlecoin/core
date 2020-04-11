@@ -1110,8 +1110,8 @@ Address: %4
         <translation>This label turns red if any recipient receives an amount smaller than %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubxc per input.</source>
-        <translation>Can vary +/- %1 ubxc per input.</translation>
+        <source>Can vary +/- %1 uibtc per input.</source>
+        <translation>Can vary +/- %1 uibtc per input.</translation>
     </message>
     <message>
         <source>(no label)</source>

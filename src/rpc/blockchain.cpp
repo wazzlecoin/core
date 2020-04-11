@@ -14,11 +14,11 @@
 #include "txdb.h"
 #include "util.h"
 #include "utilmoneystr.h"
-#include "zbxc/accumulatormap.h"
-#include "zbxc/accumulators.h"
+#include "zibtc/accumulatormap.h"
+#include "zibtc/accumulators.h"
 #include "wallet/wallet.h"
-#include "zbxc/zbxcmodule.h"
-#include "zbxcchain.h"
+#include "zibtc/zibtcmodule.h"
+#include "zibtcchain.h"
 
 #include <stdint.h>
 #include <fstream>
@@ -139,12 +139,12 @@ UniValue blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool tx
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
-    UniValue zbxcObj(UniValue::VOBJ);
+    UniValue zibtcObj(UniValue::VOBJ);
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zbxcObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zibtcObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zbxcObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.push_back(Pair("zBXCsupply", zbxcObj));
+    zibtcObj.push_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
+    result.push_back(Pair("zBXCsupply", zibtcObj));
 
     return result;
 }

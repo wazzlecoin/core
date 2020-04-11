@@ -2,10 +2,10 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zbxccontroldialog.h"
-#include "ui_zbxccontroldialog.h"
+#include "zibtccontroldialog.h"
+#include "ui_zibtccontroldialog.h"
 
-#include "zbxc/accumulators.h"
+#include "zibtc/accumulators.h"
 #include "main.h"
 #include "walletmodel.h"
 
@@ -110,9 +110,9 @@ void ZPivControlDialog::updateList()
         itemMint->setData(COLUMN_CONFIRMATIONS, Qt::UserRole, QVariant((qlonglong) nConfirmations));
 
         {
-            LOCK(pwalletMain->zbxcTracker->cs_spendcache);
+            LOCK(pwalletMain->zibtcTracker->cs_spendcache);
 
-            CoinWitnessData *witnessData = pwalletMain->zbxcTracker->GetSpendCache(mint.hashStake);
+            CoinWitnessData *witnessData = pwalletMain->zibtcTracker->GetSpendCache(mint.hashStake);
             if (witnessData->nHeightAccStart > 0  && witnessData->nHeightAccEnd > 0) {
                 int nPercent = std::max(0, std::min(100, (int)((double)(witnessData->nHeightAccEnd - witnessData->nHeightAccStart) / (double)(nBestHeight - witnessData->nHeightAccStart - 220) * 100)));
                 QString percent = QString::number(nPercent) + QString("%");

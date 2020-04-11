@@ -8,7 +8,7 @@
 
 #include <atomic>
 #include "genwit.h"
-#include "zbxc/accumulators.h"
+#include "zibtc/accumulators.h"
 #include "concurrentqueue.h"
 #include "chainparams.h"
 #include <boost/function.hpp>
@@ -49,12 +49,12 @@ public:
         return true;
     }
 
-    void StartLightZbxcThread(boost::thread_group& threadGroup) {
+    void StartLightZibtcThread(boost::thread_group& threadGroup) {
         LogPrintf("%s thread start\n", "improvedbitcoin-light-thread");
         threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZBXCSimplified, this));
     }
 
-    void StopLightZbxcThread() {
+    void StopLightZibtcThread() {
         threadIns.interrupt();
         LogPrintf("%s thread interrupted\n", "improvedbitcoin-light-thread");
     }

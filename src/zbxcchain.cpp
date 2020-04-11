@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zbxcchain.h"
-#include "zbxc/zbxcmodule.h"
+#include "zibtcchain.h"
+#include "zibtc/zibtcmodule.h"
 #include "invalid.h"
 #include "main.h"
 #include "txdb.h"

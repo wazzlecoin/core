@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zbxc/accumulators.h"
+#include "zibtc/accumulators.h"
 #include "chain.h"
-#include "zbxc/deterministicmint.h"
+#include "zibtc/deterministicmint.h"
 #include "main.h"
 #include "stakeinput.h"
 #include "wallet/wallet.h"
@@ -161,12 +161,12 @@ bool CZPivStake::GetTxFrom(CTransaction& tx)
 
 bool CZPivStake::MarkSpent(CWallet *pwallet, const uint256& txid)
 {
-    CzBXCTracker* zbxcTracker = pwallet->zbxcTracker.get();
+    CzBXCTracker* zibtcTracker = pwallet->zibtcTracker.get();
     CMintMeta meta;
-    if (!zbxcTracker->GetMetaFromStakeHash(hashSerial, meta))
+    if (!zibtcTracker->GetMetaFromStakeHash(hashSerial, meta))
         return error("%s: tracker does not have serialhash", __func__);
 
-    zbxcTracker->SetPubcoinUsed(meta.hashPubcoin, txid);
+    zibtcTracker->SetPubcoinUsed(meta.hashPubcoin, txid);
     return true;
 }
 

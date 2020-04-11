@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zbxc/zbxcmodule.h"
-#include "zbxcchain.h"
+#include "zibtc/zibtcmodule.h"
+#include "zibtcchain.h"
 #include "libzerocoin/Commitment.h"
 #include "libzerocoin/Coin.h"
 #include "hash.h"
@@ -122,7 +122,7 @@ namespace ZBXCModule {
         }
         if (!ZBXCModule::parseCoinSpend(txIn, tx, prevOut, publicSpend)) {
             return state.Invalid(error("%s: invalid public coin spend parse %s\n", __func__,
-                                       tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zbxc");
+                                       tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zibtc");
         }
         return true;
     }

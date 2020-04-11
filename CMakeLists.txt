@@ -325,7 +325,7 @@ set(SERVER_SOURCES
         ./src/txdb.cpp
         ./src/txmempool.cpp
         ./src/validationinterface.cpp
-        ./src/zbxcchain.cpp
+        ./src/zibtcchain.cpp
         )
 add_library(SERVER_A STATIC ${BitcoinHeaders} ${SERVER_SOURCES})
 
@@ -353,21 +353,21 @@ set(WALLET_SOURCES
         ./src/masternode-sync.cpp
         ./src/masternodeconfig.cpp
         ./src/masternodeman.cpp
-        ./src/zbxc/mintpool.cpp
+        ./src/zibtc/mintpool.cpp
         ./src/wallet/rpcdump.cpp
-        ./src/zbxc/deterministicmint.cpp
-        ./src/zbxc/zerocoin.cpp
+        ./src/zibtc/deterministicmint.cpp
+        ./src/zibtc/zerocoin.cpp
         ./src/wallet/rpcwallet.cpp
         ./src/kernel.cpp
         ./src/wallet/wallet.cpp
         ./src/wallet/wallet_ismine.cpp
         ./src/wallet/walletdb.cpp
-        ./src/zbxc/zbxcwallet.cpp
-        ./src/zbxc/zbxctracker.cpp
-        ./src/zbxc/zbxcmodule.cpp
+        ./src/zibtc/zibtcwallet.cpp
+        ./src/zibtc/zibtctracker.cpp
+        ./src/zibtc/zibtcmodule.cpp
         ./src/stakeinput.cpp
         ./src/genwit.cpp
-        ./src/lightzbxcthread.cpp
+        ./src/lightzibtcthread.cpp
         )
 add_library(WALLET_A STATIC ${BitcoinHeaders} ${WALLET_SOURCES})
 
@@ -438,10 +438,10 @@ endif()
 add_library(ZEROCOIN_A STATIC ${ZEROCOIN_SOURCES})
 
 set(COMMON_SOURCES
-        ./src/zbxc/accumulators.cpp
-        ./src/zbxc/accumulatorcheckpoints.cpp
-        ./src/zbxc/accumulatormap.cpp
-        ./src/zbxc/witness.cpp
+        ./src/zibtc/accumulators.cpp
+        ./src/zibtc/accumulatorcheckpoints.cpp
+        ./src/zibtc/accumulatormap.cpp
+        ./src/zibtc/witness.cpp
         ./src/allocators.cpp
         ./src/amount.cpp
         ./src/base58.cpp
@@ -450,9 +450,9 @@ set(COMMON_SOURCES
         ./src/coins.cpp
         ./src/compressor.cpp
         ./src/primitives/block.cpp
-        ./src/zbxc/deterministicmint.cpp
+        ./src/zibtc/deterministicmint.cpp
         ./src/primitives/transaction.cpp
-        ./src/zbxc/zerocoin.cpp
+        ./src/zibtc/zerocoin.cpp
         ./src/core_read.cpp
         ./src/core_write.cpp
         ./src/hash.cpp

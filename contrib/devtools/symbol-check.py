@@ -69,7 +69,7 @@ ALLOWED_LIBRARIES = {
 # bitcoin-qt only
 'libX11-xcb.so.1', # part of X11
 'libX11.so.6', # part of X11
-'libxcb.so.1', # part of X11
+'liibtcb.so.1', # part of X11
 'libfontconfig.so.1', # font support
 'libfreetype.so.6', # font parsing
 'libdl.so.2' # programming interface to dynamic linker

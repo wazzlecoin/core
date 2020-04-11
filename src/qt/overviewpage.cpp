@@ -193,7 +193,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     // BXC Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
-    CAmount bxcAvailableBalance = balance - immatureBalance - nLockedBalance;
+    CAmount ibtcAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
 
     // BXC Watch-Only Balance
@@ -208,11 +208,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     QString sPercentage = "";
     getPercentage(nUnlockedBalance, zerocoinBalance, sPercentage, szPercentage);
     // Combined balances
-    CAmount availableTotalBalance = bxcAvailableBalance + matureZerocoinBalance;
+    CAmount availableTotalBalance = ibtcAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
     // BXC labels
-    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, bxcAvailableBalance, false, BitcoinUnits::separatorAlways));
+    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, ibtcAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
     ui->labelLockedBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nLockedBalance, false, BitcoinUnits::separatorAlways));
@@ -262,7 +262,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     bool showWatchOnly = nTotalWatchBalance != 0;
 
     // BXC Available
-    bool showBXCAvailable = settingShowAllBalances || bxcAvailableBalance != nTotalBalance;
+    bool showBXCAvailable = settingShowAllBalances || ibtcAvailableBalance != nTotalBalance;
     bool showWatchOnlyBXCAvailable = showBXCAvailable || nAvailableWatchBalance != nTotalWatchBalance;
     ui->labelBalanceText->setVisible(showBXCAvailable || showWatchOnlyBXCAvailable);
     ui->labelBalance->setVisible(showBXCAvailable || showWatchOnlyBXCAvailable);

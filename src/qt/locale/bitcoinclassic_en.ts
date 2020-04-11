@@ -1467,7 +1467,7 @@ Address: %4
     </message>
     <message>
         <location line="+8"/>
-        <source>Can vary +/- %1 ubxc per input.</source>
+        <source>Can vary +/- %1 uibtc per input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6327,7 +6327,7 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <location filename="../forms/zbxccontroldialog.ui" line="+20"/>
+        <location filename="../forms/zibtccontroldialog.ui" line="+20"/>
         <source>Select zBXC to Spend</source>
         <translation type="unfinished"></translation>
     </message>
