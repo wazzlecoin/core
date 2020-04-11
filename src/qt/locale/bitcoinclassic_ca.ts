@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>ImprovedBitcoin es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus BXC de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus IBTC de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BXCS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES IBTCS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1240,16 +1240,16 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Reset</source>
         <translation>Restableix</translation>
     </message>
     <message>
-        <source>0 zBXC</source>
-        <translation>0 zBXC</translation>
+        <source>0 zIBTC</source>
+        <translation>0 zIBTC</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1906,8 +1906,8 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     </context>
 <context>

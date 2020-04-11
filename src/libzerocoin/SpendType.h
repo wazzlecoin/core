@@ -9,9 +9,9 @@
 
 namespace libzerocoin {
     enum SpendType : uint8_t {
-        SPEND, // Used for a typical spend transaction, zBXC should be unusable after
+        SPEND, // Used for a typical spend transaction, zIBTC should be unusable after
         STAKE, // Used for a spend that occurs as a stake
-        MN_COLLATERAL, // Used when proving ownership of zBXC that will be used for masternodes (future)
+        MN_COLLATERAL, // Used when proving ownership of zIBTC that will be used for masternodes (future)
         SIGN_MESSAGE // Used to sign messages that do not belong above (future)
     };
 }

@@ -176,15 +176,15 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>ImprovedBitcoin fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn BXCs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn IBTCs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ĉu vi certas ke vi volas ĉifri vian monujon?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
         <translation>Averto: se vi ĉifras vian monujo kaj perdi vian pasfrazon, vi &lt;b&gt;PERDOS VIAN TUTAN MONON&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -433,8 +433,8 @@
         <translation>&amp;Foliumi transakcio historio</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBXC</source>
-        <translation>Privataj agoj por zBXC</translation>
+        <source>Privacy Actions for zIBTC</source>
+        <translation>Privataj agoj por zIBTC</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1514,8 +1514,8 @@ Muktisendi: %1</translation>
         <translation>Adreso / Kvanto:</translation>
     </message>
     <message>
-        <source>Add destinations to send BXC to</source>
-        <translation>Aldonu destinoj por sendi BXC al</translation>
+        <source>Add destinations to send IBTC to</source>
+        <translation>Aldonu destinoj por sendi IBTC al</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1705,8 +1705,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Via aktuala elspezebla saldo</translation>
     </message>
     <message>
-        <source>BXC Balance</source>
-        <translation>BXC kvanto</translation>
+        <source>IBTC Balance</source>
+        <translation>IBTC kvanto</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1717,8 +1717,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Via aktuala ImprovedBitcoin totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
-        <source>zBXC Balance</source>
-        <translation>zBXC kvanto</translation>
+        <source>zIBTC Balance</source>
+        <translation>zIBTC kvanto</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -1788,20 +1788,20 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Reset</source>
         <translation>Restarigi</translation>
     </message>
     <message>
-        <source>zBXC Control</source>
-        <translation>zBXC kontrolu</translation>
+        <source>zIBTC Control</source>
+        <translation>zIBTC kontrolu</translation>
     </message>
     <message>
-        <source>zBXC Selected:</source>
-        <translation>Elektita zBXC</translation>
+        <source>zIBTC Selected:</source>
+        <translation>Elektita zIBTC</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1812,12 +1812,12 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Elspezi zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBXC for spending</source>
-        <translation>Havebla (matura kaj elspezebla) zBXC por elspezi</translation>
+        <source>Available (mature and spendable) zIBTC for spending</source>
+        <translation>Havebla (matura kaj elspezebla) zIBTC por elspezi</translation>
     </message>
     <message>
-        <source>0 zBXC</source>
-        <translation>0 zBXC</translation>
+        <source>0 zIBTC</source>
+        <translation>0 zIBTC</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2194,8 +2194,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Se estas aktiva sed ŝanĝo-adreso estas malpleniĝa au nevalida, ŝanĝo sendos al nova generita adreson.</translation>
     </message>
     <message>
-        <source>0 BXC</source>
-        <translation>0 BXC</translation>
+        <source>0 IBTC</source>
+        <translation>0 IBTC</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
@@ -2270,7 +2270,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     <message>
         <source>The ImprovedBitcoin address to send the payment to</source>
-        <translation>BXCC adreso por sendi la pago al</translation>
+        <translation>IBTCC adreso por sendi la pago al</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2552,8 +2552,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     </context>
 <context>

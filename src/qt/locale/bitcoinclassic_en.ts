@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -557,7 +557,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zBXC</source>
+        <source>Privacy Actions for zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2242,7 +2242,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send BXC to</source>
+        <source>Add destinations to send IBTC to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2489,17 +2489,17 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
     </message>
     <message>
         <location line="-187"/>
-        <source>Enable automatic minting of BXC units to zBXC</source>
+        <source>Enable automatic minting of IBTC units to zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Enable zBXC Automint</source>
+        <source>Enable zIBTC Automint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Enable automatic zBXC minting from specific addresses</source>
+        <source>Enable automatic zIBTC minting from specific addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2509,23 +2509,23 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
     </message>
     <message>
         <location line="+11"/>
-        <source>Percentage of incoming BXC which get automatically converted to zBXC via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming IBTC which get automatically converted to zIBTC via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zBXC</source>
+        <source>Percentage of autominted zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough BXC for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough IBTC for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zBXC Denomination</source>
+        <source>Preferred Automint zIBTC Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2744,7 +2744,7 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
     </message>
     <message>
         <location line="+71"/>
-        <source>BXC Balance</source>
+        <source>IBTC Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2781,14 +2781,14 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
     </message>
     <message>
         <location line="+96"/>
-        <source>zBXC Balance</source>
+        <source>zIBTC Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+53"/>
         <location line="+17"/>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBXC are spendable.</source>
+These zIBTC are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2861,7 +2861,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+191"/>
         <location line="+19"/>
-        <source>Locked BXC or Masternode collaterals. These are excluded from zBXC minting.</source>
+        <source>Locked IBTC or Masternode collaterals. These are excluded from zIBTC minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2877,7 +2877,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+58"/>
         <location line="+19"/>
-        <source>Your current zBXC balance, unconfirmed and immature zBXC included.</source>
+        <source>Your current zIBTC balance, unconfirmed and immature zIBTC included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2893,7 +2893,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+111"/>
-        <source>Current percentage of zBXC.
+        <source>Current percentage of zIBTC.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -3080,7 +3080,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+229"/>
-        <source>zBXC</source>
+        <source>zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3115,12 +3115,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+462"/>
-        <source>zBXC Control</source>
+        <source>zIBTC Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zBXC Selected:</source>
+        <source>zIBTC Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3145,7 +3145,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zBXC for spending</source>
+        <source>Available (mature and spendable) zIBTC for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3155,9 +3155,9 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zBXC for spending
+        <source>Available (mature and spendable) zIBTC for spending
 
-zBXC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+zIBTC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3174,7 +3174,7 @@ zBXC are mature when they have more than 20 confirmations AND more than 2 mints 
         <location line="+31"/>
         <location line="+31"/>
         <location line="+31"/>
-        <source>0 zBXC</source>
+        <source>0 zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3252,7 +3252,7 @@ zBXC are mature when they have more than 20 confirmations AND more than 2 mints 
         <location line="+25"/>
         <location line="+704"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zBXC</source>
+        <source>Total Balance including unconfirmed and immature zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3286,14 +3286,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+40"/>
-        <source>Show the current status of automatic zBXC minting.
+        <source>Show the current status of automatic zIBTC minting.
 
 To change the status (restart required):
 - enable: add &apos;enablezeromint=1&apos; to improvedbitcoin.conf
 - disable: add &apos;enablezeromint=0&apos; to improvedbitcoin.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBXC
+- menu Settings-&gt;Options-&gt;Percentage of autominted zIBTC
 
 </source>
         <translation type="unfinished"></translation>
@@ -3363,7 +3363,7 @@ To change the percentage (no restart required):
     </message>
     <message>
         <location line="-1092"/>
-        <source>Show zBXC denominations list</source>
+        <source>Show zIBTC denominations list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3373,12 +3373,12 @@ To change the percentage (no restart required):
     </message>
     <message>
         <location line="+29"/>
-        <source>zBXC minting is DISABLED</source>
+        <source>zIBTC minting is DISABLED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+131"/>
-        <source>zBXC spending is NOT private (links back to the mint transaction)</source>
+        <source>zIBTC spending is NOT private (links back to the mint transaction)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3544,12 +3544,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+240"/>
-        <source>zBXC Spend #: </source>
+        <source>zIBTC Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>zBXC Mint</source>
+        <source>zIBTC Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3569,12 +3569,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+17"/>
-        <source>zBXC is currently disabled due to maintenance.</source>
+        <source>zIBTC is currently disabled due to maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-537"/>
-        <source>zBXC is currently undergoing maintenance.</source>
+        <source>zIBTC is currently undergoing maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4287,7 +4287,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+29"/>
-        <source>Custom zBXC Backup Path:</source>
+        <source>Custom zIBTC Backup Path:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4880,12 +4880,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 BXC</source>
+        <source>0 IBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+149"/>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BXC applies</source>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 IBTC applies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4955,12 +4955,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1026"/>
-        <source>If the custom fee is set to 1000 uBXCs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uBXCs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uBXCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uIBTCs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uIBTCs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uIBTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uBXCs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uBXCs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uBXCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uIBTCs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uIBTCs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uIBTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5026,7 +5026,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized BXC</source>
+        <source>Anonymized IBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5906,12 +5906,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>BXC Stake</source>
+        <source>IBTC Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>zBXC Stake</source>
+        <source>zIBTC Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5936,37 +5936,37 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Converted BXC to zBXC</source>
+        <source>Converted IBTC to zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zBXC</source>
+        <source>Spent zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received BXC from zBXC</source>
+        <source>Received IBTC from zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zBXC from zBXC Spend</source>
+        <source>Minted Change as zIBTC from zIBTC Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zBXC to BXC</source>
+        <source>Converted zIBTC to IBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+56"/>
-        <source>Anonymous (zBXC Transaction)</source>
+        <source>Anonymous (zIBTC Transaction)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Anonymous (zBXC Stake)</source>
+        <source>Anonymous (zIBTC Stake)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6235,12 +6235,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="-310"/>
-        <source>Received BXC from zBXC</source>
+        <source>Received IBTC from zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Zerocoin Spend, Change in zBXC</source>
+        <source>Zerocoin Spend, Change in zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6287,7 +6287,7 @@ Please be patient...</source>
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 BXC.</source>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 IBTC.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6328,7 +6328,7 @@ Please be patient...</source>
     <name>ZPivControlDialog</name>
     <message>
         <location filename="../forms/zibtccontroldialog.ui" line="+20"/>
-        <source>Select zBXC to Spend</source>
+        <source>Select zIBTC to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6344,7 +6344,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="-7"/>
-        <source>zBXC</source>
+        <source>zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6432,17 +6432,17 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable automatic wallet backups triggered after each zBXC minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zIBTC minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enable or disable staking functionality for BXC inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for IBTC inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable or disable staking functionality for zBXC inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for zIBTC inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6487,12 +6487,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+8"/>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6647,12 +6647,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BXC.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 IBTC.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BXC.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 IBTC.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6917,7 +6917,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Enable precomputation of zBXC spends and stakes (0-1, default %u)</source>
+        <source>Enable precomputation of zIBTC spends and stakes (0-1, default %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7032,7 +7032,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Fee (in BXC/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in IBTC/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7162,22 +7162,22 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>Recalculating BXC supply...</source>
+        <source>Recalculating IBTC supply...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Recalculating minted ZBXC...</source>
+        <source>Recalculating minted ZIBTC...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Recalculating spent ZBXC...</source>
+        <source>Recalculating spent ZIBTC...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Reindex the BXC and zBXC money supply statistics</source>
+        <source>Reindex the IBTC and zIBTC money supply statistics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7274,7 +7274,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+27"/>
-        <source>Specify custom backup path to add a copy of any automatic zBXC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <source>Specify custom backup path to add a copy of any automatic zIBTC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7824,7 +7824,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Syncing zBXC wallet...</source>
+        <source>Syncing zIBTC wallet...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7964,7 +7964,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Value is below the smallest available denomination (= 1) of zBXC</source>
+        <source>Value is below the smallest available denomination (= 1) of zIBTC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

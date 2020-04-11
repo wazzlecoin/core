@@ -1328,7 +1328,7 @@
        <item row="4" column="0">
         <widget class="QLabel" name="wallet_customzibtcbackuppath_label">
          <property name="text">
-          <string>Custom zBXC Backup Path:</string>
+          <string>Custom zIBTC Backup Path:</string>
          </property>
          <property name="visible">
           <bool>false</bool>

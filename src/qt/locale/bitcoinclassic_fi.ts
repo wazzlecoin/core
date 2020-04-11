@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>ImprovedBitcoin sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella BXCien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella IBTCien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki BXCisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki IBTCisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1809,8 +1809,8 @@
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 BXC</source>
-        <translation>0 BXC</translation>
+        <source>0 IBTC</source>
+        <translation>0 IBTC</translation>
     </message>
     <message>
         <source>Choose...</source>

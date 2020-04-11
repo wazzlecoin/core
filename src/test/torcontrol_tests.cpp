@@ -22,8 +22,8 @@ BOOST_AUTO_TEST_CASE(util_SplitTorReplyLine)
 {
     // Data we should receive during normal usage
     CheckSplitTorReplyLine(
-        "PROTOCOLINFO BXCERSION",
-        "PROTOCOLINFO", "BXCERSION");
+        "PROTOCOLINFO IBTCERSION",
+        "PROTOCOLINFO", "IBTCERSION");
     CheckSplitTorReplyLine(
         "AUTH METHODS=COOKIE,SAFECOOKIE COOKIEFILE=\"/home/x/.tor/control_auth_cookie\"",
         "AUTH", "METHODS=COOKIE,SAFECOOKIE COOKIEFILE=\"/home/x/.tor/control_auth_cookie\"");

@@ -65,17 +65,17 @@ UniValue getinfo(const UniValue& params, bool fHelp)
             "  \"difficulty\": xxxxxx,       (numeric) the current difficulty\n"
             "  \"testnet\": true|false,      (boolean) if the server is using testnet or not\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zBXCsupply\" :\n"
+            "  \"zIBTCsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zBXC denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zBXC denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zBXC denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zBXC denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zBXC denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zBXC denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zBXC denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zBXC denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zBXC denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zIBTC denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zIBTC denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zIBTC denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zIBTC denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zIBTC denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zIBTC denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zIBTC denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zIBTC denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zIBTC denominations\n"
             "  }\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
@@ -149,7 +149,7 @@ UniValue getinfo(const UniValue& params, bool fHelp)
         zibtcObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
     zibtcObj.push_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
-    obj.push_back(Pair("zBXCsupply", zibtcObj));
+    obj.push_back(Pair("zIBTCsupply", zibtcObj));
 
 #ifdef ENABLE_WALLET
     if (pwalletMain) {

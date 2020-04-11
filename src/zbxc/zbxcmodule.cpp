@@ -37,19 +37,19 @@ const uint256 PublicCoinSpend::signatureHash() const
     return h.GetHash();
 }
 
-namespace ZBXCModule {
+namespace ZIBTCModule {
 
     bool createInput(CTxIn &in, CZerocoinMint &mint, uint256 hashTxOut) {
         libzerocoin::ZerocoinParams *params = Params().Zerocoin_Params(false);
         uint8_t nVersion = mint.GetVersion();
         if (nVersion < libzerocoin::PrivateCoin::PUBKEY_VERSION) {
             // No v1 serials accepted anymore.
-            return error("%s: failed to set zBXC privkey mint version=%d\n", __func__, nVersion);
+            return error("%s: failed to set zIBTC privkey mint version=%d\n", __func__, nVersion);
         }
 
         CKey key;
         if (!mint.GetKeyPair(key))
-            return error("%s: failed to set zBXC privkey mint version=%d\n", __func__, nVersion);
+            return error("%s: failed to set zIBTC privkey mint version=%d\n", __func__, nVersion);
 
         PublicCoinSpend spend(params, mint.GetSerialNumber(), mint.GetRandomness(), key.GetPubKey());
         spend.setTxOutHash(hashTxOut);
@@ -59,7 +59,7 @@ namespace ZBXCModule {
 
         std::vector<unsigned char> vchSig;
         if (!key.Sign(spend.signatureHash(), vchSig))
-            throw std::runtime_error("ZBXCModule failed to sign signatureHash\n");
+            throw std::runtime_error("ZIBTCModule failed to sign signatureHash\n");
 
         spend.setVchSig(vchSig);
 
@@ -120,7 +120,7 @@ namespace ZBXCModule {
             return state.DoS(100, error("%s: public zerocoin spend prev output not found, prevTx %s, index %d\n",
                                         __func__, txIn.prevout.hash.GetHex(), txIn.prevout.n));
         }
-        if (!ZBXCModule::parseCoinSpend(txIn, tx, prevOut, publicSpend)) {
+        if (!ZIBTCModule::parseCoinSpend(txIn, tx, prevOut, publicSpend)) {
             return state.Invalid(error("%s: invalid public coin spend parse %s\n", __func__,
                                        tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zibtc");
         }

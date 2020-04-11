@@ -353,21 +353,21 @@ bool Stake(CStakeInput* stakeInput, unsigned int nBits, unsigned int nTimeBlockF
 bool ContextualCheckZerocoinStake(int nPreviousBlockHeight, CStakeInput* stake)
 {
     if (nPreviousBlockHeight < Params().Zerocoin_Block_V2_Start())
-        return error("%s: zBXC stake block is less than allowed start height", __func__);
+        return error("%s: zIBTC stake block is less than allowed start height", __func__);
 
-    if (CZPivStake* zBXC = dynamic_cast<CZPivStake*>(stake)) {
-        CBlockIndex* pindexFrom = zBXC->GetIndexFrom();
+    if (CZPivStake* zIBTC = dynamic_cast<CZPivStake*>(stake)) {
+        CBlockIndex* pindexFrom = zIBTC->GetIndexFrom();
         if (!pindexFrom)
-            return error("%s: failed to get index associated with zBXC stake checksum", __func__);
+            return error("%s: failed to get index associated with zIBTC stake checksum", __func__);
 
         if (chainActive.Height() - pindexFrom->nHeight < Params().Zerocoin_RequiredStakeDepth())
-            return error("%s: zBXC stake does not have required confirmation depth. Current height %d,  stakeInput height %d.", __func__, chainActive.Height(), pindexFrom->nHeight);
+            return error("%s: zIBTC stake does not have required confirmation depth. Current height %d,  stakeInput height %d.", __func__, chainActive.Height(), pindexFrom->nHeight);
 
         //The checksum needs to be the exact checksum from 200 blocks ago
         uint256 nCheckpoint200 = chainActive[nPreviousBlockHeight - Params().Zerocoin_RequiredStakeDepth()]->nAccumulatorCheckpoint;
-        uint32_t nChecksum200 = ParseChecksum(nCheckpoint200, libzerocoin::AmountToZerocoinDenomination(zBXC->GetValue()));
-        if (nChecksum200 != zBXC->GetChecksum())
-            return error("%s: accumulator checksum is different than the block 200 blocks previous. stake=%d block200=%d", __func__, zBXC->GetChecksum(), nChecksum200);
+        uint32_t nChecksum200 = ParseChecksum(nCheckpoint200, libzerocoin::AmountToZerocoinDenomination(zIBTC->GetValue()));
+        if (nChecksum200 != zIBTC->GetChecksum())
+            return error("%s: accumulator checksum is different than the block 200 blocks previous. stake=%d block200=%d", __func__, zIBTC->GetChecksum(), nChecksum200);
     } else {
         return error("%s: dynamic_cast of stake ptr failed", __func__);
     }
@@ -394,7 +394,7 @@ bool CheckProofOfStake(const CBlock block, uint256& hashProofOfStake, std::uniqu
         stake = std::unique_ptr<CStakeInput>(new CZPivStake(spend));
 
         if (!ContextualCheckZerocoinStake(nPreviousBlockHeight, stake.get()))
-            return error("%s: staked zBXC fails context checks", __func__);
+            return error("%s: staked zIBTC fails context checks", __func__);
     } else {
         // First try finding the previous transaction in database
         uint256 hashBlock;
@@ -431,7 +431,7 @@ bool CheckProofOfStake(const CBlock block, uint256& hashProofOfStake, std::uniqu
 
     unsigned int nBlockFromTime = blockfrom.nTime;
     unsigned int nTxTime = block.nTime;
-    if (!txin.IsZerocoinSpend() && nPreviousBlockHeight >= Params().Zerocoin_Block_Public_Spend_Enabled() - 1) { //Equivalent for zBXC is checked above in ContextualCheckZerocoinStake()
+    if (!txin.IsZerocoinSpend() && nPreviousBlockHeight >= Params().Zerocoin_Block_Public_Spend_Enabled() - 1) { //Equivalent for zIBTC is checked above in ContextualCheckZerocoinStake()
         if (nTxTime < nBlockFromTime) // Transaction timestamp nTxTime
             return error("CheckStakeKernelHash() : nTime violation - nBlockFromTime=%d nTimeTx=%d", nBlockFromTime, nTxTime);
         if (nBlockFromTime + nStakeMinAge > nTxTime) // Min age requirement

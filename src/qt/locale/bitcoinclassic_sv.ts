@@ -176,16 +176,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>ImprovedBitcoin kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina BXCs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina IBTCs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA BXC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA IBTC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Bläddra i transaktions historiken</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBXC</source>
-        <translation>Integritets funktioner för zBXC</translation>
+        <source>Privacy Actions for zIBTC</source>
+        <translation>Integritets funktioner för zIBTC</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -1770,8 +1770,8 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Adress / Mängd:</translation>
     </message>
     <message>
-        <source>Add destinations to send BXC to</source>
-        <translation>Lägg till destination att skicka BXC till</translation>
+        <source>Add destinations to send IBTC to</source>
+        <translation>Lägg till destination att skicka IBTC till</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1970,36 +1970,36 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Kartlägg port med &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BXC units to zBXC</source>
-        <translation>Tillåt automatisk prägling med BXC enheter till zBXC</translation>
+        <source>Enable automatic minting of IBTC units to zIBTC</source>
+        <translation>Tillåt automatisk prägling med IBTC enheter till zIBTC</translation>
     </message>
     <message>
-        <source>Enable zBXC Automint</source>
-        <translation>Tillåt zBXC Autoprägling</translation>
+        <source>Enable zIBTC Automint</source>
+        <translation>Tillåt zIBTC Autoprägling</translation>
     </message>
     <message>
-        <source>Enable automatic zBXC minting from specific addresses</source>
-        <translation>Aktivera automatisk zBXC prägling från specifika adresser</translation>
+        <source>Enable automatic zIBTC minting from specific addresses</source>
+        <translation>Aktivera automatisk zIBTC prägling från specifika adresser</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Aktivera autopräglingsadresser</translation>
     </message>
     <message>
-        <source>Percentage of incoming BXC which get automatically converted to zBXC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent av inkommande BXC som automatiskt konverteras till zBXC via Zerocoin Protokollet (min: 10%)</translation>
+        <source>Percentage of incoming IBTC which get automatically converted to zIBTC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procent av inkommande IBTC som automatiskt konverteras till zIBTC via Zerocoin Protokollet (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBXC</source>
-        <translation>Procent av autopräglade zBXC</translation>
+        <source>Percentage of autominted zIBTC</source>
+        <translation>Procent av autopräglade zIBTC</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BXC for this denomination is available</source>
-        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många BXC för denna valör är tillgängliga</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough IBTC for this denomination is available</source>
+        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många IBTC för denna valör är tillgängliga</translation>
     </message>
     <message>
-        <source>Preferred Automint zBXC Denomination</source>
-        <translation>Preferens på zBXC valör i autoprägling</translation>
+        <source>Preferred Automint zIBTC Denomination</source>
+        <translation>Preferens på zIBTC valör i autoprägling</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2165,8 +2165,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Totalt saldo, inkluderar alla otillgängliga mynt.</translation>
     </message>
     <message>
-        <source>BXC Balance</source>
-        <translation>BXC Saldo</translation>
+        <source>IBTC Balance</source>
+        <translation>IBTC Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2193,14 +2193,14 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Ditt nuvarande ImprovedBitcoin saldo, obekräftade och omogna transaktioner är inkluderade</translation>
     </message>
     <message>
-        <source>zBXC Balance</source>
-        <translation>zBXC Saldo</translation>
+        <source>zIBTC Balance</source>
+        <translation>zIBTC Saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBXC are spendable.</source>
+These zIBTC are spendable.</source>
         <translation>Mogna: över 20 bekräftelser och över 1 prägling av samma valör efter den blev myntad.
-Dessa zBXC kan spenderas.</translation>
+Dessa zIBTC kan spenderas.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2253,8 +2253,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Spenderbar:</translation>
     </message>
     <message>
-        <source>Locked BXC or Masternode collaterals. These are excluded from zBXC minting.</source>
-        <translation>Låsta BXC eller masternode som säkerhet. Dessa är uteslutna från zBXC minting.</translation>
+        <source>Locked IBTC or Masternode collaterals. These are excluded from zIBTC minting.</source>
+        <translation>Låsta IBTC eller masternode som säkerhet. Dessa är uteslutna från zIBTC minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2265,8 +2265,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Obekräftade:</translation>
     </message>
     <message>
-        <source>Your current zBXC balance, unconfirmed and immature zBXC included.</source>
-        <translation>Ditt nuvarande zBXC saldo, obekräftade och omogna zBXC inräknade.</translation>
+        <source>Your current zIBTC balance, unconfirmed and immature zIBTC included.</source>
+        <translation>Ditt nuvarande zIBTC saldo, obekräftade och omogna zIBTC inräknade.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2277,10 +2277,10 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>osynkroniserad</translation>
     </message>
     <message>
-        <source>Current percentage of zBXC.
+        <source>Current percentage of zIBTC.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuvarande procent zBXC.
+        <translation>Nuvarande procent zIBTC.
 Om AutoMint är tillåten så kommer denna procent att vara som den konfigurerade AutoMint procenten (standard = 10%).
 </translation>
     </message>
@@ -2424,8 +2424,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i i
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2452,12 +2452,12 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i i
         <translation>SEKRETESS</translation>
     </message>
     <message>
-        <source>zBXC Control</source>
-        <translation>zBXC Kontroll</translation>
+        <source>zIBTC Control</source>
+        <translation>zIBTC Kontroll</translation>
     </message>
     <message>
-        <source>zBXC Selected:</source>
-        <translation>Valda zBXC:</translation>
+        <source>zIBTC Selected:</source>
+        <translation>Valda zIBTC:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2472,24 +2472,24 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i i
         <translation>Spendera Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBXC for spending</source>
-        <translation>Tillgängliga (mogna och spenderbara) zBXC att spendera</translation>
+        <source>Available (mature and spendable) zIBTC for spending</source>
+        <translation>Tillgängliga (mogna och spenderbara) zIBTC att spendera</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Tillgängligt Saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBXC for spending
+        <source>Available (mature and spendable) zIBTC for spending
 
-zBXC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tillgängliga (mogna och spenderbara) zBXC att spendera
+zIBTC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tillgängliga (mogna och spenderbara) zIBTC att spendera
 
-zBXC är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
+zIBTC är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
     </message>
     <message>
-        <source>0 zBXC</source>
-        <translation>0 zBXC</translation>
+        <source>0 zIBTC</source>
+        <translation>0 zIBTC</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2548,8 +2548,8 @@ zBXC är mogna när de har över 20 bekräftelser OCH över 2 präglingar av sam
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBXC</source>
-        <translation>Totalt Saldo, obekräftade och omogna zBXC inkluderade</translation>
+        <source>Total Balance including unconfirmed and immature zIBTC</source>
+        <translation>Totalt Saldo, obekräftade och omogna zIBTC inkluderade</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2570,24 +2570,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBXC minting.
+        <source>Show the current status of automatic zIBTC minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to improvedbitcoin.conf
 - disable: add 'enablezeromint=0' to improvedbitcoin.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBXC
+- menu Settings-&gt;Options-&gt;Percentage of autominted zIBTC
 
 </source>
-        <translation>Visa den nuvarande statusen av automatisk zBXC minting.
+        <translation>Visa den nuvarande statusen av automatisk zIBTC minting.
 
 För att ändra statusen (omstart krävs):
 -aktivera: lägg till 'enablezeromint=1' i improvedbitcoin.conf
 -inaktivera: lägg till 'enablezeromint=0' i improvedbitcoin.conf
 
 För att ändra procenten (ingen omstart krävs):
--meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zBXC
+-meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zIBTC
 
 </translation>
     </message>
@@ -2636,20 +2636,20 @@ För att ändra procenten (ingen omstart krävs):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zBXC denominations list</source>
-        <translation>Visa zBXC valör lista</translation>
+        <source>Show zIBTC denominations list</source>
+        <translation>Visa zIBTC valör lista</translation>
     </message>
     <message>
         <source>Show Denominations</source>
         <translation>Visa Valörer</translation>
     </message>
     <message>
-        <source>zBXC minting is DISABLED</source>
-        <translation>zBXC prägling är inaktiverad</translation>
+        <source>zIBTC minting is DISABLED</source>
+        <translation>zIBTC prägling är inaktiverad</translation>
     </message>
     <message>
-        <source>zBXC spending is NOT private (links back to the mint transaction)</source>
-        <translation>Att spendera zBXC är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
+        <source>zIBTC spending is NOT private (links back to the mint transaction)</source>
+        <translation>Att spendera zIBTC är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
     </message>
     <message>
         <source>Denominations with value 5:</source>
@@ -2782,12 +2782,12 @@ Please be patient...</source>
 Ha lite tålamod...</translation>
     </message>
     <message>
-        <source>zBXC Spend #: </source>
-        <translation>zBXC spendering #:</translation>
+        <source>zIBTC Spend #: </source>
+        <translation>zIBTC spendering #:</translation>
     </message>
     <message>
-        <source>zBXC Mint</source>
-        <translation>zBXC Prägling</translation>
+        <source>zIBTC Mint</source>
+        <translation>zIBTC Prägling</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2802,12 +2802,12 @@ Ha lite tålamod...</translation>
         <translation>Konfigurerat procent mål: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zBXC is currently disabled due to maintenance.</source>
-        <translation>zBXC är för nuvarande inaktiverat p.g.a. underhåll.</translation>
+        <source>zIBTC is currently disabled due to maintenance.</source>
+        <translation>zIBTC är för nuvarande inaktiverat p.g.a. underhåll.</translation>
     </message>
     <message>
-        <source>zBXC is currently undergoing maintenance.</source>
-        <translation>zBXC genomgår för tillfället underhåll.</translation>
+        <source>zIBTC is currently undergoing maintenance.</source>
+        <translation>zIBTC genomgår för tillfället underhåll.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3336,8 +3336,8 @@ Var tålmodig...</translation>
         <translation>Vanlig Backup Sökväg:</translation>
     </message>
     <message>
-        <source>Custom zBXC Backup Path:</source>
-        <translation>Vanlig zBXC Backup Sökväg:</translation>
+        <source>Custom zIBTC Backup Path:</source>
+        <translation>Vanlig zIBTC Backup Sökväg:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3804,12 +3804,12 @@ Var tålmodig...</translation>
         <translation>UTXO Storlek:</translation>
     </message>
     <message>
-        <source>0 BXC</source>
-        <translation>0 BXC</translation>
+        <source>0 IBTC</source>
+        <translation>0 IBTC</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 BXC applies</source>
-        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01BXC tillkommer</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 IBTC applies</source>
+        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01IBTC tillkommer</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3864,12 +3864,12 @@ Var tålmodig...</translation>
         <translation>Mynt automatiskt valda</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBXCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBXCs in fee,&lt;br /&gt;while "at least" pays 1000 uBXCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uBXCs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBXCs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uBXCs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uIBTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIBTCs in fee,&lt;br /&gt;while "at least" pays 1000 uIBTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uIBTCs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uIBTCs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uIBTCs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBXCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBXCs in fee,&lt;br /&gt;while "total at least" pays 1000 uBXCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uBXCs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uBXCs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uBXCs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uIBTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIBTCs in fee,&lt;br /&gt;while "total at least" pays 1000 uIBTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uIBTCs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uIBTCs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uIBTCs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ImprovedBitcoin transactions than the network can process.</source>
@@ -3920,8 +3920,8 @@ Var tålmodig...</translation>
         <translation>Lägg till &amp;Mottagare</translation>
     </message>
     <message>
-        <source>Anonymized BXC</source>
-        <translation>Anonymiserade BXC</translation>
+        <source>Anonymized IBTC</source>
+        <translation>Anonymiserade IBTC</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4580,12 +4580,12 @@ Var tålmodig...</translation>
         <translation>Mottaget via Fördunkling</translation>
     </message>
     <message>
-        <source>BXC Stake</source>
-        <translation>BXC staking</translation>
+        <source>IBTC Stake</source>
+        <translation>IBTC staking</translation>
     </message>
     <message>
-        <source>zBXC Stake</source>
-        <translation>zBXC Staking</translation>
+        <source>zIBTC Stake</source>
+        <translation>zIBTC Staking</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4604,32 +4604,32 @@ Var tålmodig...</translation>
         <translation>Obfuscation Skapa tecken</translation>
     </message>
     <message>
-        <source>Converted BXC to zBXC</source>
-        <translation>Konvertera BXC till zBXC</translation>
+        <source>Converted IBTC to zIBTC</source>
+        <translation>Konvertera IBTC till zIBTC</translation>
     </message>
     <message>
-        <source>Spent zBXC</source>
-        <translation>Spendera zBXC</translation>
+        <source>Spent zIBTC</source>
+        <translation>Spendera zIBTC</translation>
     </message>
     <message>
-        <source>Received BXC from zBXC</source>
-        <translation>Mottog BXC från zBXC</translation>
+        <source>Received IBTC from zIBTC</source>
+        <translation>Mottog IBTC från zIBTC</translation>
     </message>
     <message>
-        <source>Minted Change as zBXC from zBXC Spend</source>
-        <translation>Myntad Växel som zBXC från zBXC Spendering</translation>
+        <source>Minted Change as zIBTC from zIBTC Spend</source>
+        <translation>Myntad Växel som zIBTC från zIBTC Spendering</translation>
     </message>
     <message>
-        <source>Converted zBXC to BXC</source>
-        <translation>Konverterad zBXC till BXC</translation>
+        <source>Converted zIBTC to IBTC</source>
+        <translation>Konverterad zIBTC till IBTC</translation>
     </message>
     <message>
-        <source>Anonymous (zBXC Transaction)</source>
-        <translation>Anonym (zBXC Transaktion)</translation>
+        <source>Anonymous (zIBTC Transaction)</source>
+        <translation>Anonym (zIBTC Transaktion)</translation>
     </message>
     <message>
-        <source>Anonymous (zBXC Stake)</source>
-        <translation>Anonym (zBXC Stake)</translation>
+        <source>Anonymous (zIBTC Stake)</source>
+        <translation>Anonym (zIBTC Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4843,12 +4843,12 @@ Var tålmodig...</translation>
         <translation>Exportering Lyckat</translation>
     </message>
     <message>
-        <source>Received BXC from zBXC</source>
-        <translation>Mottog BXC från zBXC</translation>
+        <source>Received IBTC from zIBTC</source>
+        <translation>Mottog IBTC från zIBTC</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zBXC</source>
-        <translation>Zerocoin spendera, Växel i zBXC</translation>
+        <source>Zerocoin Spend, Change in zIBTC</source>
+        <translation>Zerocoin spendera, Växel i zIBTC</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4884,8 +4884,8 @@ Var tålmodig...</translation>
         <translation>Skicka Mynt</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BXC.</source>
-        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 BXC.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 IBTC.</source>
+        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 IBTC.</translation>
     </message>
 </context>
 <context>
@@ -4918,8 +4918,8 @@ Var tålmodig...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zBXC to Spend</source>
-        <translation>Välj zBXC att Spendera</translation>
+        <source>Select zIBTC to Spend</source>
+        <translation>Välj zIBTC att Spendera</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4930,8 +4930,8 @@ Var tålmodig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4993,16 +4993,16 @@ Var tålmodig...</translation>
         <translation>Distribuerad under MIT mjukvarulicensen, se medföljande fil COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zBXC minting (0-1, default: %u)</source>
-        <translation>Aktivera automatisk plånboksbackup efter varje zBXC minting (0-1, standard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zIBTC minting (0-1, default: %u)</source>
+        <translation>Aktivera automatisk plånboksbackup efter varje zIBTC minting (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BXC inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för BXC inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for IBTC inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för IBTC inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBXC inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för zBXC inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zIBTC inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för zIBTC inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5037,12 +5037,12 @@ Var tålmodig...</translation>
         <translation>Exekvera kommando när den bästa block ändras (%s i cmd är utbytt mot block hash)</translation>
     </message>
     <message>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Avgifter (i BXC/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Avgifter (i IBTC/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i BXC/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Avgifter (i IBTC/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5149,12 +5149,12 @@ Var tålmodig...</translation>
         <translation>Kan ej lokalisera tillräckligt Fördunklingsdenominationerade pengar för denna transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BXC.</source>
-        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 BXC.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 IBTC.</source>
+        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 IBTC.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BXC.</source>
-        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 BXC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 IBTC.</source>
+        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 IBTC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5441,8 +5441,8 @@ Var tålmodig...</translation>
         <translation>Misslyckades läsa block</translation>
     </message>
     <message>
-        <source>Fee (in BXC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i BXC/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
+        <source>Fee (in IBTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i IBTC/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5545,8 +5545,8 @@ Var tålmodig...</translation>
         <translation>Procent automatiskt mintad Zerocoin (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the BXC and zBXC money supply statistics</source>
-        <translation>Indexera BXC och zBXC pengarna tillgång statistik på nytt</translation>
+        <source>Reindex the IBTC and zIBTC money supply statistics</source>
+        <translation>Indexera IBTC och zIBTC pengarna tillgång statistik på nytt</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5625,8 +5625,8 @@ Var tålmodig...</translation>
         <translation>Valör aatt föredra för automatiskt mintad Zerocoin (1/5/10/50/100/500/1000/5000), 0 för ingen preface. standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zBXC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zBXC backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
+        <source>Specify custom backup path to add a copy of any automatic zIBTC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zIBTC backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6041,8 +6041,8 @@ Var tålmodig...</translation>
         <translation>Synkroniserar sporks...</translation>
     </message>
     <message>
-        <source>Syncing zBXC wallet...</source>
-        <translation>Synkroniserar zBXC plånbok...</translation>
+        <source>Syncing zIBTC wallet...</source>
+        <translation>Synkroniserar zIBTC plånbok...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6153,8 +6153,8 @@ Var tålmodig...</translation>
         <translation>Användarnamn för JSON-RPC anslutningar</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBXC</source>
-        <translation>Värde är under den minsta tillgängliga valören (=1) av zBXC</translation>
+        <source>Value is below the smallest available denomination (= 1) of zIBTC</source>
+        <translation>Värde är under den minsta tillgängliga valören (=1) av zIBTC</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

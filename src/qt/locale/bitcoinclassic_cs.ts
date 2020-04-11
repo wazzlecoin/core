@@ -172,16 +172,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>ImprovedBitcoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše BXCy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše IBTCy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE BXCy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE IBTCy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -397,8 +397,8 @@
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBXC</source>
-        <translation>Řešení soukromí pro zBXC</translation>
+        <source>Privacy Actions for zIBTC</source>
+        <translation>Řešení soukromí pro zIBTC</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -2016,8 +2016,8 @@ MultiSend: %1</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 BXC</source>
-        <translation>0 BXC</translation>
+        <source>0 IBTC</source>
+        <translation>0 IBTC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>

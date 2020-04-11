@@ -293,7 +293,7 @@ std::string ReindexZerocoinDB()
                                 libzerocoin::ZerocoinParams* params = Params().Zerocoin_Params(false);
                                 PublicCoinSpend publicSpend(params);
                                 CValidationState state;
-                                if (!ZBXCModule::ParseZerocoinPublicSpend(in, tx, state, publicSpend)){
+                                if (!ZIBTCModule::ParseZerocoinPublicSpend(in, tx, state, publicSpend)){
                                     return _("Failed to parse public spend");
                                 }
                                 vSpendInfo.push_back(make_pair(publicSpend, txid));

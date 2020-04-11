@@ -176,16 +176,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>ImprovedBitcoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas BXCs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas IBTCs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS BXC&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS IBTC&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -409,8 +409,8 @@
         <translation>Olhar histórico de transação</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBXC</source>
-        <translation>Ações privadas para zBXC</translation>
+        <source>Privacy Actions for zIBTC</source>
+        <translation>Ações privadas para zIBTC</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1923,8 +1923,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Estatísticas zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBXC</source>
-        <translation>Balanço Total incluindo não confirmadas e imaturas zBXC</translation>
+        <source>Total Balance including unconfirmed and immature zIBTC</source>
+        <translation>Balanço Total incluindo não confirmadas e imaturas zIBTC</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2567,8 +2567,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 BXC</source>
-        <translation>0 BXC</translation>
+        <source>0 IBTC</source>
+        <translation>0 IBTC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2611,8 +2611,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBXCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBXCs in fee,&lt;br /&gt;while "at least" pays 1000 uBXCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uBXCs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uBXCs em taxa,&lt;br /&gt; pagará pelo menos 1000 uBXCs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uIBTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIBTCs in fee,&lt;br /&gt;while "at least" pays 1000 uIBTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uIBTCs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uIBTCs em taxa,&lt;br /&gt; pagará pelo menos 1000 uIBTCs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ImprovedBitcoin transactions than the network can process.</source>
@@ -2663,8 +2663,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Adicionar &amp;Recipiente</translation>
     </message>
     <message>
-        <source>Anonymized BXC</source>
-        <translation>BXC anonimizadas</translation>
+        <source>Anonymized IBTC</source>
+        <translation>IBTC anonimizadas</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3525,8 +3525,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -3552,12 +3552,12 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em BXC/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em IBTC/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em BXC/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em IBTC/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3576,8 +3576,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BXC.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 BXC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 IBTC.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 IBTC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3752,8 +3752,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in BXC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em BXC/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in IBTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em IBTC/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>

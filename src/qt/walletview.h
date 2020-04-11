@@ -136,7 +136,7 @@ public slots:
     /** Show progress dialog e.g. for rescan */
     void showProgress(const QString& title, int nProgress);
 
-    /** Update selected BXC amount from transactionview */
+    /** Update selected IBTC amount from transactionview */
     void trxAmount(QString amount);
 
 signals:

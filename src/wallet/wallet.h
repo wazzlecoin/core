@@ -88,30 +88,30 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
-    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 BXC at the same time
+    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 IBTC at the same time
     ONLY_10000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zBXC send
+// Possible states for zIBTC send
 enum ZerocoinSpendStatus {
-    ZBXC_SPEND_OKAY = 0,                            // No error
-    ZBXC_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZBXC_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZBXC_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZBXC_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZBXC_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZBXC_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZBXC_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZBXC_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZBXC_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZBXC_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZBXC_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZBXC_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZBXC_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZBXC_SPENT_USED_ZBXC = 14,                      // Coin has already been spend
-    ZBXC_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
-    ZBXC_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
+    ZIBTC_SPEND_OKAY = 0,                            // No error
+    ZIBTC_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZIBTC_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZIBTC_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZIBTC_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZIBTC_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZIBTC_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZIBTC_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZIBTC_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZIBTC_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZIBTC_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZIBTC_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZIBTC_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZIBTC_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZIBTC_SPENT_USED_ZIBTC = 14,                      // Coin has already been spend
+    ZIBTC_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
+    ZIBTC_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
 };
 
 struct CompactTallyItem {
@@ -220,7 +220,7 @@ public:
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored, std::list<CDeterministicMint>& listDMintsRestored);
     void ZPivBackupWallet();
     bool GetZerocoinKey(const CBigNum& bnSerial, CKey& key);
-    bool CreateZBXCOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
+    bool CreateZIBTCOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
     bool GetMint(const uint256& hashSerial, CZerocoinMint& mint);
     bool GetMintFromStakeHash(const uint256& hashStake, CZerocoinMint& mint);
     bool DatabaseMint(CDeterministicMint& dMint);
@@ -243,7 +243,7 @@ public:
      */
     mutable CCriticalSection cs_wallet;
 
-    CzBXCWallet* zwalletMain;
+    CzIBTCWallet* zwalletMain;
 
     std::set<CBitcoinAddress> setAutoConvertAddresses;
 
@@ -251,7 +251,7 @@ public:
     bool fWalletUnlockAnonymizeOnly;
     std::string strWalletFile;
     bool fBackupMints;
-    std::unique_ptr<CzBXCTracker> zibtcTracker;
+    std::unique_ptr<CzIBTCTracker> zibtcTracker;
 
     std::set<int64_t> setKeyPool;
     std::map<CKeyID, CKeyMetadata> mapKeyMetadata;
@@ -336,13 +336,13 @@ public:
         return nZeromintPercentage;
     }
 
-    void setZWallet(CzBXCWallet* zwallet)
+    void setZWallet(CzIBTCWallet* zwallet)
     {
         zwalletMain = zwallet;
-        zibtcTracker = std::unique_ptr<CzBXCTracker>(new CzBXCTracker(strWalletFile));
+        zibtcTracker = std::unique_ptr<CzIBTCTracker>(new CzIBTCTracker(strWalletFile));
     }
 
-    CzBXCWallet* getZWallet() { return zwalletMain; }
+    CzIBTCWallet* getZWallet() { return zwalletMain; }
 
     bool isZeromintEnabled()
     {
@@ -667,8 +667,8 @@ public:
     /** MultiSig address added */
     boost::signals2::signal<void(bool fHaveMultiSig)> NotifyMultiSigChanged;
 
-    /** zBXC reset */
-    boost::signals2::signal<void()> NotifyzBXCReset;
+    /** zIBTC reset */
+    boost::signals2::signal<void()> NotifyzIBTCReset;
 
     /** notify wallet file backed up */
     boost::signals2::signal<void (const bool& fSuccess, const std::string& filename)> NotifyWalletBacked;

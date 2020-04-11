@@ -34,7 +34,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::BXC)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::IBTC)
     {
     }
 
@@ -146,7 +146,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sBXCPercentage, QString& szBXCPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sIBTCPercentage, QString& szIBTCPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -165,8 +165,8 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
 
     double dPercentage = 100.0 - dzPercentage;
 
-    szBXCPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sBXCPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    szIBTCPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
+    sIBTCPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
 
 }
 
@@ -191,16 +191,16 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
 
-    // BXC Balance
+    // IBTC Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
     CAmount ibtcAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
 
-    // BXC Watch-Only Balance
+    // IBTC Watch-Only Balance
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;
     CAmount nAvailableWatchBalance = watchOnlyBalance - watchImmatureBalance - nWatchOnlyLockedBalance;
 
-    // zBXC Balance
+    // zIBTC Balance
     CAmount matureZerocoinBalance = zerocoinBalance - unconfirmedZerocoinBalance - immatureZerocoinBalance;
 
     // Percentages
@@ -211,7 +211,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     CAmount availableTotalBalance = ibtcAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
-    // BXC labels
+    // IBTC labels
     ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, ibtcAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
@@ -225,7 +225,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelWatchLocked->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nWatchOnlyLockedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelWatchTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nTotalWatchBalance, false, BitcoinUnits::separatorAlways));
 
-    // zBXC labels
+    // zIBTC labels
     ui->labelzBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, zerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedZerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceMature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, matureZerocoinBalance, false, BitcoinUnits::separatorAlways));
@@ -236,11 +236,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelBXCPercent->setText(sPercentage);
-    ui->labelzBXCPercent->setText(szPercentage);
+    ui->labelIBTCPercent->setText(sPercentage);
+    ui->labelzIBTCPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
-    QString automintHelp = tr("Current percentage of zBXC.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
+    QString automintHelp = tr("Current percentage of zIBTC.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
     bool fEnableZeromint = GetBoolArg("-enablezeromint", true);
     int nZeromintPercentage = GetArg("-zeromintpercentage", 10);
     if (fEnableZeromint) {
@@ -261,49 +261,49 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     bool showWatchOnly = nTotalWatchBalance != 0;
 
-    // BXC Available
-    bool showBXCAvailable = settingShowAllBalances || ibtcAvailableBalance != nTotalBalance;
-    bool showWatchOnlyBXCAvailable = showBXCAvailable || nAvailableWatchBalance != nTotalWatchBalance;
-    ui->labelBalanceText->setVisible(showBXCAvailable || showWatchOnlyBXCAvailable);
-    ui->labelBalance->setVisible(showBXCAvailable || showWatchOnlyBXCAvailable);
-    ui->labelWatchAvailable->setVisible(showWatchOnlyBXCAvailable && showWatchOnly);
+    // IBTC Available
+    bool showIBTCAvailable = settingShowAllBalances || ibtcAvailableBalance != nTotalBalance;
+    bool showWatchOnlyIBTCAvailable = showIBTCAvailable || nAvailableWatchBalance != nTotalWatchBalance;
+    ui->labelBalanceText->setVisible(showIBTCAvailable || showWatchOnlyIBTCAvailable);
+    ui->labelBalance->setVisible(showIBTCAvailable || showWatchOnlyIBTCAvailable);
+    ui->labelWatchAvailable->setVisible(showWatchOnlyIBTCAvailable && showWatchOnly);
 
-    // BXC Pending
-    bool showBXCPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyBXCPending = showBXCPending || watchUnconfBalance != 0;
-    ui->labelPendingText->setVisible(showBXCPending || showWatchOnlyBXCPending);
-    ui->labelUnconfirmed->setVisible(showBXCPending || showWatchOnlyBXCPending);
-    ui->labelWatchPending->setVisible(showWatchOnlyBXCPending && showWatchOnly);
+    // IBTC Pending
+    bool showIBTCPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyIBTCPending = showIBTCPending || watchUnconfBalance != 0;
+    ui->labelPendingText->setVisible(showIBTCPending || showWatchOnlyIBTCPending);
+    ui->labelUnconfirmed->setVisible(showIBTCPending || showWatchOnlyIBTCPending);
+    ui->labelWatchPending->setVisible(showWatchOnlyIBTCPending && showWatchOnly);
 
-    // BXC Immature
-    bool showBXCImmature = settingShowAllBalances || immatureBalance != 0;
-    bool showWatchOnlyImmature = showBXCImmature || watchImmatureBalance != 0;
-    ui->labelImmatureText->setVisible(showBXCImmature || showWatchOnlyImmature);
-    ui->labelImmature->setVisible(showBXCImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
+    // IBTC Immature
+    bool showIBTCImmature = settingShowAllBalances || immatureBalance != 0;
+    bool showWatchOnlyImmature = showIBTCImmature || watchImmatureBalance != 0;
+    ui->labelImmatureText->setVisible(showIBTCImmature || showWatchOnlyImmature);
+    ui->labelImmature->setVisible(showIBTCImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
 
-    // BXC Locked
-    bool showBXCLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyBXCLocked = showBXCLocked || nWatchOnlyLockedBalance != 0;
-    ui->labelLockedBalanceText->setVisible(showBXCLocked || showWatchOnlyBXCLocked);
-    ui->labelLockedBalance->setVisible(showBXCLocked || showWatchOnlyBXCLocked);
-    ui->labelWatchLocked->setVisible(showWatchOnlyBXCLocked && showWatchOnly);
+    // IBTC Locked
+    bool showIBTCLocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyIBTCLocked = showIBTCLocked || nWatchOnlyLockedBalance != 0;
+    ui->labelLockedBalanceText->setVisible(showIBTCLocked || showWatchOnlyIBTCLocked);
+    ui->labelLockedBalance->setVisible(showIBTCLocked || showWatchOnlyIBTCLocked);
+    ui->labelWatchLocked->setVisible(showWatchOnlyIBTCLocked && showWatchOnly);
 
-    // zBXC
-    bool showzBXCAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
-    bool showzBXCUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
-    bool showzBXCImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
-    ui->labelzBalanceMature->setVisible(showzBXCAvailable);
-    ui->labelzBalanceMatureText->setVisible(showzBXCAvailable);
-    ui->labelzBalanceUnconfirmed->setVisible(showzBXCUnconfirmed);
-    ui->labelzBalanceUnconfirmedText->setVisible(showzBXCUnconfirmed);
-    ui->labelzBalanceImmature->setVisible(showzBXCImmature);
-    ui->labelzBalanceImmatureText->setVisible(showzBXCImmature);
+    // zIBTC
+    bool showzIBTCAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
+    bool showzIBTCUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
+    bool showzIBTCImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
+    ui->labelzBalanceMature->setVisible(showzIBTCAvailable);
+    ui->labelzBalanceMatureText->setVisible(showzIBTCAvailable);
+    ui->labelzBalanceUnconfirmed->setVisible(showzIBTCUnconfirmed);
+    ui->labelzBalanceUnconfirmedText->setVisible(showzIBTCUnconfirmed);
+    ui->labelzBalanceImmature->setVisible(showzIBTCImmature);
+    ui->labelzBalanceImmatureText->setVisible(showzIBTCImmature);
 
     // Percent split
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelBXCPercent->setVisible(showPercentages);
-    ui->labelzBXCPercent->setVisible(showPercentages);
+    ui->labelIBTCPercent->setVisible(showPercentages);
+    ui->labelzIBTCPercent->setVisible(showPercentages);
 
     static int cachedTxLocks = 0;
 
@@ -375,7 +375,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("BXC")
+    // update the display unit, to not use the default ("IBTC")
     updateDisplayUnit();
 
     // Hide orphans

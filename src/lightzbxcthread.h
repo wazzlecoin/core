@@ -3,8 +3,8 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
 
-#ifndef ImprovedBitcoin_LIGHTZBXCTHREAD_H
-#define ImprovedBitcoin_LIGHTZBXCTHREAD_H
+#ifndef ImprovedBitcoin_LIGHTZIBTCTHREAD_H
+#define ImprovedBitcoin_LIGHTZIBTCTHREAD_H
 
 #include <atomic>
 #include "genwit.h"
@@ -51,7 +51,7 @@ public:
 
     void StartLightZibtcThread(boost::thread_group& threadGroup) {
         LogPrintf("%s thread start\n", "improvedbitcoin-light-thread");
-        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZBXCSimplified, this));
+        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZIBTCSimplified, this));
     }
 
     void StopLightZibtcThread() {
@@ -61,10 +61,10 @@ public:
 
 private:
 
-    void ThreadLightZBXCSimplified();
+    void ThreadLightZIBTCSimplified();
 
     void rejectWork(CGenWit& wit, int blockHeight, uint32_t errorNumber);
 
 };
 
-#endif //ImprovedBitcoin_LIGHTZBXCTHREAD_H
+#endif //ImprovedBitcoin_LIGHTZIBTCTHREAD_H

@@ -13,7 +13,7 @@
 
 using namespace libzerocoin;
 
-CzBXCWallet::CzBXCWallet(std::string strWalletFile)
+CzIBTCWallet::CzIBTCWallet(std::string strWalletFile)
 {
     this->strWalletFile = strWalletFile;
     CWalletDB walletdb(strWalletFile);
@@ -24,13 +24,13 @@ CzBXCWallet::CzBXCWallet(std::string strWalletFile)
     //Check for old db version of storing zibtc seed
     if (fFirstRun) {
         uint256 seed;
-        if (walletdb.ReadZBXCSeed_deprecated(seed)) {
+        if (walletdb.ReadZIBTCSeed_deprecated(seed)) {
             //Update to new format, erase old
             seedMaster = seed;
             hashSeed = Hash(seed.begin(), seed.end());
             if (pwalletMain->AddDeterministicSeed(seed)) {
-                if (walletdb.EraseZBXCSeed_deprecated()) {
-                    LogPrintf("%s: Updated zBXC seed databasing\n", __func__);
+                if (walletdb.EraseZIBTCSeed_deprecated()) {
+                    LogPrintf("%s: Updated zIBTC seed databasing\n", __func__);
                     fFirstRun = false;
                 } else {
                     LogPrintf("%s: failed to remove old zibtc seed\n", __func__);
@@ -68,7 +68,7 @@ CzBXCWallet::CzBXCWallet(std::string strWalletFile)
     this->mintPool = CMintPool(nCountLastUsed);
 }
 
-bool CzBXCWallet::SetMasterSeed(const uint256& seedMaster, bool fResetCount)
+bool CzIBTCWallet::SetMasterSeed(const uint256& seedMaster, bool fResetCount)
 {
 
     CWalletDB walletdb(strWalletFile);
@@ -84,8 +84,8 @@ bool CzBXCWallet::SetMasterSeed(const uint256& seedMaster, bool fResetCount)
     nCountLastUsed = 0;
 
     if (fResetCount)
-        walletdb.WriteZBXCCount(nCountLastUsed);
-    else if (!walletdb.ReadZBXCCount(nCountLastUsed))
+        walletdb.WriteZIBTCCount(nCountLastUsed);
+    else if (!walletdb.ReadZIBTCCount(nCountLastUsed))
         nCountLastUsed = 0;
 
     mintPool.Reset();
@@ -93,18 +93,18 @@ bool CzBXCWallet::SetMasterSeed(const uint256& seedMaster, bool fResetCount)
     return true;
 }
 
-void CzBXCWallet::Lock()
+void CzIBTCWallet::Lock()
 {
     seedMaster = 0;
 }
 
-void CzBXCWallet::AddToMintPool(const std::pair<uint256, uint32_t>& pMint, bool fVerbose)
+void CzIBTCWallet::AddToMintPool(const std::pair<uint256, uint32_t>& pMint, bool fVerbose)
 {
     mintPool.Add(pMint, fVerbose);
 }
 
 //Add the next 20 mints to the mint pool
-void CzBXCWallet::GenerateMintPool(uint32_t nCountStart, uint32_t nCountEnd)
+void CzIBTCWallet::GenerateMintPool(uint32_t nCountStart, uint32_t nCountEnd)
 {
 
     //Is locked
@@ -146,7 +146,7 @@ void CzBXCWallet::GenerateMintPool(uint32_t nCountStart, uint32_t nCountEnd)
         CBigNum bnSerial;
         CBigNum bnRandomness;
         CKey key;
-        SeedToZBXC(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
+        SeedToZIBTC(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
 
         mintPool.Add(bnValue, i);
         CWalletDB(strWalletFile).WriteMintPoolPair(hashSeed, GetPubCoinHash(bnValue), i);
@@ -155,7 +155,7 @@ void CzBXCWallet::GenerateMintPool(uint32_t nCountStart, uint32_t nCountEnd)
 }
 
 // pubcoin hashes are stored to db so that a full accounting of mints belonging to the seed can be tracked without regenerating
-bool CzBXCWallet::LoadMintPoolFromDB()
+bool CzIBTCWallet::LoadMintPoolFromDB()
 {
     map<uint256, vector<pair<uint256, uint32_t> > > mapMintPool = CWalletDB(strWalletFile).MapMintPool();
 
@@ -166,20 +166,20 @@ bool CzBXCWallet::LoadMintPoolFromDB()
     return true;
 }
 
-void CzBXCWallet::RemoveMintsFromPool(const std::vector<uint256>& vPubcoinHashes)
+void CzIBTCWallet::RemoveMintsFromPool(const std::vector<uint256>& vPubcoinHashes)
 {
     for (const uint256& hash : vPubcoinHashes)
         mintPool.Remove(hash);
 }
 
-void CzBXCWallet::GetState(int& nCount, int& nLastGenerated)
+void CzIBTCWallet::GetState(int& nCount, int& nLastGenerated)
 {
     nCount = this->nCountLastUsed + 1;
     nLastGenerated = mintPool.CountOfLastGenerated();
 }
 
 //Catch the counter up with the chain
-void CzBXCWallet::SyncWithChain(bool fGenerateMintPool)
+void CzIBTCWallet::SyncWithChain(bool fGenerateMintPool)
 {
     uint32_t nLastCountUsed = 0;
     bool found = true;
@@ -280,7 +280,7 @@ void CzBXCWallet::SyncWithChain(bool fGenerateMintPool)
     }
 }
 
-bool CzBXCWallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, const uint256& txid, const CoinDenomination& denom)
+bool CzIBTCWallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, const uint256& txid, const CoinDenomination& denom)
 {
     if (!mintPool.Has(bnValue))
         return error("%s: value not in pool", __func__);
@@ -292,7 +292,7 @@ bool CzBXCWallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, const 
     CBigNum bnSerial;
     CBigNum bnRandomness;
     CKey key;
-    SeedToZBXC(seedZerocoin, bnValueGen, bnSerial, bnRandomness, key);
+    SeedToZIBTC(seedZerocoin, bnValueGen, bnSerial, bnRandomness, key);
 
     //Sanity check
     if (bnValueGen != bnValue)
@@ -333,7 +333,7 @@ bool CzBXCWallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, const 
     if (nCountLastUsed < pMint.second) {
         CWalletDB walletdb(strWalletFile);
         nCountLastUsed = pMint.second;
-        walletdb.WriteZBXCCount(nCountLastUsed);
+        walletdb.WriteZIBTCCount(nCountLastUsed);
     }
 
     //remove from the pool
@@ -350,7 +350,7 @@ bool IsValidCoinValue(const CBigNum& bnValue)
     bnValue.isPrime();
 }
 
-void CzBXCWallet::SeedToZBXC(const uint512& seedZerocoin, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key)
+void CzIBTCWallet::SeedToZIBTC(const uint512& seedZerocoin, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key)
 {
     ZerocoinParams* params = Params().Zerocoin_Params(false);
 
@@ -399,7 +399,7 @@ void CzBXCWallet::SeedToZBXC(const uint512& seedZerocoin, CBigNum& bnValue, CBig
     }
 }
 
-uint512 CzBXCWallet::GetZerocoinSeed(uint32_t n)
+uint512 CzIBTCWallet::GetZerocoinSeed(uint32_t n)
 {
     CDataStream ss(SER_GETHASH, 0);
     ss << seedMaster << n;
@@ -407,14 +407,14 @@ uint512 CzBXCWallet::GetZerocoinSeed(uint32_t n)
     return zerocoinSeed;
 }
 
-void CzBXCWallet::UpdateCount()
+void CzIBTCWallet::UpdateCount()
 {
     nCountLastUsed++;
     CWalletDB walletdb(strWalletFile);
-    walletdb.WriteZBXCCount(nCountLastUsed);
+    walletdb.WriteZIBTCCount(nCountLastUsed);
 }
 
-void CzBXCWallet::GenerateDeterministicZBXC(CoinDenomination denom, PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly)
+void CzIBTCWallet::GenerateDeterministicZIBTC(CoinDenomination denom, PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly)
 {
     GenerateMint(nCountLastUsed + 1, denom, coin, dMint);
     if (fGenerateOnly)
@@ -424,14 +424,14 @@ void CzBXCWallet::GenerateDeterministicZBXC(CoinDenomination denom, PrivateCoin&
     //LogPrintf("%s : Generated new deterministic mint. Count=%d pubcoin=%s seed=%s\n", __func__, nCount, coin.getPublicCoin().getValue().GetHex().substr(0,6), seedZerocoin.GetHex().substr(0, 4));
 }
 
-void CzBXCWallet::GenerateMint(const uint32_t& nCount, const CoinDenomination denom, PrivateCoin& coin, CDeterministicMint& dMint)
+void CzIBTCWallet::GenerateMint(const uint32_t& nCount, const CoinDenomination denom, PrivateCoin& coin, CDeterministicMint& dMint)
 {
     uint512 seedZerocoin = GetZerocoinSeed(nCount);
     CBigNum bnValue;
     CBigNum bnSerial;
     CBigNum bnRandomness;
     CKey key;
-    SeedToZBXC(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
+    SeedToZIBTC(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
     coin = PrivateCoin(Params().Zerocoin_Params(false), denom, bnSerial, bnRandomness);
     coin.setPrivKey(key.GetPrivKey());
     coin.setVersion(PrivateCoin::CURRENT_VERSION);
@@ -445,14 +445,14 @@ void CzBXCWallet::GenerateMint(const uint32_t& nCount, const CoinDenomination de
     dMint.SetDenomination(denom);
 }
 
-bool CzBXCWallet::CheckSeed(const CDeterministicMint& dMint)
+bool CzIBTCWallet::CheckSeed(const CDeterministicMint& dMint)
 {
     //Check that the seed is correct    todo:handling of incorrect, or multiple seeds
     uint256 hashSeed = Hash(seedMaster.begin(), seedMaster.end());
     return hashSeed == dMint.GetSeedHash();
 }
 
-bool CzBXCWallet::RegenerateMint(const CDeterministicMint& dMint, CZerocoinMint& mint)
+bool CzIBTCWallet::RegenerateMint(const CDeterministicMint& dMint, CZerocoinMint& mint)
 {
     if (!CheckSeed(dMint)) {
         uint256 hashSeed = Hash(seedMaster.begin(), seedMaster.end());

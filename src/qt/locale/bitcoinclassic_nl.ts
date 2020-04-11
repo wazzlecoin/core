@@ -176,16 +176,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>ImprovedBitcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw BXC's kunnen stelen.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw IBTC's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BXC VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW IBTC VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Blader door transactiegescheidenis</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBXC</source>
-        <translation>Privacy Acties voor zBXC</translation>
+        <source>Privacy Actions for zIBTC</source>
+        <translation>Privacy Acties voor zIBTC</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -1734,8 +1734,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Adres / Bedrag:</translation>
     </message>
     <message>
-        <source>Add destinations to send BXC to</source>
-        <translation>Voeg bestemmingen toe om BXC naar te verzenden</translation>
+        <source>Add destinations to send IBTC to</source>
+        <translation>Voeg bestemmingen toe om IBTC naar te verzenden</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1934,32 +1934,32 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BXC units to zBXC</source>
-        <translation>Schakel automatisch slaan van BXC-eenheden in op zBXC</translation>
+        <source>Enable automatic minting of IBTC units to zIBTC</source>
+        <translation>Schakel automatisch slaan van IBTC-eenheden in op zIBTC</translation>
     </message>
     <message>
-        <source>Enable zBXC Automint</source>
-        <translation>Schakel zBXC Automint in</translation>
+        <source>Enable zIBTC Automint</source>
+        <translation>Schakel zIBTC Automint in</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint Adressen Inschakelen</translation>
     </message>
     <message>
-        <source>Percentage of incoming BXC which get automatically converted to zBXC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende BXC die automatisch wordt omgezet naar zBXC via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming IBTC which get automatically converted to zIBTC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende IBTC die automatisch wordt omgezet naar zIBTC via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBXC</source>
-        <translation>Percentage autominted zBXC</translation>
+        <source>Percentage of autominted zIBTC</source>
+        <translation>Percentage autominted zIBTC</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BXC for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg BXC voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough IBTC for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg IBTC voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
-        <source>Preferred Automint zBXC Denomination</source>
-        <translation>Gewenste Automint zBXC denominatie</translation>
+        <source>Preferred Automint zIBTC Denomination</source>
+        <translation>Gewenste Automint zIBTC denominatie</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2125,8 +2125,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Totaal saldo, inclusief alle niet-beschikbare munten.</translation>
     </message>
     <message>
-        <source>BXC Balance</source>
-        <translation>BXC Saldi</translation>
+        <source>IBTC Balance</source>
+        <translation>IBTC Saldi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2153,12 +2153,12 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Uw huidige ImprovedBitcoin-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
     </message>
     <message>
-        <source>zBXC Balance</source>
-        <translation>zBXC-saldo</translation>
+        <source>zIBTC Balance</source>
+        <translation>zIBTC-saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBXC are spendable.</source>
+These zIBTC are spendable.</source>
         <translation>Volwassen: meer dan 20 bevestigingen en meer dan 1 mint van dezelfde denominatie nadat het gemint was.
 Deze zPIB zijn besteedbaar.</translation>
     </message>
@@ -2213,8 +2213,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Uitgeefbaar:</translation>
     </message>
     <message>
-        <source>Locked BXC or Masternode collaterals. These are excluded from zBXC minting.</source>
-        <translation>Vergrendelde BXC of Masternode onderpanden. Deze zijn uitgesloten van de zBXC muntage.</translation>
+        <source>Locked IBTC or Masternode collaterals. These are excluded from zIBTC minting.</source>
+        <translation>Vergrendelde IBTC of Masternode onderpanden. Deze zijn uitgesloten van de zIBTC muntage.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2225,8 +2225,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Onbevestigd:</translation>
     </message>
     <message>
-        <source>Your current zBXC balance, unconfirmed and immature zBXC included.</source>
-        <translation>Uw huidige zBXC-saldo, onbevestigde en onvolgroeide zBXC inbegrepen.</translation>
+        <source>Your current zIBTC balance, unconfirmed and immature zIBTC included.</source>
+        <translation>Uw huidige zIBTC-saldo, onbevestigde en onvolgroeide zIBTC inbegrepen.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2237,10 +2237,10 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>niet gesynchroniseerd</translation>
     </message>
     <message>
-        <source>Current percentage of zBXC.
+        <source>Current percentage of zIBTC.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Huidige percentage van zBXC
+        <translation>Huidige percentage van zIBTC
 Als AutoMint ingeschakeld is zal deze percentage afhangen van de geconfigureerde AutoMint percentage (standaard = 10%).
 </translation>
     </message>
@@ -2384,8 +2384,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2412,12 +2412,12 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>zBXC Control</source>
-        <translation>zBXC Control</translation>
+        <source>zIBTC Control</source>
+        <translation>zIBTC Control</translation>
     </message>
     <message>
-        <source>zBXC Selected:</source>
-        <translation>zBXC geselecteerd:</translation>
+        <source>zIBTC Selected:</source>
+        <translation>zIBTC geselecteerd:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2432,24 +2432,24 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Besteed Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBXC for spending</source>
-        <translation>Beschikbare (volwassen en uitgeefbaar) zBXC voor besteding</translation>
+        <source>Available (mature and spendable) zIBTC for spending</source>
+        <translation>Beschikbare (volwassen en uitgeefbaar) zIBTC voor besteding</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Beschikbaar saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBXC for spending
+        <source>Available (mature and spendable) zIBTC for spending
 
-zBXC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Beschikbare (volwwassen en uitgeefbaar) zBXC voor besteding
+zIBTC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Beschikbare (volwwassen en uitgeefbaar) zIBTC voor besteding
 
 zPiv zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
     </message>
     <message>
-        <source>0 zBXC</source>
-        <translation>0 zBXC</translation>
+        <source>0 zIBTC</source>
+        <translation>0 zIBTC</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2508,8 +2508,8 @@ zPiv zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 m
         <translation>Zerocoin Statistieken:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBXC</source>
-        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zBXC</translation>
+        <source>Total Balance including unconfirmed and immature zIBTC</source>
+        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zIBTC</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2530,24 +2530,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBXC minting.
+        <source>Show the current status of automatic zIBTC minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to improvedbitcoin.conf
 - disable: add 'enablezeromint=0' to improvedbitcoin.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBXC
+- menu Settings-&gt;Options-&gt;Percentage of autominted zIBTC
 
 </source>
-        <translation>Toon de huidige status van automatische zBXC-markering.
+        <translation>Toon de huidige status van automatische zIBTC-markering.
 
 Om de status te wijzigen (opnieuw opstarten vereist): 
 - enable: voeg 'enablezeromint = 1' toe aan improvedbitcoin.conf
 - uitschakelen: voeg 'enablezeromint = 0' toe aan improvedbitcoin.conf
 
 Om het percentage te wijzigen (geen herstart vereist): 
-- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zBXC
+- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zIBTC
 </translation>
     </message>
     <message>
@@ -2595,8 +2595,8 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation> 0 x</translation>
     </message>
     <message>
-        <source>Show zBXC denominations list</source>
-        <translation>Toon zBXC denominatielijst</translation>
+        <source>Show zIBTC denominations list</source>
+        <translation>Toon zIBTC denominatielijst</translation>
     </message>
     <message>
         <source>Show Denominations</source>
@@ -2733,12 +2733,12 @@ Please be patient...</source>
 Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
-        <source>zBXC Spend #: </source>
-        <translation>zBXC besteed #:</translation>
+        <source>zIBTC Spend #: </source>
+        <translation>zIBTC besteed #:</translation>
     </message>
     <message>
-        <source>zBXC Mint</source>
-        <translation>zBXC mint</translation>
+        <source>zIBTC Mint</source>
+        <translation>zIBTC mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2753,12 +2753,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Geconfigureerd doelpercentage:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zBXC is currently disabled due to maintenance.</source>
-        <translation>zBXC is momenteel uitgeschakeld vanwege onderhoud.</translation>
+        <source>zIBTC is currently disabled due to maintenance.</source>
+        <translation>zIBTC is momenteel uitgeschakeld vanwege onderhoud.</translation>
     </message>
     <message>
-        <source>zBXC is currently undergoing maintenance.</source>
-        <translation>zBXC wordt momenteel onderhouden.</translation>
+        <source>zIBTC is currently undergoing maintenance.</source>
+        <translation>zIBTC wordt momenteel onderhouden.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3255,8 +3255,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Aangepast back-up pad:</translation>
     </message>
     <message>
-        <source>Custom zBXC Backup Path:</source>
-        <translation>Aangepast zBXC back-up pad:</translation>
+        <source>Custom zIBTC Backup Path:</source>
+        <translation>Aangepast zIBTC back-up pad:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3715,8 +3715,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>UTXO grootte:</translation>
     </message>
     <message>
-        <source>0 BXC</source>
-        <translation>0 BXC</translation>
+        <source>0 IBTC</source>
+        <translation>0 IBTC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3771,12 +3771,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Munten automatisch geselecteerd</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBXCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBXCs in fee,&lt;br /&gt;while "at least" pays 1000 uBXCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uBXCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uBXC's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uBXC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uIBTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIBTCs in fee,&lt;br /&gt;while "at least" pays 1000 uIBTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uIBTCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uIBTC's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uIBTC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBXCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBXCs in fee,&lt;br /&gt;while "total at least" pays 1000 uBXCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uBXCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uBXC's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uBXC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uIBTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIBTCs in fee,&lt;br /&gt;while "total at least" pays 1000 uIBTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uIBTCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uIBTC's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uIBTC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ImprovedBitcoin transactions than the network can process.</source>
@@ -3827,8 +3827,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voeg &amp;ontvanger toe</translation>
     </message>
     <message>
-        <source>Anonymized BXC</source>
-        <translation>Geanonimiseerde BXC</translation>
+        <source>Anonymized IBTC</source>
+        <translation>Geanonimiseerde IBTC</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4471,12 +4471,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verkregen via verduistering</translation>
     </message>
     <message>
-        <source>BXC Stake</source>
-        <translation>BXC Stake</translation>
+        <source>IBTC Stake</source>
+        <translation>IBTC Stake</translation>
     </message>
     <message>
-        <source>zBXC Stake</source>
-        <translation>zBXC Stake</translation>
+        <source>zIBTC Stake</source>
+        <translation>zIBTC Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4495,32 +4495,32 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verduistering creëert denominaties</translation>
     </message>
     <message>
-        <source>Converted BXC to zBXC</source>
-        <translation>Geconverteerde BXC naar zBXC</translation>
+        <source>Converted IBTC to zIBTC</source>
+        <translation>Geconverteerde IBTC naar zIBTC</translation>
     </message>
     <message>
-        <source>Spent zBXC</source>
-        <translation>Bestede zBXC</translation>
+        <source>Spent zIBTC</source>
+        <translation>Bestede zIBTC</translation>
     </message>
     <message>
-        <source>Received BXC from zBXC</source>
-        <translation>Ontvangen BXC van zBXC</translation>
+        <source>Received IBTC from zIBTC</source>
+        <translation>Ontvangen IBTC van zIBTC</translation>
     </message>
     <message>
-        <source>Minted Change as zBXC from zBXC Spend</source>
-        <translation>Gemint wisselgeld als zBXC van bestede zBXC</translation>
+        <source>Minted Change as zIBTC from zIBTC Spend</source>
+        <translation>Gemint wisselgeld als zIBTC van bestede zIBTC</translation>
     </message>
     <message>
-        <source>Converted zBXC to BXC</source>
-        <translation>Geconverteerde zBXC naar BXC</translation>
+        <source>Converted zIBTC to IBTC</source>
+        <translation>Geconverteerde zIBTC naar IBTC</translation>
     </message>
     <message>
-        <source>Anonymous (zBXC Transaction)</source>
-        <translation>Anonieme (zBXC transactie)</translation>
+        <source>Anonymous (zIBTC Transaction)</source>
+        <translation>Anonieme (zIBTC transactie)</translation>
     </message>
     <message>
-        <source>Anonymous (zBXC Stake)</source>
-        <translation>Anonieme (zBXC stake)</translation>
+        <source>Anonymous (zIBTC Stake)</source>
+        <translation>Anonieme (zIBTC stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4734,12 +4734,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Exporteren succesvol</translation>
     </message>
     <message>
-        <source>Received BXC from zBXC</source>
-        <translation>Ontvangen BXC van zBXC</translation>
+        <source>Received IBTC from zIBTC</source>
+        <translation>Ontvangen IBTC van zIBTC</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zBXC</source>
-        <translation>Zerocoin besteed, wisselgeld in zBXC</translation>
+        <source>Zerocoin Spend, Change in zIBTC</source>
+        <translation>Zerocoin besteed, wisselgeld in zIBTC</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4775,8 +4775,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verzend Munten</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BXC.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 BXC.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 IBTC.</source>
+        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 IBTC.</translation>
     </message>
 </context>
 <context>
@@ -4809,8 +4809,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zBXC to Spend</source>
-        <translation>Selecteer zBXC om te besteden</translation>
+        <source>Select zIBTC to Spend</source>
+        <translation>Selecteer zIBTC om te besteden</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4821,8 +4821,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4888,16 +4888,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Gedistribueerd onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zBXC minting (0-1, default: %u)</source>
-        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zBXC (0-1, standaard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zIBTC minting (0-1, default: %u)</source>
+        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zIBTC (0-1, standaard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BXC inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor BXC inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for IBTC inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor IBTC inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBXC inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor zBXC inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for zIBTC inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor zIBTC inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4932,12 +4932,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in BXC/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in IBTC/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in BXC/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in IBTC/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5040,12 +5040,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BXC.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 BXC.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 IBTC.</source>
+        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 IBTC.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 BXC.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 BXC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 IBTC.</source>
+        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 IBTC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5332,8 +5332,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in BXC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in BXC/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in IBTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in IBTC/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5436,8 +5436,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the BXC and zBXC money supply statistics</source>
-        <translation>Indexeer de BXC- en zBXC-geldvoorraadstatistieken opnieuw</translation>
+        <source>Reindex the IBTC and zIBTC money supply statistics</source>
+        <translation>Indexeer de IBTC- en zIBTC-geldvoorraadstatistieken opnieuw</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5512,8 +5512,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voorkeur denominatie voor automatisch minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 voor geen voorkeur. standaard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zBXC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zBXC back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
+        <source>Specify custom backup path to add a copy of any automatic zIBTC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zIBTC back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5924,8 +5924,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Synchroniseren sporks...</translation>
     </message>
     <message>
-        <source>Syncing zBXC wallet...</source>
-        <translation>Synchroniseren zBXC portemonnee...</translation>
+        <source>Syncing zIBTC wallet...</source>
+        <translation>Synchroniseren zIBTC portemonnee...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6036,8 +6036,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Gebruikersnaam voor JSON-RPC verbindingen</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBXC</source>
-        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zBXC</translation>
+        <source>Value is below the smallest available denomination (= 1) of zIBTC</source>
+        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zIBTC</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

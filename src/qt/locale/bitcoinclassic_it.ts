@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>ImprovedBitcoin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi BXC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi IBTC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI BXC&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI IBTC&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Espora la cronologia delle transazioni</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBXC</source>
-        <translation>Operazioni di privacy per zBXC</translation>
+        <source>Privacy Actions for zIBTC</source>
+        <translation>Operazioni di privacy per zIBTC</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1103,7 +1103,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Can vary +/- %1 uibtc per input.</source>
-        <translation>Può variare di +/- %1 uBXC per input.</translation>
+        <translation>Può variare di +/- %1 uIBTC per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1262,7 +1262,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Welcome to ImprovedBitcoin Core.</source>
-        <translation>Benvenuto in BXCIX Core.</translation>
+        <translation>Benvenuto in IBTCIX Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where ImprovedBitcoin Core will store its data.</source>
@@ -1638,24 +1638,24 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BXC units to zBXC</source>
-        <translation>Attiva il conio automatico di unità BXC in zBXC</translation>
+        <source>Enable automatic minting of IBTC units to zIBTC</source>
+        <translation>Attiva il conio automatico di unità IBTC in zIBTC</translation>
     </message>
     <message>
-        <source>Enable zBXC Automint</source>
-        <translation>Attiva Conio automatico zBXC</translation>
+        <source>Enable zIBTC Automint</source>
+        <translation>Attiva Conio automatico zIBTC</translation>
     </message>
     <message>
-        <source>Percentage of incoming BXC which get automatically converted to zBXC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentuale di BXC in entrata che viene automaticamente convertita in zBXC attraverso il protocollo Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming IBTC which get automatically converted to zIBTC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentuale di IBTC in entrata che viene automaticamente convertita in zIBTC attraverso il protocollo Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBXC</source>
-        <translation>Percentuale di zBXC Percentuale di zBXC da coniare automaticamente</translation>
+        <source>Percentage of autominted zIBTC</source>
+        <translation>Percentuale di zIBTC Percentuale di zIBTC da coniare automaticamente</translation>
     </message>
     <message>
-        <source>Preferred Automint zBXC Denomination</source>
-        <translation>Denominazione preferita conio automatico zBXC</translation>
+        <source>Preferred Automint zIBTC Denomination</source>
+        <translation>Denominazione preferita conio automatico zIBTC</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1717,8 +1717,8 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Saldo totale, inclusi tutte le monete non disponibili.</translation>
     </message>
     <message>
-        <source>BXC Balance</source>
-        <translation>Bilancio BXC</translation>
+        <source>IBTC Balance</source>
+        <translation>Bilancio IBTC</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1733,14 +1733,14 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Il tuo saldo ImprovedBitcoin corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
-        <source>zBXC Balance</source>
-        <translation>Bilancio zBXC</translation>
+        <source>zIBTC Balance</source>
+        <translation>Bilancio zIBTC</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBXC are spendable.</source>
+These zIBTC are spendable.</source>
         <translation>Maturi: più di 20 conferme e più di 1 conio della stessa denominazione dopo il conio.
-Questi zBXC sono spendibili.</translation>
+Questi zIBTC sono spendibili.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1771,8 +1771,8 @@ Questi zBXC sono spendibili.</translation>
         <translation>Spendibili:</translation>
     </message>
     <message>
-        <source>Locked BXC or Masternode collaterals. These are excluded from zBXC minting.</source>
-        <translation>BXC bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zBXC.</translation>
+        <source>Locked IBTC or Masternode collaterals. These are excluded from zIBTC minting.</source>
+        <translation>IBTC bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zIBTC.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -1783,18 +1783,18 @@ Questi zBXC sono spendibili.</translation>
         <translation>Non confermati:</translation>
     </message>
     <message>
-        <source>Your current zBXC balance, unconfirmed and immature zBXC included.</source>
-        <translation>Il tuo saldo zBXC corrente, inclusi zBXC non confermati e non maturi</translation>
+        <source>Your current zIBTC balance, unconfirmed and immature zIBTC included.</source>
+        <translation>Il tuo saldo zIBTC corrente, inclusi zIBTC non confermati e non maturi</translation>
     </message>
     <message>
         <source>Recent transactions</source>
         <translation>Transazioni recenti</translation>
     </message>
     <message>
-        <source>Current percentage of zBXC.
+        <source>Current percentage of zIBTC.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Percentuale corrente di zBXC.
+        <translation>Percentuale corrente di zIBTC.
 Se il conio automatico è attivato questa percentuale si stabilizzerà all'incirca sulla percentuale stabilita per il conio automatico (percentuale prestabilita = 10%).
 </translation>
     </message>
@@ -1858,8 +1858,8 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1870,12 +1870,12 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>zBXC Control</source>
-        <translation>Controllo zBXC</translation>
+        <source>zIBTC Control</source>
+        <translation>Controllo zIBTC</translation>
     </message>
     <message>
-        <source>zBXC Selected:</source>
-        <translation>zBXC selezionati:</translation>
+        <source>zIBTC Selected:</source>
+        <translation>zIBTC selezionati:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1886,23 +1886,23 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>Spendi Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBXC for spending</source>
-        <translation>zBXC disponibili disponibili per essere spesi (maturi e spendibili)</translation>
+        <source>Available (mature and spendable) zIBTC for spending</source>
+        <translation>zIBTC disponibili disponibili per essere spesi (maturi e spendibili)</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Bilancio Disponibile:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBXC for spending
+        <source>Available (mature and spendable) zIBTC for spending
 
-zBXC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zBXC disponibili disponibili per essere spesi (maturi e spendibili)
-Gli zBXC sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
+zIBTC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zIBTC disponibili disponibili per essere spesi (maturi e spendibili)
+Gli zIBTC sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
     </message>
     <message>
-        <source>0 zBXC</source>
-        <translation>0 zBXC</translation>
+        <source>0 zIBTC</source>
+        <translation>0 zIBTC</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -1945,31 +1945,31 @@ Gli zBXC sono maturi quando hanno più di 20 conferme E più di 2 conii della st
         <translation>Statistiche Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBXC</source>
-        <translation>Saldo totale inclusi zBXC non confermati e non maturi</translation>
+        <source>Total Balance including unconfirmed and immature zIBTC</source>
+        <translation>Saldo totale inclusi zIBTC non confermati e non maturi</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
         <translation>Saldo totale Zerocoin:</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zBXC minting.
+        <source>Show the current status of automatic zIBTC minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to improvedbitcoin.conf
 - disable: add 'enablezeromint=0' to improvedbitcoin.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zBXC
+- menu Settings-&gt;Options-&gt;Percentage of autominted zIBTC
 
 </source>
-        <translation>Mostra lo stato corrente del conio automatico zBXC.
+        <translation>Mostra lo stato corrente del conio automatico zIBTC.
 Per cambiare lo stato (riavvio necessario):
 - attivato: aggiungi 'enablezeromint=1' a improvedbitcoin.conf
 - disattivato: aggiungi 'enablezeromint=0' a improvedbitcoin.conf
 
 Per cambiare la percentuale (riavvio non necessario):
-- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zBXC da coniare automaticamente
+- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zIBTC da coniare automaticamente
 
 </translation>
     </message>
@@ -2110,8 +2110,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Differenza:</translation>
     </message>
     <message>
-        <source>zBXC Mint</source>
-        <translation>Conio zBXC</translation>
+        <source>zIBTC Mint</source>
+        <translation>Conio zIBTC</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2600,8 +2600,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     </context>
 <context>

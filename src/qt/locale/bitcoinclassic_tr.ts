@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>ImprovedBitcoin şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, BXC'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>ImprovedBitcoin şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, IBTC'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -433,8 +433,8 @@
         <translation>İşlem geçmişini ara</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBXC</source>
-        <translation>Gizlilik Aksiyonları zBXC</translation>
+        <source>Privacy Actions for zIBTC</source>
+        <translation>Gizlilik Aksiyonları zIBTC</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1663,8 +1663,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Address /miktar:</translation>
     </message>
     <message>
-        <source>Add destinations to send BXC to</source>
-        <translation>BXC göndermek için varış yerleri ekleyin</translation>
+        <source>Add destinations to send IBTC to</source>
+        <translation>IBTC göndermek için varış yerleri ekleyin</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1863,28 +1863,28 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BXC units to zBXC</source>
-        <translation>BXC birimlerinin zBXC'e otomatik basımını ektinleştir</translation>
+        <source>Enable automatic minting of IBTC units to zIBTC</source>
+        <translation>IBTC birimlerinin zIBTC'e otomatik basımını ektinleştir</translation>
     </message>
     <message>
-        <source>Enable zBXC Automint</source>
-        <translation>zBXC Otomatik basımı etkinleştir</translation>
+        <source>Enable zIBTC Automint</source>
+        <translation>zIBTC Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming BXC which get automatically converted to zBXC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zBXC'ye dönüştürülen gelen BXC yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming IBTC which get automatically converted to zIBTC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zIBTC'ye dönüştürülen gelen IBTC yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBXC</source>
-        <translation>Otomatikleştirilmiş zBXC yüzdesi</translation>
+        <source>Percentage of autominted zIBTC</source>
+        <translation>Otomatikleştirilmiş zIBTC yüzdesi</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BXC for this denomination is available</source>
-        <translation>Bu mezhebi için yeterli BXC bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough IBTC for this denomination is available</source>
+        <translation>Bu mezhebi için yeterli IBTC bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
     </message>
     <message>
-        <source>Preferred Automint zBXC Denomination</source>
-        <translation>Tercih edilen Automint zBXC Nominal değeri</translation>
+        <source>Preferred Automint zIBTC Denomination</source>
+        <translation>Tercih edilen Automint zIBTC Nominal değeri</translation>
     </message>
     <message>
         <source>Connect to the ImprovedBitcoin network through a SOCKS5 proxy.</source>
@@ -2038,8 +2038,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Toplam Bakiye, mevcut olmayan tüm paralar dahil.</translation>
     </message>
     <message>
-        <source>BXC Balance</source>
-        <translation>BXC Bakiyesi</translation>
+        <source>IBTC Balance</source>
+        <translation>IBTC Bakiyesi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2066,14 +2066,14 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Güncel ImprovedBitcoin bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
     </message>
     <message>
-        <source>zBXC Balance</source>
-        <translation>zBXC Bakiyesi</translation>
+        <source>zIBTC Balance</source>
+        <translation>zIBTC Bakiyesi</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBXC are spendable.</source>
+These zIBTC are spendable.</source>
         <translation>Olgun: basılmış olduktan sonra 20'den fazla onay alınmış ve aynı ölçü biriminden 1 kereden fazla basılmış.
-Bu zBXC ler harcanabilir.</translation>
+Bu zIBTC ler harcanabilir.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2126,8 +2126,8 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>Harcanabilir:</translation>
     </message>
     <message>
-        <source>Locked BXC or Masternode collaterals. These are excluded from zBXC minting.</source>
-        <translation>Kilitli BXC veya Masternode teminatları. Bunlar zBXC matlaştırmadan çıkarılır.</translation>
+        <source>Locked IBTC or Masternode collaterals. These are excluded from zIBTC minting.</source>
+        <translation>Kilitli IBTC veya Masternode teminatları. Bunlar zIBTC matlaştırmadan çıkarılır.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2138,8 +2138,8 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>onaylanmamış:</translation>
     </message>
     <message>
-        <source>Your current zBXC balance, unconfirmed and immature zBXC included.</source>
-        <translation>Güncel zBXC bakiyeniz, onaylanmamış ve olgunlaşmamış zBXC'ler dahil.</translation>
+        <source>Your current zIBTC balance, unconfirmed and immature zIBTC included.</source>
+        <translation>Güncel zIBTC bakiyeniz, onaylanmamış ve olgunlaşmamış zIBTC'ler dahil.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2150,10 +2150,10 @@ Olgunlaşmamış: onaylandı, ancak basıldıktan sonra aynı ölçü biriminden
         <translation>senkronizasyon dışı</translation>
     </message>
     <message>
-        <source>Current percentage of zBXC.
+        <source>Current percentage of zIBTC.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Mevcut zBXC yüzdesi.
+        <translation>Mevcut zIBTC yüzdesi.
 AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi etrafında düzelir (varsayılan = 10%).
 </translation>
     </message>
@@ -2297,8 +2297,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in improvedbi
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2325,11 +2325,11 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in improvedbi
         <translation>GİZLİLİK</translation>
     </message>
     <message>
-        <source>zBXC Control</source>
-        <translation>zBXC Kontrolü</translation>
+        <source>zIBTC Control</source>
+        <translation>zIBTC Kontrolü</translation>
     </message>
     <message>
-        <source>zBXC Selected:</source>
+        <source>zIBTC Selected:</source>
         <translation>zPiv Seçildi:</translation>
     </message>
     <message>
@@ -2345,24 +2345,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in improvedbi
         <translation>Harca Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBXC for spending</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zBXC</translation>
+        <source>Available (mature and spendable) zIBTC for spending</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zIBTC</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Kullanılabilir Bakiye:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zBXC for spending
+        <source>Available (mature and spendable) zIBTC for spending
 
-zBXC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zBXC
+zIBTC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zIBTC
 
-zBXC, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
+zIBTC, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
     </message>
     <message>
-        <source>0 zBXC</source>
-        <translation>0 zBXC</translation>
+        <source>0 zIBTC</source>
+        <translation>0 zIBTC</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2421,8 +2421,8 @@ zBXC, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhep
         <translation>Zerocoin durumu:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBXC</source>
-        <translation>Doğrulanmamış ve olgunlaşmamış zBXC dahil toplam bakiye</translation>
+        <source>Total Balance including unconfirmed and immature zIBTC</source>
+        <translation>Doğrulanmamış ve olgunlaşmamış zIBTC dahil toplam bakiye</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2581,12 +2581,12 @@ Please be patient...</source>
 Lütfen sabırlı olun...</translation>
     </message>
     <message>
-        <source>zBXC is currently disabled due to maintenance.</source>
-        <translation>zBXC bakım nedeniyle şu an kullanıma kapalı.</translation>
+        <source>zIBTC is currently disabled due to maintenance.</source>
+        <translation>zIBTC bakım nedeniyle şu an kullanıma kapalı.</translation>
     </message>
     <message>
-        <source>zBXC is currently undergoing maintenance.</source>
-        <translation>zBXC halen bakım alıyor.</translation>
+        <source>zIBTC is currently undergoing maintenance.</source>
+        <translation>zIBTC halen bakım alıyor.</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -3331,8 +3331,8 @@ Lütfen sabırlı olun...</translation>
         <translation>UTXO Boyutu:</translation>
     </message>
     <message>
-        <source>0 BXC</source>
-        <translation>0 BXC</translation>
+        <source>0 IBTC</source>
+        <translation>0 IBTC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3387,12 +3387,12 @@ Lütfen sabırlı olun...</translation>
         <translation>Koinler otomatik seçildi</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBXCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBXCs in fee,&lt;br /&gt;while "at least" pays 1000 uBXCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uBXC olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uBXC öder,&lt;br /&gt;"en az" ise 1000 uBXC öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uIBTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIBTCs in fee,&lt;br /&gt;while "at least" pays 1000 uIBTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uIBTC olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uIBTC öder,&lt;br /&gt;"en az" ise 1000 uIBTC öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uBXCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBXCs in fee,&lt;br /&gt;while "total at least" pays 1000 uBXCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uBXC olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uBXC ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uBXC ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uIBTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uIBTCs in fee,&lt;br /&gt;while "total at least" pays 1000 uIBTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uIBTC olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uIBTC ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uIBTC ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ImprovedBitcoin transactions than the network can process.</source>
@@ -3443,8 +3443,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Alıcı ekle</translation>
     </message>
     <message>
-        <source>Anonymized BXC</source>
-        <translation>anonim edilmiş BXC</translation>
+        <source>Anonymized IBTC</source>
+        <translation>anonim edilmiş IBTC</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4339,8 +4339,8 @@ Lütfen sabırlı olun...</translation>
         <translation>Koinleri göder</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BXC.</source>
-        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 BXC ile sınırlıdır.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 IBTC.</source>
+        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 IBTC ile sınırlıdır.</translation>
     </message>
 </context>
 <context>
@@ -4377,8 +4377,8 @@ Lütfen sabırlı olun...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4464,12 +4464,12 @@ Lütfen sabırlı olun...</translation>
         <translation>En iyi blok değiştirildiğinde komutu yürütün (cmd'deki %s yerine blok karması verilir)</translation>
     </message>
     <message>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (BXC / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (IBTC / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BXC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (BXC / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in IBTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (IBTC / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

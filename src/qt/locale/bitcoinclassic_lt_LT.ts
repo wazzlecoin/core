@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BXCs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar ImprovedBitcoin išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų BXC nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>ImprovedBitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IBTCs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar ImprovedBitcoin išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų IBTC nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BXC&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO BXC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IBTC&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO IBTC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zBXC</source>
-        <translation>zBXC Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zIBTC</source>
+        <translation>zIBTC Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1604,8 +1604,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send BXC to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti BXC</translation>
+        <source>Add destinations to send IBTC to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti IBTC</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1776,24 +1776,24 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BXC units to zBXC</source>
-        <translation>Įgalinti automatinį konvertavimą iš BXC į zBXC</translation>
+        <source>Enable automatic minting of IBTC units to zIBTC</source>
+        <translation>Įgalinti automatinį konvertavimą iš IBTC į zIBTC</translation>
     </message>
     <message>
-        <source>Enable zBXC Automint</source>
-        <translation>Įgalinti zBXC Automatinį nukaldinima</translation>
+        <source>Enable zIBTC Automint</source>
+        <translation>Įgalinti zIBTC Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming BXC which get automatically converted to zBXC via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto BXC, kuris automatiškai bus konvertuotas į zBXC naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming IBTC which get automatically converted to zIBTC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto IBTC, kuris automatiškai bus konvertuotas į zIBTC naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBXC</source>
-        <translation>Automatiškai sukurtų zBXC procentas</translation>
+        <source>Percentage of autominted zIBTC</source>
+        <translation>Automatiškai sukurtų zIBTC procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zBXC Denomination</source>
-        <translation>Pageidautinas zBXC Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zIBTC Denomination</source>
+        <translation>Pageidautinas zIBTC Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
         <source>Connect to the ImprovedBitcoin network through a SOCKS5 proxy.</source>
@@ -1915,8 +1915,8 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>BXC Balance</source>
-        <translation>BXC Balansas</translation>
+        <source>IBTC Balance</source>
+        <translation>IBTC Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1943,14 +1943,14 @@ https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-transl
         <translation>Jūsų dabartinis ImprovedBitcoin balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zBXC Balance</source>
-        <translation>zBXC Balansas</translation>
+        <source>zIBTC Balance</source>
+        <translation>zIBTC Balansas</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zBXC are spendable.</source>
+These zIBTC are spendable.</source>
         <translation>Subrendę: daugiau nei 20 patvirtinimų ir daugiau nei 1 konvertacija to pačio nominalo, kai jis jau buvo konvertuotas.
-Šiuos zBXC galima išleisti.</translation>
+Šiuos zIBTC galima išleisti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2003,8 +2003,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked BXC or Masternode collaterals. These are excluded from zBXC minting.</source>
-        <translation>Užrakinti BXC arba Masternode užstatai. Jie yra neįtraukti į zBXC kalimą.</translation>
+        <source>Locked IBTC or Masternode collaterals. These are excluded from zIBTC minting.</source>
+        <translation>Užrakinti IBTC arba Masternode užstatai. Jie yra neįtraukti į zIBTC kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2108,8 +2108,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2128,12 +2128,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>PRIVATUMAS</translation>
     </message>
     <message>
-        <source>zBXC Control</source>
+        <source>zIBTC Control</source>
         <translation>zPiv Kontrolė</translation>
     </message>
     <message>
-        <source>zBXC Selected:</source>
-        <translation>Pasirinkta zBXC:</translation>
+        <source>zIBTC Selected:</source>
+        <translation>Pasirinkta zIBTC:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2152,8 +2152,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zBXC</source>
-        <translation>0 zBXC</translation>
+        <source>0 zIBTC</source>
+        <translation>0 zIBTC</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2192,8 +2192,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Statistika:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zBXC</source>
-        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zBXC</translation>
+        <source>Total Balance including unconfirmed and immature zIBTC</source>
+        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zIBTC</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2362,12 +2362,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Konvertavimo Statusas: Geras</translation>
     </message>
     <message>
-        <source>zBXC Spend #: </source>
-        <translation>zBXC Išleidimas #:</translation>
+        <source>zIBTC Spend #: </source>
+        <translation>zIBTC Išleidimas #:</translation>
     </message>
     <message>
-        <source>zBXC Mint</source>
-        <translation>zBXC Konvertavimas</translation>
+        <source>zIBTC Mint</source>
+        <translation>zIBTC Konvertavimas</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2850,8 +2850,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 BXC</source>
-        <translation>0 BXC</translation>
+        <source>0 IBTC</source>
+        <translation>0 IBTC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3304,8 +3304,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zBXC</source>
-        <translation>zBXC</translation>
+        <source>zIBTC</source>
+        <translation>zIBTC</translation>
     </message>
     </context>
 <context>

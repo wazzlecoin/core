@@ -8,7 +8,7 @@
 #include "main.h"
 
 /****** Thread ********/
-void CLightWorker::ThreadLightZBXCSimplified() {
+void CLightWorker::ThreadLightZIBTCSimplified() {
     RenameThread("improvedbitcoin-light-thread");
     isWorkerRunning = true;
     while (true) {
@@ -60,7 +60,7 @@ void CLightWorker::ThreadLightZBXCSimplified() {
                         );
 
                     } catch (NotEnoughMintsException e) {
-                        LogPrintStr(std::string("ThreadLightZBXCSimplified: ") + e.message + "\n");
+                        LogPrintStr(std::string("ThreadLightZIBTCSimplified: ") + e.message + "\n");
                         rejectWork(genWit, blockHeight, NOT_ENOUGH_MINTS);
                         continue;
                     }

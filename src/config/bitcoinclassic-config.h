@@ -1,9 +1,9 @@
 /* src/config/improvedbitcoin-config.h.  Generated from improvedbitcoin-config.h.in by configure.  */
 /* src/config/improvedbitcoin-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef BXC_CONFIG_H
+#ifndef IBTC_CONFIG_H
 
-#define BXC_CONFIG_H
+#define IBTC_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
@@ -421,4 +421,4 @@
 /* Define for large files, on AIX-style hosts. */
 /* #undef _LARGE_FILES */
 
-#endif //BXC_CONFIG_H
+#endif //IBTC_CONFIG_H

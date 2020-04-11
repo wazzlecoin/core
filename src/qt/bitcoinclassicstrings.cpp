@@ -60,12 +60,12 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Enable automatic Zerocoin minting from specific addresses (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
-"Enable automatic wallet backups triggered after each zBXC minting (0-1, "
+"Enable automatic wallet backups triggered after each zIBTC minting (0-1, "
 "default: %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
-"Enable or disable staking functionality for BXC inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for IBTC inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
-"Enable or disable staking functionality for zBXC inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for zIBTC inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Enable spork administration functionality with the appropriate private key."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
@@ -102,10 +102,10 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Failed to find coin set amongst held coins with less than maxNumber of Spends"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
-"Fees (in BXC/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in IBTC/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
-"Fees (in BXC/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in IBTC/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -178,7 +178,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Show N confirmations for a successfully locked transaction (0-9999, default: "
 "%u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
-"Specify custom backup path to add a copy of any automatic zBXC backup. If "
+"Specify custom backup path to add a copy of any automatic zIBTC backup. If "
 "set as dir, every backup generates a timestamped file. If set as file, will "
 "rewrite to that file every backup. If backuppath is set as well, 4 backups "
 "will happen"),
@@ -212,10 +212,10 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 BXC."),
+"transaction that are not equal 10000 IBTC."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"BXC."),
+"IBTC."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -297,7 +297,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", "Do not load the wallet and disable wa
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Do you want to rebuild the block database now?"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Done loading"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Enable automatic Zerocoin minting (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Enable precomputation of zBXC spends and stakes (0-1, default %u)"),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Enable precomputation of zIBTC spends and stakes (0-1, default %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Enable publish hash block in <address>"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Enable publish hash transaction (locked via SwiftX) in <address>"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Enable publish hash transaction in <address>"),
@@ -333,7 +333,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Failed to select a zerocoin"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Failed to wipe zerocoinDB"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Failed to write coin serial number into wallet"),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Fee (in BXC/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Fee (in IBTC/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Generate coins (default: %u)"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "How many blocks to check at startup (default: %u, 0 = all)"),
@@ -398,11 +398,11 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", "RPC server options:"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Randomly drop 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Randomly fuzz 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Rebuild block chain index from current blk000??.dat files"),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Recalculating BXC supply..."),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Recalculating minted ZBXC..."),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Recalculating spent ZBXC..."),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Recalculating IBTC supply..."),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Recalculating minted ZIBTC..."),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Recalculating spent ZIBTC..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Receive and display P2P network alerts (default: %u)"),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Reindex the BXC and zBXC money supply statistics"),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Reindex the IBTC and zIBTC money supply statistics"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Reindex the accumulator database"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Reindexing zerocoin database..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Reindexing zerocoin failed"),
@@ -451,7 +451,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", "Synchronizing budgets..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Synchronizing masternode winners..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Synchronizing masternodes..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Synchronizing sporks..."),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Syncing zBXC wallet..."),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Syncing zIBTC wallet..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "The coin spend has been used"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "The transaction did not verify"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "This help message"),
@@ -482,7 +482,7 @@ QT_TRANSLATE_NOOP("improvedbitcoin-core", "Use block spam filter (default: %u)")
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Use the test network"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "User Agent comment (%s) contains unsafe characters."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("improvedbitcoin-core", "Value is below the smallest available denomination (= 1) of zBXC"),
+QT_TRANSLATE_NOOP("improvedbitcoin-core", "Value is below the smallest available denomination (= 1) of zIBTC"),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("improvedbitcoin-core", "Wallet %s resides outside data directory %s"),
