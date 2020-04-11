@@ -153,7 +153,7 @@ MultiSend will not be activated unless you have clicked Activate</string>
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../bitcoinclassic.qrc">
+            <iconset resource="../improvedbitcoin.qrc">
              <normaloff>:/icons/address-book</normaloff>:/icons/address-book</iconset>
            </property>
            <property name="shortcut">
@@ -319,7 +319,7 @@ MultiSend will not be activated unless you have clicked Activate</string>
   </layout>
  </widget>
  <resources>
-  <include location="../bitcoinclassic.qrc"/>
+  <include location="../improvedbitcoin.qrc"/>
  </resources>
  <connections/>
 </ui>

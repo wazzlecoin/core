@@ -2578,7 +2578,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("bitcoinclassic-scriptch");
+    RenameThread("improvedbitcoin-scriptch");
     scriptcheckqueue.Thread();
 }
 

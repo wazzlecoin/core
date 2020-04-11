@@ -35,7 +35,7 @@ outgoing connections, but more is possible.
 
 In a typical situation, this suffices to run behind a Tor proxy:
 
-	./bitcoinclassicd -proxy=127.0.0.1:9050
+	./improvedbitcoind -proxy=127.0.0.1:9050
 
 
 ## 2. Run a BitcoinClassic Core hidden server
@@ -45,17 +45,17 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. For newer
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
-	HiddenServiceDir /var/lib/tor/bitcoinclassic-service/
+	HiddenServiceDir /var/lib/tor/improvedbitcoin-service/
 	HiddenServicePort 14354 127.0.0.1:14354
 	HiddenServicePort 61472 127.0.0.1:61472
 
 The directory can be different of course, but (both) port numbers should be equal to
-your bitcoinclassicd's P2P listen port (14354 by default).
+your improvedbitcoind's P2P listen port (14354 by default).
 
-	-externalip=X   You can tell bitcoinclassic about its publicly reachable address using
+	-externalip=X   You can tell improvedbitcoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your .onion address in
-	                /var/lib/tor/bitcoinclassic-service/hostname. For connections
+	                /var/lib/tor/improvedbitcoin-service/hostname. For connections
 	                coming from unroutable addresses (such as 127.0.0.1, where the
 	                Tor proxy typically runs), .onion addresses are given
 	                preference for your node to advertise itself with.
@@ -72,25 +72,25 @@ your bitcoinclassicd's P2P listen port (14354 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 
-	./bitcoinclassicd -proxy=127.0.0.1:9050 -externalip=bitcoinclassiczj6l4cvo2fxy.onion -listen
+	./improvedbitcoind -proxy=127.0.0.1:9050 -externalip=improvedbitcoinzj6l4cvo2fxy.onion -listen
 
 (obviously, replace the .onion address with your own). It should be noted that you still
 listen on all devices and another node could establish a clearnet connection, when knowing
 your address. To mitigate this, additionally bind the address of your Tor proxy:
 
-	./bitcoinclassicd ... -bind=127.0.0.1
+	./improvedbitcoind ... -bind=127.0.0.1
 
 If you don't care too much about hiding your node, and want to be reachable on IPv4
 as well, use `discover` instead:
 
-	./bitcoinclassicd ... -discover
+	./improvedbitcoind ... -discover
 
 and open port 14354 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach .onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
-	./bitcoinclassicd -onion=127.0.0.1:9050 -externalip=bitcoinclassiczj6l4cvo2fxy.onion -discover
+	./improvedbitcoind -onion=127.0.0.1:9050 -externalip=improvedbitcoinzj6l4cvo2fxy.onion -discover
 
 ## 3. Automatically listen on Tor
 
@@ -109,12 +109,12 @@ To show verbose debugging information, pass `-debug=tor`.
 
 Connecting to Tor's control socket API requires one of two authentication methods to be
 configured. It also requires the control socket to be enabled, e.g. put `ControlPort 9051`
-in `torrc` config file. For cookie authentication the user running bitcoinclassicd must have read
+in `torrc` config file. For cookie authentication the user running improvedbitcoind must have read
 access to the `CookieAuthFile` specified in Tor configuration. In some cases this is
 preconfigured and the creation of a hidden service is automatic. If permission problems
 are seen with `-debug=tor` they can be resolved by adding both the user running Tor and
-the user running bitcoinclassicd to the same group and setting permissions appropriately. On
-Debian-based systems the user running bitcoinclassicd can be added to the debian-tor group,
+the user running improvedbitcoind to the same group and setting permissions appropriately. On
+Debian-based systems the user running improvedbitcoind can be added to the debian-tor group,
 which has the appropriate permissions.
 
 An alternative authentication method is the use

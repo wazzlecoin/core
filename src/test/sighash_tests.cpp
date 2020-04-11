@@ -11,7 +11,7 @@
 #include "script/interpreter.h"
 #include "util.h"
 #include "version.h"
-#include "test_bitcoinclassic.h"
+#include "test_improvedbitcoin.h"
 
 #include <iostream>
 

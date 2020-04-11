@@ -1,15 +1,15 @@
 
 #!/bin/sh
 
-# setup bitcoinclassic account, homedir etc
+# setup improvedbitcoin account, homedir etc
 
 set -e
 
-BCUSER="bitcoinclassic"
-BCHOME="/var/lib/bitcoinclassic"
+BCUSER="improvedbitcoin"
+BCHOME="/var/lib/improvedbitcoin"
 
 if [ "$1" = "configure" ]; then
-	# Add bitcoinclassic user/group - this will gracefully abort if the user already exists.
+	# Add improvedbitcoin user/group - this will gracefully abort if the user already exists.
 	# A homedir is never created.
 	set +e
 	adduser --system --home "${BCHOME}" --no-create-home --group "${BCUSER}" 2>/dev/null

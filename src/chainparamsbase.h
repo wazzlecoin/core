@@ -10,7 +10,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between bitcoinclassic-cli and bitcoinclassicd)
+ * CBaseChainParams defines the base parameters (shared between improvedbitcoin-cli and improvedbitcoind)
  * of a given instance of the BitcoinClassic system.
  */
 class CBaseChainParams

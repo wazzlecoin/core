@@ -33,7 +33,7 @@ std::string HelpMessageCli()
     string strUsage;
     strUsage += HelpMessageGroup(_("Options:"));
     strUsage += HelpMessageOpt("-?", _("This help message"));
-    strUsage += HelpMessageOpt("-conf=<file>", strprintf(_("Specify configuration file (default: %s)"), "bitcoinclassic.conf"));
+    strUsage += HelpMessageOpt("-conf=<file>", strprintf(_("Specify configuration file (default: %s)"), "improvedbitcoin.conf"));
     strUsage += HelpMessageOpt("-datadir=<dir>", _("Specify data directory"));
     strUsage += HelpMessageOpt("-testnet", _("Use the test network"));
     strUsage += HelpMessageOpt("-regtest", _("Enter regression test mode, which uses a special chain in which blocks can be "
@@ -75,9 +75,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("BitcoinClassic Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  bitcoinclassic-cli [options] <command> [params]  " + _("Send command to BitcoinClassic Core") + "\n" +
-                        "  bitcoinclassic-cli [options] help                " + _("List commands") + "\n" +
-                        "  bitcoinclassic-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  improvedbitcoin-cli [options] <command> [params]  " + _("Send command to BitcoinClassic Core") + "\n" +
+                        "  improvedbitcoin-cli [options] help                " + _("List commands") + "\n" +
+                        "  improvedbitcoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

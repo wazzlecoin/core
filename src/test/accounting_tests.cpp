@@ -6,7 +6,7 @@
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
 
-#include "test/test_bitcoinclassic.h"
+#include "test/test_improvedbitcoin.h"
 
 #include <stdint.h>
 

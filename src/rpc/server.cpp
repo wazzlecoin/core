@@ -365,34 +365,34 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true,  true,  false  },
 
         /* BitcoinClassic features */
-        {"bitcoinclassic", "listmasternodes", &listmasternodes, true, true, false},
-        {"bitcoinclassic", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"bitcoinclassic", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"bitcoinclassic", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"bitcoinclassic", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"bitcoinclassic", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"bitcoinclassic", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"bitcoinclassic", "masternodedebug", &masternodedebug, true, true, false},
-        {"bitcoinclassic", "startmasternode", &startmasternode, true, true, false},
-        {"bitcoinclassic", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"bitcoinclassic", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"bitcoinclassic", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"bitcoinclassic", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"bitcoinclassic", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"bitcoinclassic", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"bitcoinclassic", "preparebudget", &preparebudget, true, true, false},
-        {"bitcoinclassic", "submitbudget", &submitbudget, true, true, false},
-        {"bitcoinclassic", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"bitcoinclassic", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"bitcoinclassic", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"bitcoinclassic", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"bitcoinclassic", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"bitcoinclassic", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"bitcoinclassic", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"bitcoinclassic", "checkbudgets", &checkbudgets, true, true, false},
-        {"bitcoinclassic", "mnsync", &mnsync, true, true, false},
-        {"bitcoinclassic", "spork", &spork, true, true, false},
-        {"bitcoinclassic", "getpoolinfo", &getpoolinfo, true, true, false},
+        {"improvedbitcoin", "listmasternodes", &listmasternodes, true, true, false},
+        {"improvedbitcoin", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"improvedbitcoin", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"improvedbitcoin", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"improvedbitcoin", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"improvedbitcoin", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"improvedbitcoin", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"improvedbitcoin", "masternodedebug", &masternodedebug, true, true, false},
+        {"improvedbitcoin", "startmasternode", &startmasternode, true, true, false},
+        {"improvedbitcoin", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"improvedbitcoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"improvedbitcoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"improvedbitcoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"improvedbitcoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"improvedbitcoin", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"improvedbitcoin", "preparebudget", &preparebudget, true, true, false},
+        {"improvedbitcoin", "submitbudget", &submitbudget, true, true, false},
+        {"improvedbitcoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"improvedbitcoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"improvedbitcoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"improvedbitcoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"improvedbitcoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"improvedbitcoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"improvedbitcoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"improvedbitcoin", "checkbudgets", &checkbudgets, true, true, false},
+        {"improvedbitcoin", "mnsync", &mnsync, true, true, false},
+        {"improvedbitcoin", "spork", &spork, true, true, false},
+        {"improvedbitcoin", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -632,7 +632,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> bitcoinclassic-cli " + methodname + " " + args + "\n";
+    return "> improvedbitcoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

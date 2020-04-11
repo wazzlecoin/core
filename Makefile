@@ -75,10 +75,10 @@ am__make_running_with_option = \
   test $$has_opt = yes
 am__make_dryrun = (target_option=n; $(am__make_running_with_option))
 am__make_keepgoing = (target_option=k; $(am__make_running_with_option))
-pkgdatadir = $(datadir)/bitcoinclassic
-pkgincludedir = $(includedir)/bitcoinclassic
-pkglibdir = $(libdir)/bitcoinclassic
-pkglibexecdir = $(libexecdir)/bitcoinclassic
+pkgdatadir = $(datadir)/improvedbitcoin
+pkgincludedir = $(includedir)/improvedbitcoin
+pkglibdir = $(libdir)/improvedbitcoin
+pkglibexecdir = $(libexecdir)/improvedbitcoin
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
 install_sh_DATA = $(install_sh) -c -m 644
 install_sh_PROGRAM = $(install_sh) -c
@@ -128,7 +128,7 @@ DIST_COMMON = $(srcdir)/Makefile.am $(top_srcdir)/configure \
 am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
  configure.lineno config.status.lineno
 mkinstalldirs = $(install_sh) -d
-CONFIG_HEADER = $(top_builddir)/src/config/bitcoinclassic-config.h
+CONFIG_HEADER = $(top_builddir)/src/config/improvedbitcoin-config.h
 CONFIG_CLEAN_FILES = libbitcoinconsensus.pc share/setup.nsi \
 	share/qt/Info.plist test/config.ini \
 	contrib/devtools/split-debug.sh doc/Doxyfile
@@ -234,7 +234,7 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/doc/Doxyfile.in \
 	$(top_srcdir)/share/qt/Info.plist.in \
 	$(top_srcdir)/share/setup.nsi.in \
-	$(top_srcdir)/src/config/bitcoinclassic-config.h.in \
+	$(top_srcdir)/src/config/improvedbitcoin-config.h.in \
 	$(top_srcdir)/test/config.ini.in \
 	$(top_srcdir)/test/functional/test_runner.py \
 	$(top_srcdir)/test/util/bitcoin-util-test.py \
@@ -296,10 +296,10 @@ AWK = gawk
 BDB_CFLAGS = 
 BDB_CPPFLAGS = 
 BDB_LIBS = -ldb_cxx-4.8
-BITCOIN_CLI_NAME = bitcoinclassic-cli
-BITCOIN_DAEMON_NAME = bitcoinclassicd
-BITCOIN_GUI_NAME = bitcoinclassic-qt
-BITCOIN_TX_NAME = bitcoinclassic-tx
+BITCOIN_CLI_NAME = improvedbitcoin-cli
+BITCOIN_DAEMON_NAME = improvedbitcoind
+BITCOIN_GUI_NAME = improvedbitcoin-qt
+BITCOIN_TX_NAME = improvedbitcoin-tx
 BOOST_CHRONO_LIB = -lboost_chrono-mt
 BOOST_CPPFLAGS = -DBOOST_SP_USE_STD_ATOMIC -DBOOST_AC_USE_STD_ATOMIC -pthread -I/home/administrator/walletbuilders/build_environment/pivx/3.3.0/depends/x86_64-w64-linux/share/../include
 BOOST_FILESYSTEM_LIB = -lboost_filesystem-mt
@@ -408,11 +408,11 @@ OBJDUMP = objdump
 OBJEXT = o
 OTOOL = 
 OTOOL64 = 
-PACKAGE = bitcoinclassic
-PACKAGE_BUGREPORT = www.bitcoinclassic.org
+PACKAGE = improvedbitcoin
+PACKAGE_BUGREPORT = www.improvedbitcoin.org
 PACKAGE_NAME = BitcoinClassic Core
 PACKAGE_STRING = BitcoinClassic Core 1.0.0
-PACKAGE_TARNAME = bitcoinclassic
+PACKAGE_TARNAME = improvedbitcoin
 PACKAGE_URL = 
 PACKAGE_VERSION = 1.0.0
 PATH_SEPARATOR = :
@@ -582,9 +582,9 @@ OSX_INSTALLER_ICONS = $(top_srcdir)/src/qt/res/icons/bitcoin.icns
 OSX_PLIST = $(top_builddir)/share/qt/Info.plist #not installed
 OSX_QT_TRANSLATIONS = da,de,es,hu,ru,uk,zh_CN,zh_TW
 DIST_DOCS = $(wildcard doc/*.md) $(wildcard doc/release-notes/*.md)
-DIST_CONTRIB = $(top_srcdir)/contrib/bitcoinclassic-cli.bash-completion \
-	       $(top_srcdir)/contrib/bitcoinclassic-tx.bash-completion \
-	       $(top_srcdir)/contrib/bitcoinclassicd.bash-completion \
+DIST_CONTRIB = $(top_srcdir)/contrib/improvedbitcoin-cli.bash-completion \
+	       $(top_srcdir)/contrib/improvedbitcoin-tx.bash-completion \
+	       $(top_srcdir)/contrib/improvedbitcoind.bash-completion \
            $(top_srcdir)/contrib/init \
            $(top_srcdir)/contrib/install_db4.sh
 
@@ -595,14 +595,14 @@ DIST_SHARE = \
 BIN_CHECKS = $(top_srcdir)/contrib/devtools/symbol-check.py \
            $(top_srcdir)/contrib/devtools/security-check.py
 
-WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/bitcoinclassic.ico \
+WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/improvedbitcoin.ico \
   $(top_srcdir)/share/pixmaps/nsis-header.bmp \
   $(top_srcdir)/share/pixmaps/nsis-wizard.bmp \
   $(top_srcdir)/doc/README_windows.txt
 
-LINUX_PACKAGING = $(top_srcdir)/share/pixmaps/bitcoinclassic16.xpm \
-  $(top_srcdir)/share/pixmaps/bitcoinclassic32.xpm \
-  $(top_srcdir)/share/pixmaps/bitcoinclassic128.png
+LINUX_PACKAGING = $(top_srcdir)/share/pixmaps/improvedbitcoin16.xpm \
+  $(top_srcdir)/share/pixmaps/improvedbitcoin32.xpm \
+  $(top_srcdir)/share/pixmaps/improvedbitcoin128.png
 
 OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) \
   $(top_srcdir)/contrib/macdeploy/$(OSX_BACKGROUND_SVG) \
@@ -611,9 +611,9 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) \
   $(top_srcdir)/contrib/macdeploy/detached-sig-create.sh
 
 COVERAGE_INFO = baseline.info \
-  test_bitcoinclassic_filtered.info total_coverage.info \
+  test_improvedbitcoin_filtered.info total_coverage.info \
   baseline_filtered.info functional_test.info functional_test_filtered.info \
-  test_bitcoinclassic_coverage.info test_bitcoinclassic.info
+  test_improvedbitcoin_coverage.info test_improvedbitcoin.info
 
 OSX_APP_BUILT = $(OSX_APP)/Contents/PkgInfo $(OSX_APP)/Contents/Resources/empty.lproj \
   $(OSX_APP)/Contents/Resources/bitcoin.icns $(OSX_APP)/Contents/Info.plist \
@@ -681,20 +681,20 @@ $(ACLOCAL_M4):  $(am__aclocal_m4_deps)
 	$(am__cd) $(srcdir) && $(ACLOCAL) $(ACLOCAL_AMFLAGS)
 $(am__aclocal_m4_deps):
 
-src/config/bitcoinclassic-config.h: src/config/stamp-h1
+src/config/improvedbitcoin-config.h: src/config/stamp-h1
 	@test -f $@ || rm -f src/config/stamp-h1
 	@test -f $@ || $(MAKE) $(AM_MAKEFLAGS) src/config/stamp-h1
 
-src/config/stamp-h1: $(top_srcdir)/src/config/bitcoinclassic-config.h.in $(top_builddir)/config.status
+src/config/stamp-h1: $(top_srcdir)/src/config/improvedbitcoin-config.h.in $(top_builddir)/config.status
 	@rm -f src/config/stamp-h1
-	cd $(top_builddir) && $(SHELL) ./config.status src/config/bitcoinclassic-config.h
-$(top_srcdir)/src/config/bitcoinclassic-config.h.in:  $(am__configure_deps) 
+	cd $(top_builddir) && $(SHELL) ./config.status src/config/improvedbitcoin-config.h
+$(top_srcdir)/src/config/improvedbitcoin-config.h.in:  $(am__configure_deps) 
 	($(am__cd) $(top_srcdir) && $(AUTOHEADER))
 	rm -f src/config/stamp-h1
 	touch $@
 
 distclean-hdr:
-	-rm -f src/config/bitcoinclassic-config.h src/config/stamp-h1
+	-rm -f src/config/improvedbitcoin-config.h src/config/stamp-h1
 libbitcoinconsensus.pc: $(top_builddir)/config.status $(srcdir)/libbitcoinconsensus.pc.in
 	cd $(top_builddir) && $(SHELL) ./config.status $@
 share/setup.nsi: $(top_builddir)/config.status $(top_srcdir)/share/setup.nsi.in
@@ -1264,16 +1264,16 @@ $(BITCOIN_CLI_BIN): FORCE
 #	$(abs_builddir)/contrib/filter-lcov.py $(LCOV_FILTER_PATTERN) $< $@
 #	$(LCOV) -a $@ $(LCOV_OPTS) -o $@
 
-#test_bitcoinclassic.info: baseline_filtered.info
+#test_improvedbitcoin.info: baseline_filtered.info
 #	$(MAKE) -C src/ check
-#	$(LCOV) -c $(LCOV_OPTS) -d $(abs_builddir)/src -t test_bitcoinclassic -o $@
+#	$(LCOV) -c $(LCOV_OPTS) -d $(abs_builddir)/src -t test_improvedbitcoin -o $@
 #	$(LCOV) -z $(LCOV_OPTS) -d $(abs_builddir)/src
 
-#test_bitcoinclassic_filtered.info: test_bitcoinclassic.info
+#test_improvedbitcoin_filtered.info: test_improvedbitcoin.info
 #	$(abs_builddir)/contrib/filter-lcov.py $(LCOV_FILTER_PATTERN) $< $@
 #	$(LCOV) -a $@ $(LCOV_OPTS) -o $@
 
-#functional_test.info: test_bitcoinclassic_filtered.info
+#functional_test.info: test_improvedbitcoin_filtered.info
 #	-@TIMEOUT=15 test/functional/test_runner.py $(EXTENDED_FUNCTIONAL_TESTS)
 #	$(LCOV) -c $(LCOV_OPTS) -d $(abs_builddir)/src --t functional-tests -o $@
 #	$(LCOV) -z $(LCOV_OPTS) -d $(abs_builddir)/src
@@ -1282,13 +1282,13 @@ $(BITCOIN_CLI_BIN): FORCE
 #	$(abs_builddir)/contrib/filter-lcov.py $(LCOV_FILTER_PATTERN) $< $@
 #	$(LCOV) -a $@ $(LCOV_OPTS) -o $@
 
-#test_bitcoinclassic_coverage.info: baseline_filtered.info test_bitcoinclassic_filtered.info
-#	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_bitcoinclassic_filtered.info -o $@
+#test_improvedbitcoin_coverage.info: baseline_filtered.info test_improvedbitcoin_filtered.info
+#	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_improvedbitcoin_filtered.info -o $@
 
-#total_coverage.info: test_bitcoinclassic_filtered.info functional_test_filtered.info
-#	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_bitcoinclassic_filtered.info -a functional_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+#total_coverage.info: test_improvedbitcoin_filtered.info functional_test_filtered.info
+#	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_improvedbitcoin_filtered.info -a functional_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-#test_bitcoinclassic.coverage/.dirstamp:  test_bitcoinclassic_coverage.info
+#test_improvedbitcoin.coverage/.dirstamp:  test_improvedbitcoin_coverage.info
 #	$(GENHTML) -s $(LCOV_OPTS) $< -o $(@D)
 #	@touch $@
 
@@ -1296,7 +1296,7 @@ $(BITCOIN_CLI_BIN): FORCE
 #	$(GENHTML) -s $(LCOV_OPTS) $< -o $(@D)
 #	@touch $@
 
-#cov: test_bitcoinclassic.coverage/.dirstamp total.coverage/.dirstamp
+#cov: test_improvedbitcoin.coverage/.dirstamp total.coverage/.dirstamp
 
 .INTERMEDIATE: $(COVERAGE_INFO)
 
@@ -1313,7 +1313,7 @@ clean-docs:
 	rm -rf doc/doxygen
 
 clean-local: clean-docs
-	rm -rf coverage_percent.txt test_bitcoinclassic.coverage/ total.coverage/ test/tmp/ cache/ $(OSX_APP)
+	rm -rf coverage_percent.txt test_improvedbitcoin.coverage/ total.coverage/ test/tmp/ cache/ $(OSX_APP)
 	rm -rf test/functional/__pycache__ test/functional/test_framework/__pycache__ test/cache share/rpcauth/__pycache__
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.

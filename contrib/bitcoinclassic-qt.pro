@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/bitcoinclassic-config.h \
+           src/improvedbitcoin-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/bitcoinclassic-config.h \
+           src/config/improvedbitcoin-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -332,7 +332,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/bitcoinclassic.moc \
+           src/qt/improvedbitcoin.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -373,9 +373,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/bitcoinclassic-cli.cpp \
-           src/bitcoinclassic-tx.cpp \
-           src/bitcoinclassic.cpp \
+           src/improvedbitcoin-cli.cpp \
+           src/improvedbitcoin-tx.cpp \
+           src/improvedbitcoin.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -470,8 +470,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/bitcoinclassic.cpp \
-           src/qt/bitcoinclassicstrings.cpp \
+           src/qt/improvedbitcoin.cpp \
+           src/qt/improvedbitcoinstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -549,7 +549,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_bitcoinclassic.cpp \
+           src/test/test_improvedbitcoin.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -640,21 +640,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/bitcoinclassic.qrc src/qt/bitcoinclassic_locale.qrc
+RESOURCES += src/qt/improvedbitcoin.qrc src/qt/improvedbitcoin_locale.qrc
 
-TRANSLATIONS += src/qt/locale/bitcoinclassic_bg.ts \
-                src/qt/locale/bitcoinclassic_de.ts \
-                src/qt/locale/bitcoinclassic_en.ts \
-                src/qt/locale/bitcoinclassic_es.ts \
-                src/qt/locale/bitcoinclassic_fi.ts \
-                src/qt/locale/bitcoinclassic_fr.ts \
-                src/qt/locale/bitcoinclassic_it.ts \
-                src/qt/locale/bitcoinclassic_ja.ts \
-                src/qt/locale/bitcoinclassic_pl.ts \
-                src/qt/locale/bitcoinclassic_pt.ts \
-                src/qt/locale/bitcoinclassic_ru.ts \
-                src/qt/locale/bitcoinclassic_sk.ts \
-                src/qt/locale/bitcoinclassic_sv.ts \
-                src/qt/locale/bitcoinclassic_vi.ts \
-                src/qt/locale/bitcoinclassic_zh_CN.ts \
-                src/qt/locale/bitcoinclassic_zh_TW.ts
+TRANSLATIONS += src/qt/locale/improvedbitcoin_bg.ts \
+                src/qt/locale/improvedbitcoin_de.ts \
+                src/qt/locale/improvedbitcoin_en.ts \
+                src/qt/locale/improvedbitcoin_es.ts \
+                src/qt/locale/improvedbitcoin_fi.ts \
+                src/qt/locale/improvedbitcoin_fr.ts \
+                src/qt/locale/improvedbitcoin_it.ts \
+                src/qt/locale/improvedbitcoin_ja.ts \
+                src/qt/locale/improvedbitcoin_pl.ts \
+                src/qt/locale/improvedbitcoin_pt.ts \
+                src/qt/locale/improvedbitcoin_ru.ts \
+                src/qt/locale/improvedbitcoin_sk.ts \
+                src/qt/locale/improvedbitcoin_sv.ts \
+                src/qt/locale/improvedbitcoin_vi.ts \
+                src/qt/locale/improvedbitcoin_zh_CN.ts \
+                src/qt/locale/improvedbitcoin_zh_TW.ts

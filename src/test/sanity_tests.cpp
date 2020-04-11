@@ -4,7 +4,7 @@
 
 #include "compat/sanity.h"
 #include "key.h"
-#include "test_bitcoinclassic.h"
+#include "test_improvedbitcoin.h"
 
 #include <boost/test/unit_test.hpp>
 

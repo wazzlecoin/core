@@ -1,6 +1,6 @@
 [Protocol]
-exec=bitcoinclassic-qt '%u'
-protocol=bitcoinclassic
+exec=improvedbitcoin-qt '%u'
+protocol=improvedbitcoin
 input=none
 output=none
 helper=true

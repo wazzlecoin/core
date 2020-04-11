@@ -1,4 +1,4 @@
-/* src/config/bitcoinclassic-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/improvedbitcoin-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef BXC_CONFIG_H
 

@@ -573,8 +573,8 @@
         <translation>Lähetä kolikkoja BitcoinClassic osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoinclassic: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja bitcoinclassic: URIja)</translation>
+        <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja improvedbitcoin: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -2440,7 +2440,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>

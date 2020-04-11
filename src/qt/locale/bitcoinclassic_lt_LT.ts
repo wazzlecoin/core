@@ -649,8 +649,8 @@
         <translation>Siųsti monetas į BitcoinClassic adresą</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoinclassic: URIs)</source>
-        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir bitcoinclassic URI)</translation>
+        <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
+        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir improvedbitcoin URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -868,8 +868,8 @@ MultiSend: %1</translation>
         <translation>Teksto etiketė</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoinclassic.conf).</source>
-        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (bitcoinclassic.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (improvedbitcoin.conf).</source>
+        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (improvedbitcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1767,9 +1767,9 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/bitcoinclassic-project/bitcoinclassic-project-translations</source>
+https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</source>
         <translation>Trūksta kalbos arba vertimas nebaigtas? Padėkite prisidėdami prie vertimų čia: 
-https://www.transifex.com/bitcoinclassic-project/bitcoinclassic-project-translations</translation>
+https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2027,8 +2027,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>AutoMint šiuo metu įgalintas ir nustatytas</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in bitcoinclassic.conf.</source>
-        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' bitcoinclassic.conf faile.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in improvedbitcoin.conf.</source>
+        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' improvedbitcoin.conf faile.</translation>
     </message>
     </context>
 <context>
@@ -2042,8 +2042,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Netinkamas mokėjimo adresas %1</translation>
     </message>
     <message>
-        <source>Cannot start bitcoinclassic: click-to-pay handler</source>
-        <translation>Nepavyksta paleisti bitcoinclassic: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
+        <source>Cannot start improvedbitcoin: click-to-pay handler</source>
+        <translation>Nepavyksta paleisti improvedbitcoin: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -3309,7 +3309,7 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
     </message>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(numatytas: %s)</translation>

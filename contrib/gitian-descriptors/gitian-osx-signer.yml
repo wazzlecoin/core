@@ -1,5 +1,5 @@
 ---
-name: "bitcoinclassic-dmg-signer"
+name: "improvedbitcoin-dmg-signer"
 distro: "ubuntu"
 suites:
 - "bionic"
@@ -8,10 +8,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/bitcoinclassic-project/bitcoinclassic-detached-sigs.git"
+- "url": "https://github.com/improvedbitcoin-project/improvedbitcoin-detached-sigs.git"
   "dir": "signature"
 files:
-- "bitcoinclassic-osx-unsigned.tar.gz"
+- "improvedbitcoin-osx-unsigned.tar.gz"
 script: |
   set -e -o pipefail
 
@@ -30,8 +30,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=bitcoinclassic-osx-unsigned.tar.gz
-  SIGNED=bitcoinclassic-osx-signed.dmg
+  UNSIGNED=improvedbitcoin-osx-unsigned.tar.gz
+  SIGNED=improvedbitcoin-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

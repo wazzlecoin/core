@@ -13,29 +13,29 @@
 %endif
 %endif
 
-Name:		bitcoinclassic
+Name:		improvedbitcoin
 Version:	0.12.0
 Release:	2%{?dist}
 Summary:	Peer to Peer Cryptographic Currency
 
 Group:		Applications/System
 License:	MIT
-URL:		https://bitcoinclassic.org/
-Source0:	https://bitcoinclassic.org/bin/bitcoinclassic-core-%{version}/bitcoinclassic-%{version}.tar.gz
+URL:		https://improvedbitcoin.org/
+Source0:	https://improvedbitcoin.org/bin/improvedbitcoin-core-%{version}/improvedbitcoin-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
-Source10:	https://raw.githubusercontent.com/bitcoinclassic-project/bitcoinclassic/v%{version}/contrib/debian/examples/bitcoinclassic.conf
+Source10:	https://raw.githubusercontent.com/improvedbitcoin-project/improvedbitcoin/v%{version}/contrib/debian/examples/improvedbitcoin.conf
 
 #man pages
-Source20:	https://raw.githubusercontent.com/bitcoinclassic-project/bitcoinclassic/v%{version}/doc/man/bitcoinclassicd.1
-Source21:	https://raw.githubusercontent.com/bitcoinclassic-project/bitcoinclassic/v%{version}/doc/man/bitcoinclassic-cli.1
-Source22:	https://raw.githubusercontent.com/bitcoinclassic-project/bitcoinclassic/v%{version}/doc/man/bitcoinclassic-qt.1
+Source20:	https://raw.githubusercontent.com/improvedbitcoin-project/improvedbitcoin/v%{version}/doc/man/improvedbitcoind.1
+Source21:	https://raw.githubusercontent.com/improvedbitcoin-project/improvedbitcoin/v%{version}/doc/man/improvedbitcoin-cli.1
+Source22:	https://raw.githubusercontent.com/improvedbitcoin-project/improvedbitcoin/v%{version}/doc/man/improvedbitcoin-qt.1
 
 #selinux
-Source30:	https://raw.githubusercontent.com/bitcoinclassic-project/bitcoinclassic/v%{version}/contrib/rpm/bitcoinclassic.te
-# Source31 - what about bitcoinclassic-tx and bench_bitcoinclassic ???
-Source31:	https://raw.githubusercontent.com/bitcoinclassic-project/bitcoinclassic/v%{version}/contrib/rpm/bitcoinclassic.fc
-Source32:	https://raw.githubusercontent.com/bitcoinclassic-project/bitcoinclassic/v%{version}/contrib/rpm/bitcoinclassic.if
+Source30:	https://raw.githubusercontent.com/improvedbitcoin-project/improvedbitcoin/v%{version}/contrib/rpm/improvedbitcoin.te
+# Source31 - what about improvedbitcoin-tx and bench_improvedbitcoin ???
+Source31:	https://raw.githubusercontent.com/improvedbitcoin-project/improvedbitcoin/v%{version}/contrib/rpm/improvedbitcoin.fc
+Source32:	https://raw.githubusercontent.com/improvedbitcoin-project/improvedbitcoin/v%{version}/contrib/rpm/improvedbitcoin.if
 
 Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg
 
@@ -50,13 +50,13 @@ BuildRequires:	autoconf automake libtool
 BuildRequires:	libevent-devel
 
 
-Patch0:		bitcoinclassic-0.12.0-libressl.patch
+Patch0:		improvedbitcoin-0.12.0-libressl.patch
 
 
 %description
 Bitcoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
-issuing of bitcoinclassics is carried out collectively by the network.
+issuing of improvedbitcoins is carried out collectively by the network.
 
 %if %{_buildqt}
 %package core
@@ -81,7 +81,7 @@ BuildRequires:	%{_bindir}/convert
 %description core
 Bitcoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
-issuing of bitcoinclassics is carried out collectively by the network.
+issuing of improvedbitcoins is carried out collectively by the network.
 
 This package contains the Qt based graphical client and node. If you are looking
 to run a Bitcoin wallet, this is probably the package you want.
@@ -93,28 +93,28 @@ Summary:	Bitcoin shared libraries
 Group:		System Environment/Libraries
 
 %description libs
-This package provides the bitcoinclassicconsensus shared libraries. These libraries
+This package provides the improvedbitcoinconsensus shared libraries. These libraries
 may be used by third party software to provide consensus verification
 functionality.
 
 Unless you know need this package, you probably do not.
 
 %package devel
-Summary:	Development files for bitcoinclassic
+Summary:	Development files for improvedbitcoin
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
 %description devel
 This package contains the header files and static library for the
-bitcoinclassicconsensus shared library. If you are developing or compiling software
+improvedbitcoinconsensus shared library. If you are developing or compiling software
 that wants to link against that library, then you need this package installed.
 
 Most people do not need this package installed.
 
 %package server
-Summary:	The bitcoinclassic daemon
+Summary:	The improvedbitcoin daemon
 Group:		System Environment/Daemons
-Requires:	bitcoinclassic-utils = %{version}-%{release}
+Requires:	improvedbitcoin-utils = %{version}-%{release}
 Requires:	selinux-policy policycoreutils-python
 Requires(pre):	shadow-utils
 Requires(post):	%{_sbindir}/semodule %{_sbindir}/restorecon %{_sbindir}/fixfiles %{_sbindir}/sestatus
@@ -124,13 +124,13 @@ BuildRequires:	checkpolicy
 BuildRequires:	%{_datadir}/selinux/devel/Makefile
 
 %description server
-This package provides a stand-alone bitcoinclassic-core daemon. For most users, this
+This package provides a stand-alone improvedbitcoin-core daemon. For most users, this
 package is only needed if they need a full-node without the graphical client.
 
 Some third party wallet software will want this package to provide the actual
-bitcoinclassic-core node they use to connect to the network.
+improvedbitcoin-core node they use to connect to the network.
 
-If you use the graphical bitcoinclassic-core client then you almost certainly do not
+If you use the graphical improvedbitcoin-core client then you almost certainly do not
 need this package.
 
 %package utils
@@ -139,19 +139,19 @@ Group:		Applications/System
 
 %description utils
 This package provides several command line utilities for interacting with a
-bitcoinclassic-core daemon.
+improvedbitcoin-core daemon.
 
-The bitcoinclassic-cli utility allows you to communicate and control a bitcoinclassic daemon
-over RPC, the bitcoinclassic-tx utility allows you to create a custom transaction, and
-the bench_bitcoinclassic utility can be used to perform some benchmarks.
+The improvedbitcoin-cli utility allows you to communicate and control a improvedbitcoin daemon
+over RPC, the improvedbitcoin-tx utility allows you to create a custom transaction, and
+the bench_improvedbitcoin utility can be used to perform some benchmarks.
 
-This package contains utilities needed by the bitcoinclassic-server package.
+This package contains utilities needed by the improvedbitcoin-server package.
 
 
 %prep
 %setup -q
 %patch0 -p1 -b .libressl
-cp -p %{SOURCE10} ./bitcoinclassic.conf.example
+cp -p %{SOURCE10} ./improvedbitcoin.conf.example
 tar -zxf %{SOURCE1}
 cp -p db-%{bdbv}.NC/LICENSE ./db-%{bdbv}.NC-LICENSE
 mkdir db4 SELinux
@@ -172,7 +172,7 @@ make %{?_smp_mflags}
 pushd SELinux
 for selinuxvariant in %{selinux_variants}; do
 	make NAME=${selinuxvariant} -f %{_datadir}/selinux/devel/Makefile
-	mv bitcoinclassic.pp bitcoinclassic.pp.${selinuxvariant}
+	mv improvedbitcoin.pp improvedbitcoin.pp.${selinuxvariant}
 	make NAME=${selinuxvariant} -f %{_datadir}/selinux/devel/Makefile clean
 done
 popd
@@ -182,42 +182,42 @@ popd
 make install DESTDIR=%{buildroot}
 
 mkdir -p -m755 %{buildroot}%{_sbindir}
-mv %{buildroot}%{_bindir}/bitcoinclassicd %{buildroot}%{_sbindir}/bitcoinclassicd
+mv %{buildroot}%{_bindir}/improvedbitcoind %{buildroot}%{_sbindir}/improvedbitcoind
 
 # systemd stuff
 mkdir -p %{buildroot}%{_tmpfilesdir}
-cat <<EOF > %{buildroot}%{_tmpfilesdir}/bitcoinclassic.conf
-d /run/bitcoinclassicd 0750 bitcoinclassic bitcoinclassic -
+cat <<EOF > %{buildroot}%{_tmpfilesdir}/improvedbitcoin.conf
+d /run/improvedbitcoind 0750 improvedbitcoin improvedbitcoin -
 EOF
-touch -a -m -t 201504280000 %{buildroot}%{_tmpfilesdir}/bitcoinclassic.conf
+touch -a -m -t 201504280000 %{buildroot}%{_tmpfilesdir}/improvedbitcoin.conf
 
 mkdir -p %{buildroot}%{_sysconfdir}/sysconfig
-cat <<EOF > %{buildroot}%{_sysconfdir}/sysconfig/bitcoinclassic
-# Provide options to the bitcoinclassic daemon here, for example
+cat <<EOF > %{buildroot}%{_sysconfdir}/sysconfig/improvedbitcoin
+# Provide options to the improvedbitcoin daemon here, for example
 # OPTIONS="-testnet -disable-wallet"
 
 OPTIONS=""
 
 # System service defaults.
 # Don't change these unless you know what you're doing.
-CONFIG_FILE="%{_sysconfdir}/bitcoinclassic/bitcoinclassic.conf"
-DATA_DIR="%{_localstatedir}/lib/bitcoinclassic"
-PID_FILE="/run/bitcoinclassicd/bitcoinclassicd.pid"
+CONFIG_FILE="%{_sysconfdir}/improvedbitcoin/improvedbitcoin.conf"
+DATA_DIR="%{_localstatedir}/lib/improvedbitcoin"
+PID_FILE="/run/improvedbitcoind/improvedbitcoind.pid"
 EOF
-touch -a -m -t 201504280000 %{buildroot}%{_sysconfdir}/sysconfig/bitcoinclassic
+touch -a -m -t 201504280000 %{buildroot}%{_sysconfdir}/sysconfig/improvedbitcoin
 
 mkdir -p %{buildroot}%{_unitdir}
-cat <<EOF > %{buildroot}%{_unitdir}/bitcoinclassic.service
+cat <<EOF > %{buildroot}%{_unitdir}/improvedbitcoin.service
 [Unit]
 Description=Bitcoin daemon
 After=syslog.target network.target
 
 [Service]
 Type=forking
-ExecStart=%{_sbindir}/bitcoinclassicd -daemon -conf=\${CONFIG_FILE} -datadir=\${DATA_DIR} -pid=\${PID_FILE} \$OPTIONS
-EnvironmentFile=%{_sysconfdir}/sysconfig/bitcoinclassic
-User=bitcoinclassic
-Group=bitcoinclassic
+ExecStart=%{_sbindir}/improvedbitcoind -daemon -conf=\${CONFIG_FILE} -datadir=\${DATA_DIR} -pid=\${PID_FILE} \$OPTIONS
+EnvironmentFile=%{_sysconfdir}/sysconfig/improvedbitcoin
+User=improvedbitcoin
+Group=improvedbitcoin
 
 Restart=on-failure
 PrivateTmp=true
@@ -229,63 +229,63 @@ StartLimitBurst=5
 [Install]
 WantedBy=multi-user.target
 EOF
-touch -a -m -t 201504280000 %{buildroot}%{_unitdir}/bitcoinclassic.service
+touch -a -m -t 201504280000 %{buildroot}%{_unitdir}/improvedbitcoin.service
 #end systemd stuff
 
-mkdir %{buildroot}%{_sysconfdir}/bitcoinclassic
-mkdir -p %{buildroot}%{_localstatedir}/lib/bitcoinclassic
+mkdir %{buildroot}%{_sysconfdir}/improvedbitcoin
+mkdir -p %{buildroot}%{_localstatedir}/lib/improvedbitcoin
 
 #SELinux
 for selinuxvariant in %{selinux_variants}; do
 	install -d %{buildroot}%{_datadir}/selinux/${selinuxvariant}
-	install -p -m 644 SELinux/bitcoinclassic.pp.${selinuxvariant} %{buildroot}%{_datadir}/selinux/${selinuxvariant}/bitcoinclassic.pp
+	install -p -m 644 SELinux/improvedbitcoin.pp.${selinuxvariant} %{buildroot}%{_datadir}/selinux/${selinuxvariant}/improvedbitcoin.pp
 done
 
 %if %{_buildqt}
 # qt icons
-install -D -p share/pixmaps/bitcoinclassic.ico %{buildroot}%{_datadir}/pixmaps/bitcoinclassic.ico
+install -D -p share/pixmaps/improvedbitcoin.ico %{buildroot}%{_datadir}/pixmaps/improvedbitcoin.ico
 install -p share/pixmaps/nsis-header.bmp %{buildroot}%{_datadir}/pixmaps/
 install -p share/pixmaps/nsis-wizard.bmp %{buildroot}%{_datadir}/pixmaps/
-install -p %{SOURCE100} %{buildroot}%{_datadir}/pixmaps/bitcoinclassic.svg
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitcoinclassic16.png -w16 -h16
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitcoinclassic32.png -w32 -h32
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitcoinclassic64.png -w64 -h64
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitcoinclassic128.png -w128 -h128
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/bitcoinclassic256.png -w256 -h256
-%{_bindir}/convert -resize 16x16 %{buildroot}%{_datadir}/pixmaps/bitcoinclassic256.png %{buildroot}%{_datadir}/pixmaps/bitcoinclassic16.xpm
-%{_bindir}/convert -resize 32x32 %{buildroot}%{_datadir}/pixmaps/bitcoinclassic256.png %{buildroot}%{_datadir}/pixmaps/bitcoinclassic32.xpm
-%{_bindir}/convert -resize 64x64 %{buildroot}%{_datadir}/pixmaps/bitcoinclassic256.png %{buildroot}%{_datadir}/pixmaps/bitcoinclassic64.xpm
-%{_bindir}/convert -resize 128x128 %{buildroot}%{_datadir}/pixmaps/bitcoinclassic256.png %{buildroot}%{_datadir}/pixmaps/bitcoinclassic128.xpm
-%{_bindir}/convert %{buildroot}%{_datadir}/pixmaps/bitcoinclassic256.png %{buildroot}%{_datadir}/pixmaps/bitcoinclassic256.xpm
+install -p %{SOURCE100} %{buildroot}%{_datadir}/pixmaps/improvedbitcoin.svg
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/improvedbitcoin16.png -w16 -h16
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/improvedbitcoin32.png -w32 -h32
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/improvedbitcoin64.png -w64 -h64
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/improvedbitcoin128.png -w128 -h128
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/improvedbitcoin256.png -w256 -h256
+%{_bindir}/convert -resize 16x16 %{buildroot}%{_datadir}/pixmaps/improvedbitcoin256.png %{buildroot}%{_datadir}/pixmaps/improvedbitcoin16.xpm
+%{_bindir}/convert -resize 32x32 %{buildroot}%{_datadir}/pixmaps/improvedbitcoin256.png %{buildroot}%{_datadir}/pixmaps/improvedbitcoin32.xpm
+%{_bindir}/convert -resize 64x64 %{buildroot}%{_datadir}/pixmaps/improvedbitcoin256.png %{buildroot}%{_datadir}/pixmaps/improvedbitcoin64.xpm
+%{_bindir}/convert -resize 128x128 %{buildroot}%{_datadir}/pixmaps/improvedbitcoin256.png %{buildroot}%{_datadir}/pixmaps/improvedbitcoin128.xpm
+%{_bindir}/convert %{buildroot}%{_datadir}/pixmaps/improvedbitcoin256.png %{buildroot}%{_datadir}/pixmaps/improvedbitcoin256.xpm
 touch %{buildroot}%{_datadir}/pixmaps/*.png -r %{SOURCE100}
 touch %{buildroot}%{_datadir}/pixmaps/*.xpm -r %{SOURCE100}
 
 # Desktop File - change the touch timestamp if modifying
 mkdir -p %{buildroot}%{_datadir}/applications
-cat <<EOF > %{buildroot}%{_datadir}/applications/bitcoinclassic-core.desktop
+cat <<EOF > %{buildroot}%{_datadir}/applications/improvedbitcoin-core.desktop
 [Desktop Entry]
 Encoding=UTF-8
 Name=Bitcoin
 Comment=Bitcoin P2P Cryptocurrency
 Comment[fr]=Bitcoin, monnaie virtuelle cryptographique pair à pair
 Comment[tr]=Bitcoin, eşten eşe kriptografik sanal para birimi
-Exec=bitcoinclassic-qt %u
+Exec=improvedbitcoin-qt %u
 Terminal=false
 Type=Application
-Icon=bitcoinclassic128
-MimeType=x-scheme-handler/bitcoinclassic;
+Icon=improvedbitcoin128
+MimeType=x-scheme-handler/improvedbitcoin;
 Categories=Office;Finance;
 EOF
 # change touch date when modifying desktop
-touch -a -m -t 201511100546 %{buildroot}%{_datadir}/applications/bitcoinclassic-core.desktop
-%{_bindir}/desktop-file-validate %{buildroot}%{_datadir}/applications/bitcoinclassic-core.desktop
+touch -a -m -t 201511100546 %{buildroot}%{_datadir}/applications/improvedbitcoin-core.desktop
+%{_bindir}/desktop-file-validate %{buildroot}%{_datadir}/applications/improvedbitcoin-core.desktop
 
 # KDE protocol - change the touch timestamp if modifying
 mkdir -p %{buildroot}%{_datadir}/kde4/services
-cat <<EOF > %{buildroot}%{_datadir}/kde4/services/bitcoinclassic-core.protocol
+cat <<EOF > %{buildroot}%{_datadir}/kde4/services/improvedbitcoin-core.protocol
 [Protocol]
-exec=bitcoinclassic-qt '%u'
-protocol=bitcoinclassic
+exec=improvedbitcoin-qt '%u'
+protocol=improvedbitcoin
 input=none
 output=none
 helper=true
@@ -296,14 +296,14 @@ makedir=false
 deleting=false
 EOF
 # change touch date when modifying protocol
-touch -a -m -t 201511100546 %{buildroot}%{_datadir}/kde4/services/bitcoinclassic-core.protocol
+touch -a -m -t 201511100546 %{buildroot}%{_datadir}/kde4/services/improvedbitcoin-core.protocol
 %endif
 
 # man pages
-install -D -p %{SOURCE20} %{buildroot}%{_mandir}/man1/bitcoinclassicd.1
-install -p %{SOURCE21} %{buildroot}%{_mandir}/man1/bitcoinclassic-cli.1
+install -D -p %{SOURCE20} %{buildroot}%{_mandir}/man1/improvedbitcoind.1
+install -p %{SOURCE21} %{buildroot}%{_mandir}/man1/improvedbitcoin-cli.1
 %if %{_buildqt}
-install -p %{SOURCE22} %{buildroot}%{_mandir}/man1/bitcoinclassic-qt.1
+install -p %{SOURCE22} %{buildroot}%{_mandir}/man1/improvedbitcoin-qt.1
 %endif
 
 # nuke these, we do extensive testing of binaries in %%check before packaging
@@ -311,7 +311,7 @@ rm -f %{buildroot}%{_bindir}/test_*
 
 %check
 make check
-srcdir=src test/bitcoinclassic-util-test.py
+srcdir=src test/improvedbitcoin-util-test.py
 test/functional/test_runner.py --extended
 
 %post libs -p /sbin/ldconfig
@@ -319,37 +319,37 @@ test/functional/test_runner.py --extended
 %postun libs -p /sbin/ldconfig
 
 %pre server
-getent group bitcoinclassic >/dev/null || groupadd -r bitcoinclassic
-getent passwd bitcoinclassic >/dev/null ||
-	useradd -r -g bitcoinclassic -d /var/lib/bitcoinclassic -s /sbin/nologin \
-	-c "Bitcoin wallet server" bitcoinclassic
+getent group improvedbitcoin >/dev/null || groupadd -r improvedbitcoin
+getent passwd improvedbitcoin >/dev/null ||
+	useradd -r -g improvedbitcoin -d /var/lib/improvedbitcoin -s /sbin/nologin \
+	-c "Bitcoin wallet server" improvedbitcoin
 exit 0
 
 %post server
-%systemd_post bitcoinclassic.service
+%systemd_post improvedbitcoin.service
 # SELinux
 if [ `%{_sbindir}/sestatus |grep -c "disabled"` -eq 0 ]; then
 for selinuxvariant in %{selinux_variants}; do
-	%{_sbindir}/semodule -s ${selinuxvariant} -i %{_datadir}/selinux/${selinuxvariant}/bitcoinclassic.pp &> /dev/null || :
+	%{_sbindir}/semodule -s ${selinuxvariant} -i %{_datadir}/selinux/${selinuxvariant}/improvedbitcoin.pp &> /dev/null || :
 done
-%{_sbindir}/semanage port -a -t bitcoinclassic_port_t -p tcp 8332
-%{_sbindir}/semanage port -a -t bitcoinclassic_port_t -p tcp 8333
-%{_sbindir}/semanage port -a -t bitcoinclassic_port_t -p tcp 18332
-%{_sbindir}/semanage port -a -t bitcoinclassic_port_t -p tcp 18333
-%{_sbindir}/semanage port -a -t bitcoinclassic_port_t -p tcp 18443
-%{_sbindir}/semanage port -a -t bitcoinclassic_port_t -p tcp 18444
-%{_sbindir}/fixfiles -R bitcoinclassic-server restore &> /dev/null || :
-%{_sbindir}/restorecon -R %{_localstatedir}/lib/bitcoinclassic || :
+%{_sbindir}/semanage port -a -t improvedbitcoin_port_t -p tcp 8332
+%{_sbindir}/semanage port -a -t improvedbitcoin_port_t -p tcp 8333
+%{_sbindir}/semanage port -a -t improvedbitcoin_port_t -p tcp 18332
+%{_sbindir}/semanage port -a -t improvedbitcoin_port_t -p tcp 18333
+%{_sbindir}/semanage port -a -t improvedbitcoin_port_t -p tcp 18443
+%{_sbindir}/semanage port -a -t improvedbitcoin_port_t -p tcp 18444
+%{_sbindir}/fixfiles -R improvedbitcoin-server restore &> /dev/null || :
+%{_sbindir}/restorecon -R %{_localstatedir}/lib/improvedbitcoin || :
 fi
 
 %posttrans server
 %{_bindir}/systemd-tmpfiles --create
 
 %preun server
-%systemd_preun bitcoinclassic.service
+%systemd_preun improvedbitcoin.service
 
 %postun server
-%systemd_postun bitcoinclassic.service
+%systemd_postun improvedbitcoin.service
 # SELinux
 if [ $1 -eq 0 ]; then
 	if [ `%{_sbindir}/sestatus |grep -c "disabled"` -eq 0 ]; then
@@ -360,11 +360,11 @@ if [ $1 -eq 0 ]; then
 	%{_sbindir}/semanage port -d -p tcp 18443
 	%{_sbindir}/semanage port -d -p tcp 18444
 	for selinuxvariant in %{selinux_variants}; do
-		%{_sbindir}/semodule -s ${selinuxvariant} -r bitcoinclassic &> /dev/null || :
+		%{_sbindir}/semodule -s ${selinuxvariant} -r improvedbitcoin &> /dev/null || :
 	done
-	%{_sbindir}/fixfiles -R bitcoinclassic-server restore &> /dev/null || :
-	[ -d %{_localstatedir}/lib/bitcoinclassic ] && \
-		%{_sbindir}/restorecon -R %{_localstatedir}/lib/bitcoinclassic &> /dev/null || :
+	%{_sbindir}/fixfiles -R improvedbitcoin-server restore &> /dev/null || :
+	[ -d %{_localstatedir}/lib/improvedbitcoin ] && \
+		%{_sbindir}/restorecon -R %{_localstatedir}/lib/improvedbitcoin &> /dev/null || :
 	fi
 fi
 
@@ -375,16 +375,16 @@ rm -rf %{buildroot}
 %files core
 %defattr(-,root,root,-)
 %license COPYING db-%{bdbv}.NC-LICENSE
-%doc COPYING bitcoinclassic.conf.example doc/README.md doc/bips.md doc/files.md doc/multiwallet-qt.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
-%attr(0755,root,root) %{_bindir}/bitcoinclassic-qt
-%attr(0644,root,root) %{_datadir}/applications/bitcoinclassic-core.desktop
-%attr(0644,root,root) %{_datadir}/kde4/services/bitcoinclassic-core.protocol
+%doc COPYING improvedbitcoin.conf.example doc/README.md doc/bips.md doc/files.md doc/multiwallet-qt.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
+%attr(0755,root,root) %{_bindir}/improvedbitcoin-qt
+%attr(0644,root,root) %{_datadir}/applications/improvedbitcoin-core.desktop
+%attr(0644,root,root) %{_datadir}/kde4/services/improvedbitcoin-core.protocol
 %attr(0644,root,root) %{_datadir}/pixmaps/*.ico
 %attr(0644,root,root) %{_datadir}/pixmaps/*.bmp
 %attr(0644,root,root) %{_datadir}/pixmaps/*.svg
 %attr(0644,root,root) %{_datadir}/pixmaps/*.png
 %attr(0644,root,root) %{_datadir}/pixmaps/*.xpm
-%attr(0644,root,root) %{_mandir}/man1/bitcoinclassic-qt.1*
+%attr(0644,root,root) %{_mandir}/man1/improvedbitcoin-qt.1*
 %endif
 
 %files libs
@@ -406,30 +406,30 @@ rm -rf %{buildroot}
 %files server
 %defattr(-,root,root,-)
 %license COPYING db-%{bdbv}.NC-LICENSE
-%doc COPYING bitcoinclassic.conf.example doc/README.md doc/REST-interface.md doc/bips.md doc/dnsseed-policy.md doc/files.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
-%attr(0755,root,root) %{_sbindir}/bitcoinclassicd
-%attr(0644,root,root) %{_tmpfilesdir}/bitcoinclassic.conf
-%attr(0644,root,root) %{_unitdir}/bitcoinclassic.service
-%dir %attr(0750,bitcoinclassic,bitcoinclassic) %{_sysconfdir}/bitcoinclassic
-%dir %attr(0750,bitcoinclassic,bitcoinclassic) %{_localstatedir}/lib/bitcoinclassic
-%config(noreplace) %attr(0600,root,root) %{_sysconfdir}/sysconfig/bitcoinclassic
+%doc COPYING improvedbitcoin.conf.example doc/README.md doc/REST-interface.md doc/bips.md doc/dnsseed-policy.md doc/files.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
+%attr(0755,root,root) %{_sbindir}/improvedbitcoind
+%attr(0644,root,root) %{_tmpfilesdir}/improvedbitcoin.conf
+%attr(0644,root,root) %{_unitdir}/improvedbitcoin.service
+%dir %attr(0750,improvedbitcoin,improvedbitcoin) %{_sysconfdir}/improvedbitcoin
+%dir %attr(0750,improvedbitcoin,improvedbitcoin) %{_localstatedir}/lib/improvedbitcoin
+%config(noreplace) %attr(0600,root,root) %{_sysconfdir}/sysconfig/improvedbitcoin
 %attr(0644,root,root) %{_datadir}/selinux/*/*.pp
-%attr(0644,root,root) %{_mandir}/man1/bitcoinclassicd.1*
+%attr(0644,root,root) %{_mandir}/man1/improvedbitcoind.1*
 
 %files utils
 %defattr(-,root,root,-)
 %license COPYING
-%doc COPYING bitcoinclassic.conf.example doc/README.md
-%attr(0755,root,root) %{_bindir}/bitcoinclassic-cli
-%attr(0755,root,root) %{_bindir}/bitcoinclassic-tx
-%attr(0755,root,root) %{_bindir}/bench_bitcoinclassic
-%attr(0644,root,root) %{_mandir}/man1/bitcoinclassic-cli.1*
+%doc COPYING improvedbitcoin.conf.example doc/README.md
+%attr(0755,root,root) %{_bindir}/improvedbitcoin-cli
+%attr(0755,root,root) %{_bindir}/improvedbitcoin-tx
+%attr(0755,root,root) %{_bindir}/bench_improvedbitcoin
+%attr(0644,root,root) %{_mandir}/man1/improvedbitcoin-cli.1*
 
 
 
 %changelog
 * Fri Feb 26 2016 Alice Wonder <buildmaster@librelamp.com> - 0.12.0-2
-- Rename Qt package from bitcoinclassic to bitcoinclassic-core
+- Rename Qt package from improvedbitcoin to improvedbitcoin-core
 - Make building of the Qt package optional
 - When building the Qt package, default to Qt5 but allow building
 -  against Qt4
@@ -439,4 +439,4 @@ rm -rf %{buildroot}
 - Initial spec file for 0.12.0 release
 
 # This spec file is written from scratch but a lot of the packaging decisions are directly
-# based upon the 0.11.2 package spec file from https://www.ringingliberty.com/bitcoinclassic/
+# based upon the 0.11.2 package spec file from https://www.ringingliberty.com/improvedbitcoin/

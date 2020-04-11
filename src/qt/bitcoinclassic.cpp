@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoinclassic-config.h"
+#include "config/improvedbitcoin-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -81,7 +81,7 @@ static void InitMessage(const std::string& message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("bitcoinclassic-core", psz).toStdString();
+    return QCoreApplication::translate("improvedbitcoin-core", psz).toStdString();
 }
 
 static QString GetLangTerritory()
@@ -128,11 +128,11 @@ static void initTranslations(QTranslator& qtTranslatorBase, QTranslator& qtTrans
     if (qtTranslator.load("qt_" + lang_territory, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         QApplication::installTranslator(&qtTranslator);
 
-    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in bitcoinclassic.qrc)
+    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in improvedbitcoin.qrc)
     if (translatorBase.load(lang, ":/translations/"))
         QApplication::installTranslator(&translatorBase);
 
-    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in bitcoinclassic.qrc)
+    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in improvedbitcoin.qrc)
     if (translator.load(lang_territory, ":/translations/"))
         QApplication::installTranslator(&translator);
 }
@@ -230,7 +230,7 @@ private:
     void startThread();
 };
 
-#include "bitcoinclassic.moc"
+#include "improvedbitcoin.moc"
 
 BitcoinCore::BitcoinCore() : QObject()
 {
@@ -499,8 +499,8 @@ int main(int argc, char* argv[])
 // Do not refer to data directory yet, this can be overridden by Intro::pickDataDirectory
 
 /// 2. Basic Qt initialization (not dependent on parameters or configuration)
-    Q_INIT_RESOURCE(bitcoinclassic_locale);
-    Q_INIT_RESOURCE(bitcoinclassic);
+    Q_INIT_RESOURCE(improvedbitcoin_locale);
+    Q_INIT_RESOURCE(improvedbitcoin);
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100
@@ -547,7 +547,7 @@ int main(int argc, char* argv[])
     if (!Intro::pickDataDirectory())
         return 0;
 
-    /// 6. Determine availability of data directory and parse bitcoinclassic.conf
+    /// 6. Determine availability of data directory and parse improvedbitcoin.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false))) {
         QMessageBox::critical(0, QObject::tr("BitcoinClassic Core"),
@@ -604,7 +604,7 @@ int main(int argc, char* argv[])
         exit(0);
 
     // Start up the payment server early, too, so impatient users that click on
-    // bitcoinclassic: links repeatedly have their payment requests routed to this process:
+    // improvedbitcoin: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 

@@ -1911,7 +1911,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
         <source>Connection options:</source>
         <translation>Opcions de connexió:</translation>

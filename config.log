@@ -275,10 +275,10 @@ configure:5209: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -301,10 +301,10 @@ configure:5247: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -322,10 +322,10 @@ configure:5262: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -343,10 +343,10 @@ configure:5278: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -510,10 +510,10 @@ configure:9633: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -530,10 +530,10 @@ configure:9692: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | /* end confdefs.h.  */
@@ -641,10 +641,10 @@ configure:14215: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -673,10 +673,10 @@ configure:14274: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -825,10 +825,10 @@ configure:21890: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -864,10 +864,10 @@ configure:21953: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -944,10 +944,10 @@ configure:23070: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1032,10 +1032,10 @@ configure:23784: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1079,10 +1079,10 @@ configure:23820: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1126,10 +1126,10 @@ configure:23856: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1196,10 +1196,10 @@ configure:24073: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1271,10 +1271,10 @@ configure:24073: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1461,10 +1461,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1547,10 +1547,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1633,10 +1633,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1719,10 +1719,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1805,10 +1805,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1891,10 +1891,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -1977,10 +1977,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2063,10 +2063,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2149,10 +2149,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2235,10 +2235,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2321,10 +2321,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2407,10 +2407,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2493,10 +2493,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2579,10 +2579,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2665,10 +2665,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2751,10 +2751,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2837,10 +2837,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -2923,10 +2923,10 @@ configure:24569: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -3142,10 +3142,10 @@ configure:27883: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -3363,10 +3363,10 @@ configure:30872: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -3522,10 +3522,10 @@ configure:31910: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "BitcoinClassic Core"
-| #define PACKAGE_TARNAME "bitcoinclassic"
+| #define PACKAGE_TARNAME "improvedbitcoin"
 | #define PACKAGE_VERSION "1.0.0"
 | #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-| #define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+| #define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 | #define PACKAGE_URL ""
 | #define HAVE_CXX11 1
 | #define STDC_HEADERS 1
@@ -3659,9 +3659,9 @@ configure:31960: result: yes
 configure:32159: checking for protoc
 configure:32177: found /home/administrator/walletbuilders/build_environment/pivx/3.3.0/depends/x86_64-w64-linux/share/../native/bin/protoc
 configure:32189: result: /home/administrator/walletbuilders/build_environment/pivx/3.3.0/depends/x86_64-w64-linux/share/../native/bin/protoc
-configure:32269: checking whether to build bitcoinclassicd
+configure:32269: checking whether to build improvedbitcoind
 configure:32279: result: yes
-configure:32282: checking whether to build utils (bitcoinclassic-cli bitcoinclassic-tx)
+configure:32282: checking whether to build utils (improvedbitcoin-cli improvedbitcoin-tx)
 configure:32292: result: yes
 configure:32295: checking whether to build libraries
 configure:32312: result: no
@@ -3692,9 +3692,9 @@ configure:32576: result: yes
 configure:32579: checking whether to build GUI with support for QR codes
 configure:32589: result: yes
 configure:32602: WARNING: "xgettext is required to update qt translations"
-configure:32606: checking whether to build test_bitcoinclassic-qt
+configure:32606: checking whether to build test_improvedbitcoin-qt
 configure:32613: result: no
-configure:32661: checking whether to build test_bitcoinclassic
+configure:32661: checking whether to build test_improvedbitcoin
 configure:32668: result: no
 configure:32673: checking whether to reduce exports
 configure:32679: result: no
@@ -3725,7 +3725,7 @@ config.status:1518: creating share/qt/Info.plist
 config.status:1518: creating test/config.ini
 config.status:1518: creating contrib/devtools/split-debug.sh
 config.status:1518: creating doc/Doxyfile
-config.status:1518: creating src/config/bitcoinclassic-config.h
+config.status:1518: creating src/config/improvedbitcoin-config.h
 config.status:1778: executing depfiles commands
 config.status:1778: executing libtool commands
 configure:35725: === configuring in src/univalue (/tmp/BitcoinClassic/src/univalue)
@@ -4114,10 +4114,10 @@ AWK='gawk'
 BDB_CFLAGS=''
 BDB_CPPFLAGS=''
 BDB_LIBS='-ldb_cxx-4.8'
-BITCOIN_CLI_NAME='bitcoinclassic-cli'
-BITCOIN_DAEMON_NAME='bitcoinclassicd'
-BITCOIN_GUI_NAME='bitcoinclassic-qt'
-BITCOIN_TX_NAME='bitcoinclassic-tx'
+BITCOIN_CLI_NAME='improvedbitcoin-cli'
+BITCOIN_DAEMON_NAME='improvedbitcoind'
+BITCOIN_GUI_NAME='improvedbitcoin-qt'
+BITCOIN_TX_NAME='improvedbitcoin-tx'
 BOOST_CHRONO_LIB='-lboost_chrono-mt'
 BOOST_CPPFLAGS='-DBOOST_SP_USE_STD_ATOMIC -DBOOST_AC_USE_STD_ATOMIC -pthread -I/home/administrator/walletbuilders/build_environment/pivx/3.3.0/depends/x86_64-w64-linux/share/../include'
 BOOST_FILESYSTEM_LIB='-lboost_filesystem-mt'
@@ -4267,11 +4267,11 @@ OBJDUMP='objdump'
 OBJEXT='o'
 OTOOL64=''
 OTOOL=''
-PACKAGE='bitcoinclassic'
-PACKAGE_BUGREPORT='www.bitcoinclassic.org'
+PACKAGE='improvedbitcoin'
+PACKAGE_BUGREPORT='www.improvedbitcoin.org'
 PACKAGE_NAME='BitcoinClassic Core'
 PACKAGE_STRING='BitcoinClassic Core 1.0.0'
-PACKAGE_TARNAME='bitcoinclassic'
+PACKAGE_TARNAME='improvedbitcoin'
 PACKAGE_URL=''
 PACKAGE_VERSION='1.0.0'
 PATH_SEPARATOR=':'
@@ -4440,10 +4440,10 @@ target_alias=''
 
 /* confdefs.h */
 #define PACKAGE_NAME "BitcoinClassic Core"
-#define PACKAGE_TARNAME "bitcoinclassic"
+#define PACKAGE_TARNAME "improvedbitcoin"
 #define PACKAGE_VERSION "1.0.0"
 #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
-#define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+#define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 #define PACKAGE_URL ""
 #define HAVE_CXX11 1
 #define STDC_HEADERS 1

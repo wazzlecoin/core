@@ -1,5 +1,5 @@
-/* src/config/bitcoinclassic-config.h.  Generated from bitcoinclassic-config.h.in by configure.  */
-/* src/config/bitcoinclassic-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/improvedbitcoin-config.h.  Generated from improvedbitcoin-config.h.in by configure.  */
+/* src/config/improvedbitcoin-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef BXC_CONFIG_H
 
@@ -334,7 +334,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "www.bitcoinclassic.org"
+#define PACKAGE_BUGREPORT "www.improvedbitcoin.org"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "BitcoinClassic Core"
@@ -343,7 +343,7 @@
 #define PACKAGE_STRING "BitcoinClassic Core 1.0.0"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "bitcoinclassic"
+#define PACKAGE_TARNAME "improvedbitcoin"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""

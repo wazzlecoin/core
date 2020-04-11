@@ -383,6 +383,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     </context>
 </TS>

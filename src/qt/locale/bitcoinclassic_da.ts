@@ -649,7 +649,7 @@
         <translation>Send mønter til en BitcoinClassic adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoinclassic: URIs)</source>
+        <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
         <translation>Anmod om betaling (genrerer QR kode og BitcoinClassic URL)</translation>
     </message>
     <message>
@@ -868,8 +868,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoinclassic.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (bitcoinclassic.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (improvedbitcoin.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (improvedbitcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1837,9 +1837,9 @@ Vær tålmodig efter at du har klikket på import.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/bitcoinclassic-project/bitcoinclassic-project-translations</source>
+https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/bitcoinclassic-project/bitcoinclassic-project-translations</translation>
+https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2148,14 +2148,14 @@ Hvis AutoMint er aktiveret, vil denne procentdel sætte sig omkring den konfigur
         <translation>AutoMint er i øjeblikket aktiveret og indstillet til</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in bitcoinclassic.conf.</source>
-        <translation>To disable AutoMint add 'enablezeromint=0' in bitcoinclassic.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in improvedbitcoin.conf.</source>
+        <translation>To disable AutoMint add 'enablezeromint=0' in improvedbitcoin.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitcoinclassic.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in improvedbitcoin.conf</source>
         <translation>AutoMint er for øjeblikket deaktiveret
-For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' i bitcoinclassic.conf</translation>
+For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' i improvedbitcoin.conf</translation>
     </message>
 </context>
 <context>
@@ -2181,7 +2181,7 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start bitcoinclassic: click-to-pay handler</source>
+        <source>Cannot start improvedbitcoin: click-to-pay handler</source>
         <translation>Kan ikke starte BitcoinClassic "klik for at betale" systemet</translation>
     </message>
     <message>
@@ -2432,8 +2432,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <source>Show the current status of automatic zBXC minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to bitcoinclassic.conf
-- disable: add 'enablezeromint=0' to bitcoinclassic.conf
+- enable: add 'enablezeromint=1' to improvedbitcoin.conf
+- disable: add 'enablezeromint=0' to improvedbitcoin.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zBXC
@@ -2442,8 +2442,8 @@ To change the percentage (no restart required):
         <translation>Vis den aktuelle status for automatisk zBXC minting.øj
 
 For at ændre status (genstart kræves):.
-- aktiver: tilføj 'enablezeromint = 1' til bitcoinclassic.conf
-- deaktiver: tilføj 'enablezeromint = 0' til bitcoinclassic.conf
+- aktiver: tilføj 'enablezeromint = 1' til improvedbitcoin.conf
+- deaktiver: tilføj 'enablezeromint = 0' til improvedbitcoin.conf
 
 For at ændre procentdelen (ingen genstart kræves):.
 - menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zBXC
@@ -4653,7 +4653,7 @@ Vær tålmodig...</translation>
     </message>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>

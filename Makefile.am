@@ -38,9 +38,9 @@ OSX_PLIST=$(top_builddir)/share/qt/Info.plist #not installed
 OSX_QT_TRANSLATIONS = da,de,es,hu,ru,uk,zh_CN,zh_TW
 
 DIST_DOCS = $(wildcard doc/*.md) $(wildcard doc/release-notes/*.md)
-DIST_CONTRIB = $(top_srcdir)/contrib/bitcoinclassic-cli.bash-completion \
-	       $(top_srcdir)/contrib/bitcoinclassic-tx.bash-completion \
-	       $(top_srcdir)/contrib/bitcoinclassicd.bash-completion \
+DIST_CONTRIB = $(top_srcdir)/contrib/improvedbitcoin-cli.bash-completion \
+	       $(top_srcdir)/contrib/improvedbitcoin-tx.bash-completion \
+	       $(top_srcdir)/contrib/improvedbitcoind.bash-completion \
            $(top_srcdir)/contrib/init \
            $(top_srcdir)/contrib/install_db4.sh
 
@@ -51,14 +51,14 @@ DIST_SHARE = \
 BIN_CHECKS=$(top_srcdir)/contrib/devtools/symbol-check.py \
            $(top_srcdir)/contrib/devtools/security-check.py
 
-WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/bitcoinclassic.ico \
+WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/improvedbitcoin.ico \
   $(top_srcdir)/share/pixmaps/nsis-header.bmp \
   $(top_srcdir)/share/pixmaps/nsis-wizard.bmp \
   $(top_srcdir)/doc/README_windows.txt
 
-LINUX_PACKAGING = $(top_srcdir)/share/pixmaps/bitcoinclassic16.xpm \
-  $(top_srcdir)/share/pixmaps/bitcoinclassic32.xpm \
-  $(top_srcdir)/share/pixmaps/bitcoinclassic128.png
+LINUX_PACKAGING = $(top_srcdir)/share/pixmaps/improvedbitcoin16.xpm \
+  $(top_srcdir)/share/pixmaps/improvedbitcoin32.xpm \
+  $(top_srcdir)/share/pixmaps/improvedbitcoin128.png
 
 OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) \
   $(top_srcdir)/contrib/macdeploy/$(OSX_BACKGROUND_SVG) \
@@ -67,9 +67,9 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) \
   $(top_srcdir)/contrib/macdeploy/detached-sig-create.sh
 
 COVERAGE_INFO = baseline.info \
-  test_bitcoinclassic_filtered.info total_coverage.info \
+  test_improvedbitcoin_filtered.info total_coverage.info \
   baseline_filtered.info functional_test.info functional_test_filtered.info \
-  test_bitcoinclassic_coverage.info test_bitcoinclassic.info
+  test_improvedbitcoin_coverage.info test_improvedbitcoin.info
 
 dist-hook:
 	-$(GIT) archive --format=tar HEAD -- src/clientversion.cpp | $(AMTAR) -C $(top_distdir) -xf -
@@ -182,16 +182,16 @@ baseline_filtered.info: baseline.info
 	$(abs_builddir)/contrib/filter-lcov.py $(LCOV_FILTER_PATTERN) $< $@
 	$(LCOV) -a $@ $(LCOV_OPTS) -o $@
 
-test_bitcoinclassic.info: baseline_filtered.info
+test_improvedbitcoin.info: baseline_filtered.info
 	$(MAKE) -C src/ check
-	$(LCOV) -c $(LCOV_OPTS) -d $(abs_builddir)/src -t test_bitcoinclassic -o $@
+	$(LCOV) -c $(LCOV_OPTS) -d $(abs_builddir)/src -t test_improvedbitcoin -o $@
 	$(LCOV) -z $(LCOV_OPTS) -d $(abs_builddir)/src
 
-test_bitcoinclassic_filtered.info: test_bitcoinclassic.info
+test_improvedbitcoin_filtered.info: test_improvedbitcoin.info
 	$(abs_builddir)/contrib/filter-lcov.py $(LCOV_FILTER_PATTERN) $< $@
 	$(LCOV) -a $@ $(LCOV_OPTS) -o $@
 
-functional_test.info: test_bitcoinclassic_filtered.info
+functional_test.info: test_improvedbitcoin_filtered.info
 	-@TIMEOUT=15 test/functional/test_runner.py $(EXTENDED_FUNCTIONAL_TESTS)
 	$(LCOV) -c $(LCOV_OPTS) -d $(abs_builddir)/src --t functional-tests -o $@
 	$(LCOV) -z $(LCOV_OPTS) -d $(abs_builddir)/src
@@ -200,13 +200,13 @@ functional_test_filtered.info: functional_test.info
 	$(abs_builddir)/contrib/filter-lcov.py $(LCOV_FILTER_PATTERN) $< $@
 	$(LCOV) -a $@ $(LCOV_OPTS) -o $@
 
-test_bitcoinclassic_coverage.info: baseline_filtered.info test_bitcoinclassic_filtered.info
-	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_bitcoinclassic_filtered.info -o $@
+test_improvedbitcoin_coverage.info: baseline_filtered.info test_improvedbitcoin_filtered.info
+	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_improvedbitcoin_filtered.info -o $@
 
-total_coverage.info: test_bitcoinclassic_filtered.info functional_test_filtered.info
-	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_bitcoinclassic_filtered.info -a functional_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+total_coverage.info: test_improvedbitcoin_filtered.info functional_test_filtered.info
+	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_improvedbitcoin_filtered.info -a functional_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-test_bitcoinclassic.coverage/.dirstamp:  test_bitcoinclassic_coverage.info
+test_improvedbitcoin.coverage/.dirstamp:  test_improvedbitcoin_coverage.info
 	$(GENHTML) -s $(LCOV_OPTS) $< -o $(@D)
 	@touch $@
 
@@ -214,7 +214,7 @@ total.coverage/.dirstamp: total_coverage.info
 	$(GENHTML) -s $(LCOV_OPTS) $< -o $(@D)
 	@touch $@
 
-cov: test_bitcoinclassic.coverage/.dirstamp total.coverage/.dirstamp
+cov: test_improvedbitcoin.coverage/.dirstamp total.coverage/.dirstamp
 
 endif
 
@@ -269,6 +269,6 @@ clean-docs:
 	rm -rf doc/doxygen
 
 clean-local: clean-docs
-	rm -rf coverage_percent.txt test_bitcoinclassic.coverage/ total.coverage/ test/tmp/ cache/ $(OSX_APP)
+	rm -rf coverage_percent.txt test_improvedbitcoin.coverage/ total.coverage/ test/tmp/ cache/ $(OSX_APP)
 	rm -rf test/functional/__pycache__ test/functional/test_framework/__pycache__ test/cache share/rpcauth/__pycache__
 

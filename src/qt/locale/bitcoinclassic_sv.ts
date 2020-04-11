@@ -665,8 +665,8 @@
         <translation>Skicka mynt till en BitcoinClassic adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoinclassic: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och bitcoinclassic: URls)</translation>
+        <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och improvedbitcoin: URls)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -908,8 +908,8 @@ MultiSend: %1</translation>
         <translation>text etikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoinclassic.conf).</source>
-        <translation>Alla transaktioner kommer inte visas. För att visa alla transaktioner behöver du sätta txindex=1 i konfigurationsfilen (bitcoinclassic.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (improvedbitcoin.conf).</source>
+        <translation>Alla transaktioner kommer inte visas. För att visa alla transaktioner behöver du sätta txindex=1 i konfigurationsfilen (improvedbitcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1961,9 +1961,9 @@ Var god vänta efter att du trycker på importera.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/bitcoinclassic-project/bitcoinclassic-project-translations</source>
+https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</source>
         <translation>Fattas språk eller är översättningen ofullständig? Hjälp till att bidra med översättning här:
-https://www.transifex.com/bitcoinclassic-project/bitcoinclassic-project-translations</translation>
+https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2289,14 +2289,14 @@ Om AutoMint är tillåten så kommer denna procent att vara som den konfigurerad
         <translation>AutoMint är för tillfället aktiverat och inställt på</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in bitcoinclassic.conf.</source>
-        <translation>För att inaktivera AutoMint, lägg till 'enablezeromint=0' i bitcoinclassic.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in improvedbitcoin.conf.</source>
+        <translation>För att inaktivera AutoMint, lägg till 'enablezeromint=0' i improvedbitcoin.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitcoinclassic.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in improvedbitcoin.conf</source>
         <translation>AutoMint är för närvarande inaktiverat.
-För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i bitcoinclassic.conf</translation>
+För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i improvedbitcoin.conf</translation>
     </message>
 </context>
 <context>
@@ -2322,8 +2322,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i b
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>Cannot start bitcoinclassic: click-to-pay handler</source>
-        <translation>Kan ej starta bitcoinclassic: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start improvedbitcoin: click-to-pay handler</source>
+        <translation>Kan ej starta improvedbitcoin: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid BitcoinClassic address or malformed URI parameters.</source>
@@ -2573,8 +2573,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <source>Show the current status of automatic zBXC minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to bitcoinclassic.conf
-- disable: add 'enablezeromint=0' to bitcoinclassic.conf
+- enable: add 'enablezeromint=1' to improvedbitcoin.conf
+- disable: add 'enablezeromint=0' to improvedbitcoin.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zBXC
@@ -2583,8 +2583,8 @@ To change the percentage (no restart required):
         <translation>Visa den nuvarande statusen av automatisk zBXC minting.
 
 För att ändra statusen (omstart krävs):
--aktivera: lägg till 'enablezeromint=1' i bitcoinclassic.conf
--inaktivera: lägg till 'enablezeromint=0' i bitcoinclassic.conf
+-aktivera: lägg till 'enablezeromint=1' i improvedbitcoin.conf
+-inaktivera: lägg till 'enablezeromint=0' i improvedbitcoin.conf
 
 För att ändra procenten (ingen omstart krävs):
 -meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zBXC
@@ -4939,7 +4939,7 @@ Var tålmodig...</translation>
     </message>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behåll tx meta data t.ex. kontoägare och information om betalningsförfråga, 2 = släpp tx meta data)</translation>

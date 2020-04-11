@@ -649,7 +649,7 @@
         <translation>Изпратете монети до BitcoinClassic адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoinclassic: URIs)</source>
+        <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
         <translation>Поискай плащане (генерира QR кодове и  BitcoinClassic:URI)</translation>
     </message>
     <message>
@@ -868,8 +868,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoinclassic.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (bitcoinclassic.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (improvedbitcoin.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (improvedbitcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1819,9 +1819,9 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/bitcoinclassic-project/bitcoinclassic-project-translations</source>
+https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/bitcoinclassic-project/bitcoinclassic-project-translations</translation>
+https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2123,14 +2123,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>АвтоЕмисията е включена и настроена на</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in bitcoinclassic.conf.</source>
-        <translation>Да изключите АвтоЕмисия добавете  'enablezeromint=0' в bitcoinclassic.conf файла.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in improvedbitcoin.conf.</source>
+        <translation>Да изключите АвтоЕмисия добавете  'enablezeromint=0' в improvedbitcoin.conf файла.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitcoinclassic.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in improvedbitcoin.conf</source>
         <translation>АвтоЕмисия е изключено.
-За да включите АвтоЕмисия сменете 'enablezeromint=0' на 'enablezeromint=1' в bitcoinclassic.conf файла.</translation>
+За да включите АвтоЕмисия сменете 'enablezeromint=0' на 'enablezeromint=1' в improvedbitcoin.conf файла.</translation>
     </message>
 </context>
 <context>
@@ -2156,8 +2156,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitcoincla
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start bitcoinclassic: click-to-pay handler</source>
-        <translation>Провал при стартирането на bitcoinclassic: click-to-pay обработвател</translation>
+        <source>Cannot start improvedbitcoin: click-to-pay handler</source>
+        <translation>Провал при стартирането на improvedbitcoin: click-to-pay обработвател</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid BitcoinClassic address or malformed URI parameters.</source>
@@ -2407,8 +2407,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <source>Show the current status of automatic zBXC minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to bitcoinclassic.conf
-- disable: add 'enablezeromint=0' to bitcoinclassic.conf
+- enable: add 'enablezeromint=1' to improvedbitcoin.conf
+- disable: add 'enablezeromint=0' to improvedbitcoin.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zBXC
@@ -2417,8 +2417,8 @@ To change the percentage (no restart required):
         <translation>Покажи състоянието на автоматичното zBXC емитиране.
 
 За да пормените състоянието (изисква рестарт):
-- вклчване: добавете 'enablezeromint=1' в bitcoinclassic.conf
-- изключване: добавете 'enablezeromint=0' в bitcoinclassic.conf
+- вклчване: добавете 'enablezeromint=1' в improvedbitcoin.conf
+- изключване: добавете 'enablezeromint=0' в improvedbitcoin.conf
 
 За промяна в процентите (не изисква рестарт):
 - меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zBXC
@@ -4624,7 +4624,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = пази мета данните от преводи, например собственик на акаунта и ифнормация за изисквани плащания, 2 = изхръвли мета данните от преводи)</translation>

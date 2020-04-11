@@ -2,26 +2,26 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/bitcoinclassic/.bitcoinclassic" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/bitcoinclassic/.bitcoinclassic"
+if [ -d "/var/lib/improvedbitcoin/.improvedbitcoin" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/improvedbitcoin/.improvedbitcoin"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/bitcoinclassicd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/improvedbitcoind"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/bitcoinclassic/bitcoinclassic.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/bitcoinclassicd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/bitcoinclassicd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/improvedbitcoin/improvedbitcoin.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/improvedbitcoind}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/improvedbitcoind.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-bitcoinclassic}
-BITCOIND_GROUP=${BITCOIND_GROUP:-bitcoinclassic}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/bitcoinclassicd}
+BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-improvedbitcoin}
+BITCOIND_GROUP=${BITCOIND_GROUP:-improvedbitcoin}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/improvedbitcoind}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
 name="BitcoinClassic Core Daemon"
 description="BitcoinClassic crypto-currency p2p network daemon"
 
-command="/usr/bin/bitcoinclassicd"
+command="/usr/bin/improvedbitcoind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -71,7 +71,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run bitcoinclassicd."
+		eerror "ERROR: You must set a secure rpcpassword to run improvedbitcoind."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

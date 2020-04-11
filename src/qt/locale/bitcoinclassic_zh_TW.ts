@@ -565,8 +565,8 @@
         <translation>送出錢幣到 BitcoinClassic 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoinclassic: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 bitcoinclassic 位址)</translation>
+        <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 improvedbitcoin 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -971,6 +971,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     </context>
 </TS>

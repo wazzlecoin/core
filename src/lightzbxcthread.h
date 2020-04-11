@@ -42,7 +42,7 @@ public:
 
     bool addWitWork(CGenWit wit) {
         if (!isWorkerRunning) {
-            LogPrintf("%s not running trying to add wit work \n", "bitcoinclassic-light-thread");
+            LogPrintf("%s not running trying to add wit work \n", "improvedbitcoin-light-thread");
             return false;
         }
         requestsQueue.push(wit);
@@ -50,13 +50,13 @@ public:
     }
 
     void StartLightZbxcThread(boost::thread_group& threadGroup) {
-        LogPrintf("%s thread start\n", "bitcoinclassic-light-thread");
+        LogPrintf("%s thread start\n", "improvedbitcoin-light-thread");
         threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZBXCSimplified, this));
     }
 
     void StopLightZbxcThread() {
         threadIns.interrupt();
-        LogPrintf("%s thread interrupted\n", "bitcoinclassic-light-thread");
+        LogPrintf("%s thread interrupted\n", "improvedbitcoin-light-thread");
     }
 
 private:

@@ -97,8 +97,8 @@ else()
     )
 endif()
 
-# run configure if bitcoinclassic_config.h doesn't exist
-if (EXISTS	"${CMAKE_CURRENT_SOURCE_DIR}/src/config/bitcoinclassic-config.h")
+# run configure if improvedbitcoin_config.h doesn't exist
+if (EXISTS	"${CMAKE_CURRENT_SOURCE_DIR}/src/config/improvedbitcoin-config.h")
 else()
     execute_process(
             COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/configure ${BDB_CONFIGURE_FLAGS} ${BIGNUM_CONFIGURE_FLAGS}
@@ -144,7 +144,7 @@ include_directories(
 )
 
 set(libleveldb_a_headers
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/config/bitcoinclassic-config.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/config/improvedbitcoin-config.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/port/atomic_pointer.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/port/port_example.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/port/port_posix.h
@@ -495,9 +495,9 @@ add_library(UTIL_A STATIC ${BitcoinHeaders} ${UTIL_SOURCES})
 set(CLI_SOURCES ./src/rpc/client.cpp)
 add_library(CLI_A STATIC ${BitcoinHeaders} ${CLI_SOURCES})
 
-add_executable(bitcoinclassic-cli ${CMAKE_CURRENT_SOURCE_DIR}/src/bitcoinclassic-cli.cpp)
-add_dependencies(bitcoinclassic-cli libunivalue)
-target_link_libraries(bitcoinclassic-cli
+add_executable(improvedbitcoin-cli ${CMAKE_CURRENT_SOURCE_DIR}/src/improvedbitcoin-cli.cpp)
+add_dependencies(improvedbitcoin-cli libunivalue)
+target_link_libraries(improvedbitcoin-cli
         CLI_A
         univalue
         UTIL_A
@@ -505,9 +505,9 @@ target_link_libraries(bitcoinclassic-cli
         ${Boost_LIBRARIES} ${OPENSSL_LIBRARIES} ${LIBEVENT_LIB}
         )
 
-add_executable(bitcoinclassic-tx ${CMAKE_CURRENT_SOURCE_DIR}/src/bitcoinclassic-tx.cpp)
-add_dependencies(bitcoinclassic-tx libunivalue libsecp256k1)
-target_link_libraries(bitcoinclassic-tx
+add_executable(improvedbitcoin-tx ${CMAKE_CURRENT_SOURCE_DIR}/src/improvedbitcoin-tx.cpp)
+add_dependencies(improvedbitcoin-tx libunivalue libsecp256k1)
+target_link_libraries(improvedbitcoin-tx
         univalue
         COMMON_A
         ZEROCOIN_A
@@ -517,12 +517,12 @@ target_link_libraries(bitcoinclassic-tx
         ${Boost_LIBRARIES} ${OPENSSL_LIBRARIES} ${LIBEVENT_LIB}
         )
 if(GMP_FOUND)
-    target_link_libraries(bitcoinclassic-tx ${GMP_LIBRARY})
+    target_link_libraries(improvedbitcoin-tx ${GMP_LIBRARY})
 endif()
 
-add_executable(bitcoinclassicd ${CMAKE_CURRENT_SOURCE_DIR}/src/bitcoinclassicd.cpp)
-add_dependencies(bitcoinclassicd libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
-target_link_libraries(bitcoinclassicd
+add_executable(improvedbitcoind ${CMAKE_CURRENT_SOURCE_DIR}/src/improvedbitcoind.cpp)
+add_dependencies(improvedbitcoind libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
+target_link_libraries(improvedbitcoind
         SERVER_A
         COMMON_A
         univalue
@@ -534,10 +534,10 @@ target_link_libraries(bitcoinclassicd
         ${BerkeleyDB_LIBRARIES} ${OPENSSL_LIBRARIES} ${Boost_LIBRARIES} ${LIBEVENT_LIB} miniupnpc pthread
         )
 if(GMP_FOUND)
-    target_link_libraries(bitcoinclassicd ${GMP_LIBRARY})
+    target_link_libraries(improvedbitcoind ${GMP_LIBRARY})
 endif()
 if(ZMQ_FOUND)
-    target_link_libraries(bitcoinclassicd ZMQ_A ${ZMQ_LIB})
+    target_link_libraries(improvedbitcoind ZMQ_A ${ZMQ_LIB})
 endif ()
 
 

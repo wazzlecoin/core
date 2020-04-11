@@ -638,7 +638,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
     LogPrintf("BitcoinClassicMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("bitcoinclassic-miner");
+    RenameThread("improvedbitcoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

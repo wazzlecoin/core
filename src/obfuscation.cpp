@@ -671,7 +671,7 @@ void ThreadCheckObfuScationPool()
     if (fLiteMode) return; //disable all Obfuscation/Masternode related functionality
 
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("bitcoinclassic-obfuscation");
+    RenameThread("improvedbitcoin-obfuscation");
 
     unsigned int c = 0;
 

@@ -649,8 +649,8 @@
         <translation>Invia valuta all'indirizzo BitcoinClassic</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoinclassic: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e bitcoinclassic: URIs)</translation>
+        <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e improvedbitcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -864,8 +864,8 @@ MultiSend: %1</translation>
         <translation>Etichetta</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoinclassic.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (bitcoinclassic.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (improvedbitcoin.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (improvedbitcoin.conf)</translation>
     </message>
 </context>
 <context>
@@ -1803,14 +1803,14 @@ Se il conio automatico è attivato questa percentuale si stabilizzerà all'incir
         <translation>Conio automatico è attivo e impostato su</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in bitcoinclassic.conf.</source>
-        <translation>Per disabilitare il conio automatico aggiungi 'enablezeromint=0' in bitcoinclassic.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in improvedbitcoin.conf.</source>
+        <translation>Per disabilitare il conio automatico aggiungi 'enablezeromint=0' in improvedbitcoin.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in bitcoinclassic.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in improvedbitcoin.conf</source>
         <translation>Conio automatico è correntemente disattivato.
-Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=1' in bitcoinclassic.conf</translation>
+Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=1' in improvedbitcoin.conf</translation>
     </message>
 </context>
 <context>
@@ -1956,8 +1956,8 @@ Gli zBXC sono maturi quando hanno più di 20 conferme E più di 2 conii della st
         <source>Show the current status of automatic zBXC minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to bitcoinclassic.conf
-- disable: add 'enablezeromint=0' to bitcoinclassic.conf
+- enable: add 'enablezeromint=1' to improvedbitcoin.conf
+- disable: add 'enablezeromint=0' to improvedbitcoin.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zBXC
@@ -1965,8 +1965,8 @@ To change the percentage (no restart required):
 </source>
         <translation>Mostra lo stato corrente del conio automatico zBXC.
 Per cambiare lo stato (riavvio necessario):
-- attivato: aggiungi 'enablezeromint=1' a bitcoinclassic.conf
-- disattivato: aggiungi 'enablezeromint=0' a bitcoinclassic.conf
+- attivato: aggiungi 'enablezeromint=1' a improvedbitcoin.conf
+- disattivato: aggiungi 'enablezeromint=0' a improvedbitcoin.conf
 
 Per cambiare la percentuale (riavvio non necessario):
 - menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zBXC da coniare automaticamente
@@ -2605,7 +2605,7 @@ Per cambiare la percentuale (riavvio non necessario):
     </message>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

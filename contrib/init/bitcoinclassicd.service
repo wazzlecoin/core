@@ -5,19 +5,19 @@
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/bitcoinclassic/bitcoinclassic.conf
+# /etc/improvedbitcoin/improvedbitcoin.conf
 
 [Unit]
 Description=BitcoinClassic daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/bitcoinclassicd -daemon -conf=/etc/bitcoinclassic/bitcoinclassic.conf -pid=/run/bitcoinclassicd/bitcoinclassicd.pid
-# Creates /run/bitcoinclassicd owned by bitcoinclassic
-RuntimeDirectory=bitcoinclassicd
-User=bitcoinclassic
+ExecStart=/usr/bin/improvedbitcoind -daemon -conf=/etc/improvedbitcoin/improvedbitcoin.conf -pid=/run/improvedbitcoind/improvedbitcoind.pid
+# Creates /run/improvedbitcoind owned by improvedbitcoin
+RuntimeDirectory=improvedbitcoind
+User=improvedbitcoin
 Type=forking
-PIDFile=/run/bitcoinclassicd/bitcoinclassicd.pid
+PIDFile=/run/improvedbitcoind/improvedbitcoind.pid
 Restart=on-failure
 
 # Hardening measures

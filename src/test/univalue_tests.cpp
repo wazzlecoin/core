@@ -8,7 +8,7 @@
 #include <string>
 #include <map>
 #include <univalue.h>
-#include "test/test_bitcoinclassic.h"
+#include "test/test_improvedbitcoin.h"
 
 #include <boost/test/unit_test.hpp>
 

@@ -66,15 +66,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += bitcoinclassicd
+  bin_PROGRAMS += improvedbitcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += bitcoinclassic-cli bitcoinclassic-tx
+  bin_PROGRAMS += improvedbitcoin-cli improvedbitcoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# bitcoinclassic core #
+# improvedbitcoin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -200,7 +200,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between bitcoinclassicd and bitcoinclassic-qt
+# server: shared between improvedbitcoind and improvedbitcoin-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -248,7 +248,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between bitcoinclassicd and bitcoinclassic-qt, but only linked
+# wallet: shared between improvedbitcoind and improvedbitcoin-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -355,7 +355,7 @@ if USE_NUM_OPENSSL
   libzerocoin_libbitcoin_zerocoin_a_SOURCES += libzerocoin/bignum_openssl.cpp
 endif
 
-# common: shared between bitcoinclassicd, and bitcoinclassic-qt and non-server tools
+# common: shared between improvedbitcoind, and improvedbitcoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -420,7 +420,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 endif
 
-# cli: shared between bitcoinclassic-cli and bitcoinclassic-qt
+# cli: shared between improvedbitcoin-cli and improvedbitcoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -430,16 +430,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# bitcoinclassicd binary #
-bitcoinclassicd_SOURCES = bitcoinclassicd.cpp
-bitcoinclassicd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitcoinclassicd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitcoinclassicd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# improvedbitcoind binary #
+improvedbitcoind_SOURCES = improvedbitcoind.cpp
+improvedbitcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+improvedbitcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+improvedbitcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitcoinclassicd_SOURCES += bitcoinclassicd-res.rc
+improvedbitcoind_SOURCES += improvedbitcoind-res.rc
 endif
-bitcoinclassicd_LDADD = \
+improvedbitcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -453,38 +453,38 @@ bitcoinclassicd_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-bitcoinclassicd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+improvedbitcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# bitcoinclassic-cli binary #
-bitcoinclassic_cli_SOURCES = bitcoinclassic-cli.cpp
-bitcoinclassic_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-bitcoinclassic_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitcoinclassic_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# improvedbitcoin-cli binary #
+improvedbitcoin_cli_SOURCES = improvedbitcoin-cli.cpp
+improvedbitcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+improvedbitcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+improvedbitcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitcoinclassic_cli_SOURCES += bitcoinclassic-cli-res.rc
+improvedbitcoin_cli_SOURCES += improvedbitcoin-cli-res.rc
 endif
 
-bitcoinclassic_cli_LDADD = \
+improvedbitcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-bitcoinclassic_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+improvedbitcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# bitcoinclassic-tx binary #
-bitcoinclassic_tx_SOURCES = bitcoinclassic-tx.cpp
-bitcoinclassic_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitcoinclassic_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitcoinclassic_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# improvedbitcoin-tx binary #
+improvedbitcoin_tx_SOURCES = improvedbitcoin-tx.cpp
+improvedbitcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+improvedbitcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+improvedbitcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitcoinclassic_tx_SOURCES += bitcoinclassic-tx-res.rc
+improvedbitcoin_tx_SOURCES += improvedbitcoin-tx-res.rc
 endif
 
-bitcoinclassic_tx_LDADD = \
+improvedbitcoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -492,7 +492,7 @@ bitcoinclassic_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-bitcoinclassic_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+improvedbitcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
@@ -547,12 +547,12 @@ CLEANFILES += obj/build.h
 EXTRA_DIST =
 
 
-config/bitcoinclassic-config.h: config/stamp-h1
+config/improvedbitcoin-config.h: config/stamp-h1
 	@$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-config/stamp-h1: $(top_srcdir)/$(subdir)/config/bitcoinclassic-config.h.in $(top_builddir)/config.status
+config/stamp-h1: $(top_srcdir)/$(subdir)/config/improvedbitcoin-config.h.in $(top_builddir)/config.status
 	$(AM_V_at)$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-$(top_srcdir)/$(subdir)/config/bitcoinclassic-config.h.in:  $(am__configure_deps)
-	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/bitcoinclassic-config.h.in
+$(top_srcdir)/$(subdir)/config/improvedbitcoin-config.h.in:  $(am__configure_deps)
+	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/improvedbitcoin-config.h.in
 
 clean-local:
 	-$(MAKE) -C secp256k1 clean

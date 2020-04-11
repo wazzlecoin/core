@@ -851,7 +851,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and bitcoinclassic: URIs)</source>
+        <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1128,7 +1128,7 @@ Address: %4
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoinclassic.cpp" line="+478"/>
+        <location filename="../improvedbitcoin.cpp" line="+478"/>
         <source>A fatal error occurred. BitcoinClassic can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1167,7 +1167,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+480"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoinclassic.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (improvedbitcoin.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2479,7 +2479,7 @@ Please be patient after clicking import.</source>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/bitcoinclassic-project/bitcoinclassic-project-translations</source>
+https://www.transifex.com/improvedbitcoin-project/improvedbitcoin-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2905,13 +2905,13 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <location line="+1"/>
-        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in bitcoinclassic.conf.</source>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in improvedbitcoin.conf.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>AutoMint is currently disabled.
-To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in bitcoinclassic.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in improvedbitcoin.conf</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2951,7 +2951,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="-104"/>
-        <source>Cannot start bitcoinclassic: click-to-pay handler</source>
+        <source>Cannot start improvedbitcoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3289,8 +3289,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <source>Show the current status of automatic zBXC minting.
 
 To change the status (restart required):
-- enable: add &apos;enablezeromint=1&apos; to bitcoinclassic.conf
-- disable: add &apos;enablezeromint=0&apos; to bitcoinclassic.conf
+- enable: add &apos;enablezeromint=1&apos; to improvedbitcoin.conf
+- disable: add &apos;enablezeromint=0&apos; to improvedbitcoin.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zBXC
@@ -3934,7 +3934,7 @@ Please be patient...</source>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <location filename="../bitcoinclassic.cpp" line="+75"/>
+        <location filename="../improvedbitcoin.cpp" line="+75"/>
         <location line="+7"/>
         <location line="+13"/>
         <location line="+19"/>
@@ -6359,9 +6359,9 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
-        <location filename="../bitcoinclassicstrings.cpp" line="+15"/>
+        <location filename="../improvedbitcoinstrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>

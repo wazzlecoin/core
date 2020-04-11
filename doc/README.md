@@ -3,7 +3,7 @@ BitcoinClassic Core
 
 Setup
 ---------------------
-[BitcoinClassic Core](http://bitcoinclassic.org/wallet) is the original BitcoinClassic client and it builds the backbone of the network. However, it downloads and stores the entire history of BitcoinClassic transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[BitcoinClassic Core](http://improvedbitcoin.org/wallet) is the original BitcoinClassic client and it builds the backbone of the network. However, it downloads and stores the entire history of BitcoinClassic transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -13,12 +13,12 @@ The following are some helpful notes on how to run BitcoinClassic Core on your n
 
 Unpack the files into a directory and run:
 
-- `bin/bitcoinclassic-qt` (GUI) or
-- `bin/bitcoinclassicd` (headless)
+- `bin/improvedbitcoin-qt` (GUI) or
+- `bin/improvedbitcoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run bitcoinclassic-qt.exe.
+Unpack the files into a directory, and then run improvedbitcoin-qt.exe.
 
 ### macOS
 
@@ -28,8 +28,8 @@ Drag BitcoinClassic-Qt to your applications folder, and then run BitcoinClassic-
 
 * See the documentation at the [BitcoinClassic Wiki](https://github.com/BitcoinClassic-Project/BitcoinClassic/wiki)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [BitcoinClassic Forum](http://forum.bitcoinclassic.org/).
-* Join our Discord server [Discord Server](https://discord.bitcoinclassic.org)
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [BitcoinClassic Forum](http://forum.improvedbitcoin.org/).
+* Join our Discord server [Discord Server](https://discord.improvedbitcoin.org)
 
 Building
 ---------------------
@@ -49,15 +49,15 @@ The BitcoinClassic repo's [root README](/README.md) contains relevant informatio
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://www.fuzzbawls.pw/bitcoinclassic/doxygen/)
+- [Source Code Documentation (External Link)](https://www.fuzzbawls.pw/improvedbitcoin/doxygen/)
 - [Translation Process](translation_process.md)
 - [Unit Tests](unit-tests.md)
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [BitcoinClassic](http://forum.bitcoinclassic.org/) forum.
-* Join the [BitcoinClassic Discord](https://discord.bitcoinclassic.org).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [BitcoinClassic](http://forum.improvedbitcoin.org/) forum.
+* Join the [BitcoinClassic Discord](https://discord.improvedbitcoin.org).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

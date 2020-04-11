@@ -28,7 +28,7 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called BitcoinClassic (http://www.bitcoinclassic.org),
+ * This is the developer documentation of the reference client for an experimental new digital currency called BitcoinClassic (http://www.improvedbitcoin.org),
  * which enables instant payments to anyone, anywhere in the world. BitcoinClassic uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
@@ -62,7 +62,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/bitcoinclassic.conf are parsed in qt/bitcoinclassic.cpp's main()
+    // If Qt is used, parameters/improvedbitcoin.conf are parsed in qt/improvedbitcoin.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -73,7 +73,7 @@ bool AppInit(int argc, char* argv[])
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  bitcoinclassicd [options]                     " + _("Start BitcoinClassic Core Daemon") + "\n";
+                        "  improvedbitcoind [options]                     " + _("Start BitcoinClassic Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -109,11 +109,11 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "bitcoinclassic:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "improvedbitcoin:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in bitcoinclassicd anymore. Use the bitcoinclassic-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in improvedbitcoind anymore. Use the improvedbitcoin-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
@@ -161,7 +161,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect bitcoinclassicd signal handlers
+    // Connect improvedbitcoind signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

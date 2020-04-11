@@ -7,10 +7,10 @@ SetCompressor /SOLID lzma
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 1.0.0
 !define COMPANY "BitcoinClassic Core project"
-!define URL https://www.bitcoinclassic.org
+!define URL https://www.improvedbitcoin.org
 
 # MUI Symbol Definitions
-!define MUI_ICON "/tmp/BitcoinClassic/share/pixmaps/bitcoinclassic.ico"
+!define MUI_ICON "/tmp/BitcoinClassic/share/pixmaps/improvedbitcoin.ico"
 !define MUI_WELCOMEFINISHPAGE_BITMAP "/tmp/BitcoinClassic/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
@@ -20,7 +20,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "BitcoinClassic Core"
-!define MUI_FINISHPAGE_RUN $INSTDIR\bitcoinclassic-qt
+!define MUI_FINISHPAGE_RUN $INSTDIR\improvedbitcoin-qt
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "/tmp/BitcoinClassic/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /tmp/BitcoinClassic/bitcoinclassic-${VERSION}-win-setup.exe
+OutFile /tmp/BitcoinClassic/improvedbitcoin-${VERSION}-win-setup.exe
 !if "" == "64"
 InstallDir $PROGRAMFILES64\BitcoinClassic
 !else
@@ -73,12 +73,12 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /tmp/BitcoinClassic/release/bitcoinclassic-qt
+    File /tmp/BitcoinClassic/release/improvedbitcoin-qt
     File /oname=COPYING.txt /tmp/BitcoinClassic/COPYING
     File /oname=readme.txt /tmp/BitcoinClassic/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /tmp/BitcoinClassic/release/bitcoinclassicd
-    File /tmp/BitcoinClassic/release/bitcoinclassic-cli
+    File /tmp/BitcoinClassic/release/improvedbitcoind
+    File /tmp/BitcoinClassic/release/improvedbitcoin-cli
     SetOutPath $INSTDIR\doc
     File /r /tmp/BitcoinClassic/doc\*.*
     SetOutPath $INSTDIR
@@ -91,8 +91,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\bitcoinclassic-qt
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\BitcoinClassic Core (testnet, -bit).lnk" "$INSTDIR\bitcoinclassic-qt" "-testnet" "$INSTDIR\bitcoinclassic-qt" 1
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\improvedbitcoin-qt
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\BitcoinClassic Core (testnet, -bit).lnk" "$INSTDIR\improvedbitcoin-qt" "-testnet" "$INSTDIR\improvedbitcoin-qt" 1
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -103,10 +103,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "bitcoinclassic" "URL Protocol" ""
-    WriteRegStr HKCR "bitcoinclassic" "" "URL:BitcoinClassic"
-    WriteRegStr HKCR "bitcoinclassic\DefaultIcon" "" $INSTDIR\bitcoinclassic-qt
-    WriteRegStr HKCR "bitcoinclassic\shell\open\command" "" '"$INSTDIR\bitcoinclassic-qt" "%1"'
+    WriteRegStr HKCR "improvedbitcoin" "URL Protocol" ""
+    WriteRegStr HKCR "improvedbitcoin" "" "URL:BitcoinClassic"
+    WriteRegStr HKCR "improvedbitcoin\DefaultIcon" "" $INSTDIR\improvedbitcoin-qt
+    WriteRegStr HKCR "improvedbitcoin\shell\open\command" "" '"$INSTDIR\improvedbitcoin-qt" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -124,7 +124,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\bitcoinclassic-qt
+    Delete /REBOOTOK $INSTDIR\improvedbitcoin-qt
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -145,7 +145,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "bitcoinclassic"
+    DeleteRegKey HKCR "improvedbitcoin"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

@@ -8,7 +8,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoinclassic-config.h"
+#include "config/improvedbitcoin-config.h"
 #endif
 
 #ifdef WIN32

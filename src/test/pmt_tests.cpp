@@ -9,7 +9,7 @@
 #include "uint256.h"
 #include "version.h"
 #include "random.h"
-#include "test/test_bitcoinclassic.h"
+#include "test/test_improvedbitcoin.h"
 
 #include <vector>
 

@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bitcoinclassic-config.h"
+#include "config/improvedbitcoin-config.h"
 #endif
 
 #include "util.h"
@@ -220,8 +220,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "bitcoinclassic" is a composite category enabling all BitcoinClassic-related debug output
-            if (ptrCategory->count(string("bitcoinclassic"))) {
+            // "improvedbitcoin" is a composite category enabling all BitcoinClassic-related debug output
+            if (ptrCategory->count(string("improvedbitcoin"))) {
                 ptrCategory->insert(string("obfuscation"));
                 ptrCategory->insert(string("swiftx"));
                 ptrCategory->insert(string("masternode"));
@@ -388,7 +388,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "bitcoinclassic";
+    const char* pszModule = "improvedbitcoin";
 #endif
     if (pex)
         return strprintf(
@@ -412,7 +412,7 @@ boost::filesystem::path GetDefaultDataDir()
 // Windows < Vista: C:\Documents and Settings\Username\Application Data\BitcoinClassic
 // Windows >= Vista: C:\Users\Username\AppData\Roaming\BitcoinClassic
 // Mac: ~/Library/Application Support/BitcoinClassic
-// Unix: ~/.bitcoinclassic
+// Unix: ~/.improvedbitcoin
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "BitcoinClassic";
@@ -430,7 +430,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "BitcoinClassic";
 #else
     // Unix
-    return pathRet / ".bitcoinclassic";
+    return pathRet / ".improvedbitcoin";
 #endif
 #endif
 }
@@ -477,7 +477,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "bitcoinclassic.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "improvedbitcoin.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -496,7 +496,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty bitcoinclassic.conf if it does not exist
+        // Create empty improvedbitcoin.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -507,7 +507,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override bitcoinclassic.conf
+        // Don't overwrite existing settings so command line settings override improvedbitcoin.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
@@ -522,7 +522,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "bitcoinclassicd.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "improvedbitcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

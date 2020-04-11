@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "BitcoinClassic"
             VALUE "FileDescription",    "BitcoinClassic-cli (OSS RPC client for BitcoinClassic)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "bitcoinclassic-cli"
+            VALUE "InternalName",       "improvedbitcoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "bitcoinclassic-cli.exe"
+            VALUE "OriginalFilename",   "improvedbitcoin-cli.exe"
             VALUE "ProductName",        "BitcoinClassic-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

@@ -15,7 +15,7 @@ from test_framework.util import wait_until
 ''' -------------------------------------------------------------------------
 TestNode CLASS --------------------------------------------------------------
 
-A peer we use to send messsages to bitcoinclassicd and store responses
+A peer we use to send messsages to improvedbitcoind and store responses
 Extends P2PInterface.
 '''
 

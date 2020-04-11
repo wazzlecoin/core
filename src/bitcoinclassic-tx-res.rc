@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "BitcoinClassic"
-            VALUE "FileDescription",    "bitcoinclassic-tx (CLI BitcoinClassic transaction editor utility)"
+            VALUE "FileDescription",    "improvedbitcoin-tx (CLI BitcoinClassic transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "bitcoinclassic-tx"
+            VALUE "InternalName",       "improvedbitcoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "bitcoinclassic-tx.exe"
-            VALUE "ProductName",        "bitcoinclassic-tx"
+            VALUE "OriginalFilename",   "improvedbitcoin-tx.exe"
+            VALUE "ProductName",        "improvedbitcoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

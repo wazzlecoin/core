@@ -1,25 +1,25 @@
-# /etc/conf.d/bitcoinclassicd: config file for /etc/init.d/bitcoinclassicd
+# /etc/conf.d/improvedbitcoind: config file for /etc/init.d/improvedbitcoind
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/bitcoinclassic/bitcoinclassic.conf"
+#BITCOIND_CONFIGFILE="/etc/improvedbitcoin/improvedbitcoin.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/bitcoinclassicd"
+#BITCOIND_PIDDIR="/var/run/improvedbitcoind"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitcoinclassicd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/improvedbitcoind.pid"
 
-# Where to write bitcoinclassicd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/bitcoinclassicd"
+# Where to write improvedbitcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/improvedbitcoind"
 
-# User and group to own bitcoinclassicd process
-#BITCOIND_USER="bitcoinclassic"
-#BITCOIND_GROUP="bitcoinclassic"
+# User and group to own improvedbitcoind process
+#BITCOIND_USER="improvedbitcoin"
+#BITCOIND_GROUP="improvedbitcoin"
 
-# Path to bitcoinclassicd executable
-#BITCOIND_BIN="/usr/bin/bitcoinclassicd"
+# Path to improvedbitcoind executable
+#BITCOIND_BIN="/usr/bin/improvedbitcoind"
 
-# Nice value to run bitcoinclassicd under
+# Nice value to run improvedbitcoind under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

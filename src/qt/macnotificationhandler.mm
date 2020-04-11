@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.bitcoinclassic.BitcoinClassic-Qt";
+        return @"io.improvedbitcoin.BitcoinClassic-Qt";
     } else {
         return [self __bundleIdentifier];
     }

@@ -43,8 +43,8 @@ Build BitcoinClassic Core
 
 1. Clone the BitcoinClassic Core source code:
 
-        git clone https://github.com/bitcoinclassic-project/bitcoinclassic
-        cd bitcoinclassic
+        git clone https://github.com/improvedbitcoin-project/improvedbitcoin
+        cd improvedbitcoin
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 
@@ -79,17 +79,17 @@ In this case there is no dependency on Berkeley DB 4.8.
 Running
 -------
 
-BitcoinClassic Core is now available at `./src/bitcoinclassicd`
+BitcoinClassic Core is now available at `./src/improvedbitcoind`
 
 Before running, you may create an empty configuration file:
 
     mkdir -p "/Users/${USER}/Library/Application Support/BitcoinClassic"
 
-    touch "/Users/${USER}/Library/Application Support/BitcoinClassic/bitcoinclassic.conf"
+    touch "/Users/${USER}/Library/Application Support/BitcoinClassic/improvedbitcoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/BitcoinClassic/bitcoinclassic.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/BitcoinClassic/improvedbitcoin.conf"
 
-The first time you run bitcoinclassicd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run improvedbitcoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -98,9 +98,9 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/bitcoinclassicd -daemon # Starts the bitcoinclassic daemon.
-    ./src/bitcoinclassic-cli --help # Outputs a list of command-line options.
-    ./src/bitcoinclassic-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/improvedbitcoind -daemon # Starts the improvedbitcoin daemon.
+    ./src/improvedbitcoin-cli --help # Outputs a list of command-line options.
+    ./src/improvedbitcoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

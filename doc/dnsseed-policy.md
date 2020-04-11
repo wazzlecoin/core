@@ -44,7 +44,7 @@ related to the DNS seed operation.
 If these expectations cannot be satisfied the operator should
 discontinue providing services and contact the active BitcoinClassic
 Core development team as well as posting on the
-[BitcoinClassic Forum](https://forum.bitcoinclassic.org).
+[BitcoinClassic Forum](https://forum.improvedbitcoin.org).
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.

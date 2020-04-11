@@ -327,7 +327,7 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
         <source>Information</source>
         <translation>जानकारी</translation>

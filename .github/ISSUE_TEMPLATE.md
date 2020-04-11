@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
 This issue tracker is only for technical issues related to BitcoinClassic Core.
-General BitcoinClassic questions and/or support requests and are best directed to the [BitcoinClassic Discord](https://discord.bitcoinclassic.org).
+General BitcoinClassic questions and/or support requests and are best directed to the [BitcoinClassic Discord](https://discord.improvedbitcoin.org).
 
 ### Describe the issue
 

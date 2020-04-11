@@ -24,7 +24,7 @@
 #include "libzerocoin/Coin.h"
 #include "libzerocoin/CoinSpend.h"
 #include "libzerocoin/Accumulator.h"
-#include "test_bitcoinclassic.h"
+#include "test_improvedbitcoin.h"
 
 using namespace std;
 using namespace libzerocoin;

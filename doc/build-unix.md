@@ -22,7 +22,7 @@ make
 make install # optional
 ```
 
-This will build bitcoinclassic-qt as well, if the dependencies are met.
+This will build improvedbitcoin-qt as well, if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -109,7 +109,7 @@ ZMQ dependencies (provides ZMQ API):
 
 GUI dependencies:
 
-If you want to build bitcoinclassic-qt, make sure that the required packages for Qt development
+If you want to build improvedbitcoin-qt, make sure that the required packages for Qt development
 are installed. Qt 5 is necessary to build the GUI.
 To build without GUI pass `--without-gui`.
 
@@ -121,7 +121,7 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a bitcoinclassic-qt executable will be
+Once these are installed, they will be found by configure and a improvedbitcoin-qt executable will be
 built by default.
 
 
@@ -147,7 +147,7 @@ libqrencode (optional) can be installed with:
 
 Notes
 -----
-The release is built with GCC and then "strip bitcoinclassicd" to strip the debug
+The release is built with GCC and then "strip improvedbitcoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -218,7 +218,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./bitcoinclassicd
+    	scanelf -e ./improvedbitcoind
 
     The output should contain:
 
@@ -232,7 +232,7 @@ Hardening enables the following features:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    `scanelf -e ./bitcoinclassicd`
+    `scanelf -e ./improvedbitcoind`
 
     The output should contain:
 	STK/REL/PTL

@@ -162,12 +162,12 @@ set_source_files_properties(${QT_TRANSLATIONS_FILES} PROPERTIES OUTPUT_LOCATION 
 QT5_ADD_TRANSLATION(QM ${QT_TRANSLATIONS_FILES})
 add_custom_target(translations_target ALL DEPENDS ${QM})
 
-QT5_ADD_RESOURCES(QRC_RESOURCE bitcoinclassic.qrc)
-QT5_ADD_RESOURCES(QRC_LOCALE_RESOURCE bitcoinclassic_locale.qrc)
+QT5_ADD_RESOURCES(QRC_RESOURCE improvedbitcoin.qrc)
+QT5_ADD_RESOURCES(QRC_LOCALE_RESOURCE improvedbitcoin_locale.qrc)
 
-add_executable(bitcoinclassic-qt bitcoinclassic.cpp ${QM} ${QRC_RESOURCE} ${QRC_LOCALE_RESOURCE})
-add_dependencies(bitcoinclassic-qt translations_target libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
-target_link_libraries(bitcoinclassic-qt
+add_executable(improvedbitcoin-qt improvedbitcoin.cpp ${QM} ${QRC_RESOURCE} ${QRC_LOCALE_RESOURCE})
+add_dependencies(improvedbitcoin-qt translations_target libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
+target_link_libraries(improvedbitcoin-qt
         qt_stuff
         univalue
         SERVER_A UTIL_A WALLET_A CLI_A COMMON_A BITCOIN_CRYPTO_A ZEROCOIN_A
@@ -176,24 +176,24 @@ target_link_libraries(bitcoinclassic-qt
         pthread
         )
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
-    target_link_libraries(bitcoinclassic-qt "-framework Cocoa")
+    target_link_libraries(improvedbitcoin-qt "-framework Cocoa")
 endif()
 if(GMP_FOUND)
-    target_link_libraries(bitcoinclassic-qt ${GMP_LIBRARY})
+    target_link_libraries(improvedbitcoin-qt ${GMP_LIBRARY})
 endif()
 if(ZMQ_FOUND)
-    target_link_libraries(bitcoinclassic-qt ZMQ_A ${ZMQ_LIB})
+    target_link_libraries(improvedbitcoin-qt ZMQ_A ${ZMQ_LIB})
 endif()
 if (QRCODE_FOUND)
-    target_link_libraries(bitcoinclassic-qt ${QRCODE_LIB})
+    target_link_libraries(improvedbitcoin-qt ${QRCODE_LIB})
 endif()
 
-QT5_USE_Modules(bitcoinclassic-qt Gui)
-QT5_USE_Modules(bitcoinclassic-qt Core)
-QT5_USE_Modules(bitcoinclassic-qt Widgets)
-QT5_USE_Modules(bitcoinclassic-qt Test)
-QT5_USE_Modules(bitcoinclassic-qt PrintSupport)
-QT5_USE_Modules(bitcoinclassic-qt Network)
+QT5_USE_Modules(improvedbitcoin-qt Gui)
+QT5_USE_Modules(improvedbitcoin-qt Core)
+QT5_USE_Modules(improvedbitcoin-qt Widgets)
+QT5_USE_Modules(improvedbitcoin-qt Test)
+QT5_USE_Modules(improvedbitcoin-qt PrintSupport)
+QT5_USE_Modules(improvedbitcoin-qt Network)
 if (Qt5DBus_FOUND)
-    QT5_USE_Modules(bitcoinclassic-qt DBus)
+    QT5_USE_Modules(improvedbitcoin-qt DBus)
 endif()

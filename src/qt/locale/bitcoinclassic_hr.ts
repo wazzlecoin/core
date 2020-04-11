@@ -625,8 +625,8 @@
         <translation>Pošaljite kovanice na BitcoinClassic adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoinclassic: URIs)</source>
-        <translation>Zahtjev za plaćanja (generira QR kodove i bitcoinclassic: URI)</translation>
+        <source>Request payments (generates QR codes and improvedbitcoin: URIs)</source>
+        <translation>Zahtjev za plaćanja (generira QR kodove i improvedbitcoin: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -1567,7 +1567,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoinclassic-core</name>
+    <name>improvedbitcoin-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

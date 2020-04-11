@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.bitcoinclassic.bitcoinclassicd</string>
+	<string>org.improvedbitcoin.improvedbitcoind</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/bitcoinclassicd</string>
+		<string>/usr/local/bin/improvedbitcoind</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>

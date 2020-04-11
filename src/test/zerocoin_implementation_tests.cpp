@@ -17,7 +17,7 @@
 #include "wallet/wallet.h"
 #include "zbxc/zbxcwallet.h"
 #include "zbxcchain.h"
-#include "test_bitcoinclassic.h"
+#include "test_improvedbitcoin.h"
 
 using namespace libzerocoin;
 
